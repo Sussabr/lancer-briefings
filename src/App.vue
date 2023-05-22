@@ -98,6 +98,11 @@ export default {
           "name": "Bug-Hunt",
           "status": "start"
         },
+         {
+          "slug": "002",
+          "name": "Vigilant Gaze",
+          "status": "start"
+          }, 
       ],
       "pilots": [
         {
