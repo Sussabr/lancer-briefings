@@ -94,8 +94,10 @@ export default {
       "events": "",
       "missions": [
         {
-  
-        }
+  "slug": "001",
+          "name": "Bug-Hunt",
+          "status": "start"
+        },
       ],
       "pilots": [
         {
