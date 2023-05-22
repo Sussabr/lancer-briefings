@@ -142,15 +142,15 @@ export default {
         },
       ],
       "header": {
-        "planet": "Hercynia",
-        "year": "5014u",
-        "system": "Ardennes-3",
+        "planeta": "Hercynia",
+        "Ano": "5014u",
+        "sistema": "Ardennes-3",
         "gate": "Atlas-Quanokrim",
-        "ring": "Atlas-Line",
-        "headerTitle": "Mirrorsmoke",
-        "headerSubtitle": "Mercenary Company",
-        "subheaderTitle": "Crisis Response",
-        "subheaderSubtitle": "Delta-Echo-Echo-Zulu",
+        "ring": "Linha Atlas",
+        "headerTitle": "DEPARTAMENTO NAVAL DA UNIÃO",
+        "headerSubtitle": " ",
+        "subheaderTitle": "Time de resposta imediata",
+        "subheaderSubtitle": "[sem nome]",
       },
       "options":{
         "eventsMarkdownPerMission": true
