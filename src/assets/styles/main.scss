@@ -238,6 +238,7 @@ div.location-info {
     font-weight: 800;
     text-transform: uppercase;
     letter-spacing: 3px;
+    color: $secondary;
   }
   .subtitle {
     font-size: 18px;
@@ -247,7 +248,7 @@ div.location-info {
     font-weight: 800;
     text-transform: uppercase;
     letter-spacing: 0.1em;
-    color: $secondary;
+    color: $text-location;
   }
   div {
     padding: 0px 15px;
@@ -323,7 +324,7 @@ section .section-header {
     font-weight: 800;
     text-transform: uppercase;
     letter-spacing: 0.1em;
-    color: $text-location;
+    color: $secondary;
   }
 }
 
