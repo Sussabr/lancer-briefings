@@ -24,7 +24,7 @@
     <section class="section-container" id="events" style="width:435px; height:714px;">
       <div class="section-header clipped-medium-backward">
         <img src="/icons/events-icon.svg" />
-        <h1>Events Log</h1>
+        <h1>Eventos da missão</h1>
       </div>
       <div class="section-content-container">
         <Markdown :source="events" class="markdown" />
