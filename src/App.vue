@@ -4,12 +4,12 @@
     <section class="section-container" id="missions" style="width:435px; height:714px;">
       <div class="section-header clipped-medium-backward">
         <img src="/icons/mission-icon.svg" />
-        <h1>Mission Log</h1>
+        <h1>Missões</h1>
       </div>
       <div class="section-content-container">
-        <h3>Current Assignment</h3>
+        <h3>Objetivo Atual</h3>
         <Markdown :source="current_md" class="markdown" />
-        <h3>Mission List</h3>
+        <h3>Missões em Andamento</h3>
         <div class="mission-list-container">
           <Mission
             v-for="item in this.missions"
@@ -34,7 +34,7 @@
       <div style="height:52px; overflow:hidden;">
         <div class="section-header clipped-medium-backward-pilot">
           <img src="/icons/pilot-icon.svg" />
-          <h1>Pilot Roster</h1>
+          <h1>Pilotos</h1>
         </div>
         <div class="rhombus-back">&nbsp;</div>
       </div>
