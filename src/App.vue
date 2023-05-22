@@ -108,6 +108,14 @@ export default {
           "frame": "Everest",
           "mech": "Allos"
         },
+          {
+         "callsign": "Ordis",
+          "alias": "Ordan Karris",
+          "code": "91320fec-2acd-4062-bb34-c8e11f6eb851//NDL-C-EARNEST-HUB",
+          "corpro": "SSC",
+          "frame": "Atlas",
+          "mech": "Umbra"
+        },
       ],
       "header": {
         "planet": "Hercynia",
