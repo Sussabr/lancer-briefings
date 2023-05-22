@@ -129,6 +129,7 @@ header {
     font-weight: 800;
     text-transform: uppercase;
     letter-spacing: 0.15em;
+    color: $secondary
   }
 
   #title-subheader {
@@ -238,7 +239,7 @@ div.location-info {
     font-weight: 800;
     text-transform: uppercase;
     letter-spacing: 3px;
-    color: $secondary;
+    color: $text-location;
   }
   .subtitle {
     font-size: 18px;
