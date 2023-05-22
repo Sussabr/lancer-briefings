@@ -9,7 +9,7 @@
       <div class="section-content-container">
         <h3>Objetivo Atual</h3>
         <Markdown :source="current_md" class="markdown" />
-        <h3>Missões em Andamento</h3>
+        <h3>Lista de Missões</h3>
         <div class="mission-list-container">
           <Mission
             v-for="item in this.missions"
