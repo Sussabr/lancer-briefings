@@ -142,9 +142,9 @@ export default {
         },
       ],
       "header": {
-        "planeta": "Hercynia",
-        "Ano": "5014u",
-        "sistema": "Ardennes-3",
+        "planet": "Hercynia",
+        "year": "5014u",
+        "system": "Ardennes-3",
         "gate": "Atlas-Quanokrim",
         "ring": "Linha Atlas",
         "headerTitle": "DEPARTAMENTO NAVAL DA UNIÃO",
