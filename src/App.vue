@@ -28,6 +28,7 @@
       </div>
       <div class="section-content-container">
         <Markdown :source="events" class="markdown" />
+        <img src="Hercynia.png" alt="Hercynia">
       </div>
     </section>
     <section class="section-container" id="pilots" style="width:894px; height:714px;">
