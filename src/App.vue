@@ -29,6 +29,15 @@
       <div class="section-content-container">
         <Markdown :source="events" class="markdown" />
       </div>
+       </section>
+    <section class="clocks-container" id="clocks" style="width:435px; height:714px;">
+      <div class="section-header clipped-medium-backward">
+        <img src="/icons/events-icon.svg" />
+        <h1>Eventos da missão</h1>
+      </div>
+      <div class="section-content-container">
+        <Markdown :source="events" class="markdown" />
+      </div>
     </section>
     <section class="section-container" id="pilots" style="width:894px; height:714px;">
       <div style="height:52px; overflow:hidden;">
@@ -77,7 +86,7 @@ import Footer from './components/layout/Footer.vue';
 import Mission from './components/Mission.vue';
 import Pilot from './components/Pilot.vue';
 import Markdown from 'vue3-markdown-it';
-
+import Clocks from './assets/clocks/clocks.json';
 export default {
   components: {
     Header,
@@ -155,7 +164,14 @@ export default {
       if(this.options.eventsMarkdownPerMission){
         this.loadEventsMarkdown();
       }
-    },
+     },
+    importClocks(files) {
+      for (const path in files) {
+        files[path]().then((mod) => {
+          this.clocks = JSON.parse(JSON.stringify(mod)).default;
+        });
+      }
+      }, 
     loadMissionMarkdown() {
       let self = this;
       let md = `/missions/${self.mission_slug}.md`
