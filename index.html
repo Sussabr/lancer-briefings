@@ -17,10 +17,10 @@
   <div id="app"></div>
   <script type="module" src="/src/main.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.globe.min.js"></script>
 <script>
-VANTA.NET({
-  el: "body",
+VANTA.GLOBE({
+  el: "#your-element-selector",
   mouseControls: true,
   touchControls: true,
   gyroControls: false,
@@ -28,11 +28,12 @@ VANTA.NET({
   minWidth: 200.00,
   scale: 1.00,
   scaleMobile: 1.00,
-  color: 0xff0000,
-  backgroundColor: 0xe1e1e1,
-  spacing: 17.00
+  color: 0xf70d0d,
+  color2: 0xff0000,
+  size: 1.70,
+  backgroundColor: 0xfcfcfc
 })
-  </script>
+</script>
   </body>
  
 </html>
