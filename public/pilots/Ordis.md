@@ -4,4 +4,4 @@ Vindo de um planeta diaporano, Ordis passou boa parte de sua vida em Karrakis, c
 
 ---
 ## Arte do Mecha 
-![image](/mechs/Umbra.png)
+![image](/mechs/Umbra (2).png)
