@@ -180,6 +180,11 @@ export default {
       client.send();
     }
   }
-
+<style lang="scss">
+#app {
+  width: 1902px;
+  height: 910px;
+}
+</style>
 }
 </script>
