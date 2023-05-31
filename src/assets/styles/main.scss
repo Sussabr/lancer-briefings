@@ -93,6 +93,7 @@ $text-markdown-h2: rgba(0, 0, 0, 0.87);
 }
 
 body {
+  overflow-x:hidden;
 }
 
 header {
@@ -304,7 +305,7 @@ div .content-container {
 section.section-container {
   display: flex;
   flex-direction: column;
-  margin: 50px;
+  margin: 1vw;
 }
 
 section .section-header {
