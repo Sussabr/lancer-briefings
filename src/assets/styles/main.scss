@@ -299,11 +299,7 @@ div .content-container {
   display: flex;
   flex-direction: row; 
 }
-@media (max-width: 800px) {
-  .flex-container {
-    flex-direction: column;
-  }
-}
+
 section.section-container {
   display: flex;
   flex-direction: column;
