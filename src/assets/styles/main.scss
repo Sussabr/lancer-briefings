@@ -676,8 +676,7 @@ section .section-header {
     background-color: $secondary;
     border: 1px solid $primary;
     margin-top: -38px;
-    width: 100%;
-    height: 662px;
+    aspect-ratio: 440 / 331;
 
     div.markdown {
       height: 662px;
