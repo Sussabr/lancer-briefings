@@ -93,7 +93,7 @@ $text-markdown-h2: rgba(0, 0, 0, 0.87);
 }
 
 body {
-  overflow-x:hidden;
+  overflow: hidden !important;
 }
 
 header {
@@ -299,15 +299,12 @@ div.location-info {
 div .content-container {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%;
-  max-width: 135px;
 }
 
 section.section-container {
   display: flex;
   flex-direction: column;
-  margin: 1vw;
+  margin: 50px;
 }
 
 section .section-header {
@@ -338,7 +335,6 @@ section .section-header {
 
 .section-content-container {
   height: 666px;
-  width: 800px;
   background: $tertiary;
   border: 1px solid $primary;
   margin-top: -1px;
@@ -677,7 +673,8 @@ section .section-header {
     background-color: $secondary;
     border: 1px solid $primary;
     margin-top: -38px;
-    aspect-ratio: 440 / 331;
+    width: 888px;
+    height: 662px;
 
     div.markdown {
       height: 662px;
