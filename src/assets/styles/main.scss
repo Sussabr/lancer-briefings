@@ -297,7 +297,8 @@ div.location-info {
 
 div .content-container {
   display: flex;
-  flex-direction: row; 
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 section.section-container {
