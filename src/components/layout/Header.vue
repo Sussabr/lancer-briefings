@@ -38,7 +38,7 @@
           <span class="subtitle">{{ header.gate }}</span>
         </div>
         <div id="ring">
-          <h4>Ring</h4>
+          <h4>Circulo</h4>
           <span class="subtitle">{{ header.ring }}</span>
         </div>
       </div>
