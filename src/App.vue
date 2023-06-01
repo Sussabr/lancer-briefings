@@ -122,7 +122,7 @@ export default {
         "year": "5014u",
         "system": "Ardennes-3",
         "gate": "Atlas-Quanoukrim",
-        "ring": "Circulo Atlas",
+        "ring": "Atlas",
         "headerTitle": "DEPARTAMENTO NAVAL DA UNIÃO",
         "headerSubtitle": " ",
         "subheaderTitle": "Time de resposta imediata",
