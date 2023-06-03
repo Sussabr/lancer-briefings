@@ -529,6 +529,8 @@ section .section-header {
 .pilot-wrapper {
   position: relative;
   border-bottom: 1px solid $primary;
+  display: flex;
+  flex-direction: column;
 }
 .pilot-wrapper:last-child {
   border-bottom: none;
