@@ -30,7 +30,10 @@
         <Markdown :source="events" class="markdown" />
       </div>
     </section>
-    <section class="section-container" id="pilots" style="width:894px; height:714px;">
+    <section class="section-container" id="pilots" style="
+    padding:0;
+    margin: 50px;
+    box-sizing: border-box;">
       <div style="height:52px; overflow:hidden;">
         <div class="section-header clipped-medium-backward-pilot">
           <img src="/icons/pilot-icon.svg" />
@@ -70,14 +73,12 @@
   </audio>
   <Footer/>
 </template>
-
 <script>
 import Header from './components/layout/Header.vue';
 import Footer from './components/layout/Footer.vue';
 import Mission from './components/Mission.vue';
 import Pilot from './components/Pilot.vue';
 import Markdown from 'vue3-markdown-it';
-
 export default {
   components: {
     Header,
@@ -86,7 +87,6 @@ export default {
     Pilot,
     Markdown
   },
-
   data() {
     return {
       "mission_slug": "001",
@@ -122,7 +122,7 @@ export default {
         "year": "5014u",
         "system": "Ardennes-3",
         "gate": "Atlas-Quanoukrim",
-        "ring": "Atlas",
+        "ring": "Circulo Atlas",
         "headerTitle": "DEPARTAMENTO NAVAL DA UNIÃO",
         "headerSubtitle": " ",
         "subheaderTitle": "Time de resposta imediata",
@@ -133,16 +133,12 @@ export default {
       }
     }
   },
-
   created() {
     this.loadMissionMarkdown()
     this.loadEventsMarkdown()
   },
-
   computed: {
-
   },
-
   methods: {
     selectMission(mission) {
       this.mission_slug = mission.slug;
@@ -164,14 +160,12 @@ export default {
     loadEventsMarkdown() {
       let self = this;
       let md = "";
-
       if(self.options.eventsMarkdownPerMission){
         md = `/events/${self.mission_slug}.md`
       }
       else {
         md = "/events.md"
       }
-
       var client = new XMLHttpRequest();
       client.open('GET', md);
       client.onreadystatechange = function () {
@@ -180,15 +174,4 @@ export default {
       client.send();
     }
   }
-
-}
 </script>
-
-
-<style lang="scss">
-#app {
-  width: 1902px;
-  height: 910px;
-  overflow: hidden;
-}
-</style>
