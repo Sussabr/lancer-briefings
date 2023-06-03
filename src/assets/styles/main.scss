@@ -1,23 +1,18 @@
 @charset "utf-8";
-
 /*-------------------------------------*/
 /*--       Theme Customization       --*/
 /*-------------------------------------*/
-
 //Primary Colors
 $primary: rgba(153, 30, 42, 1);
 $secondary: rgba(225, 225, 225, 1);
 $tertiary: rgba(255, 255, 255, 0.7);
 $highlight-hover: rgba(153, 0, 0, 0.3);
 $highlight-active: rgba(0, 0, 0, 0.1);
-
 //Primary Text
 $text-headers: rgba(255, 255, 255, 1);
 $text-location: rgba(0, 0, 0, 0.87);
-
 //Location Information
 $location-separator: rgba(0, 0, 0, 0.24);
-
 //Mission Pane
 $text-mission-title: rgba(0, 0, 0, 0.67);
 $text-mission-status: rgba(0, 0, 0, 0.87);
@@ -25,23 +20,19 @@ $mission-start: rgba(109, 109, 109, 1);
 $mission-partial: rgba(88, 34, 102, 1);
 $mission-success: rgba(34, 102, 98, 1);
 $mission-failure: rgba(176, 45, 45, 1);
-
 //Pilot Roster Text
 $text-pilot-header: rgba(0, 0, 0, 0.67);
 $text-pilot-value: rgba(0, 0, 0, 0.87);
 $text-pilot-code: rgba(0, 0, 0, 0.47);
-
 //Markdown (Current Assignment, Events Log, Pilot Biography)
 $text-markdown-p: rgba(0, 0, 0, 0.87);
 $text-markdown-h1: rgba(0, 0, 0, 0.67);
 $text-markdown-h2: rgba(0, 0, 0, 0.87);
-
 @import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;600;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;700&?family=Big+Shoulders+Display:wght@400;600;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inconsolata&display=swap");
-
 @keyframes slideInFromLeft {
   0% {
     transform: translateX(-100%);
@@ -50,7 +41,6 @@ $text-markdown-h2: rgba(0, 0, 0, 0.87);
     transform: translateX(0);
   }
 }
-
 @keyframes slideInFromLeftRhombus {
   0% {
     transform: translateX(-5000%) skew(-0.785398rad);
@@ -62,7 +52,6 @@ $text-markdown-h2: rgba(0, 0, 0, 0.87);
     transform: translateX(0) skew(-0.785398rad);
   }
 }
-
 @keyframes flickerIn {
   0% {
     opacity: 0;
@@ -81,21 +70,17 @@ $text-markdown-h2: rgba(0, 0, 0, 0.87);
     opacity: 1;
   }
 }
-
 *,
 :after,
 :before {
   box-sizing: content-box;
 }
-
 :root {
   background-color: $secondary;
 }
-
 body {
-  overflow: hidden !important;
+  overflow-x:hidden;
 }
-
 header {
   animation: 1s ease-out 1 slideInFromLeft;
   background-color: $tertiary;
@@ -104,7 +89,6 @@ header {
   display: flex;
   align-items: center;
 }
-
 .title {
   transform: translateX(-100%);
   animation: 1s ease-out 1 slideInFromLeft;
@@ -121,7 +105,6 @@ header {
     display: flex;
     flex-direction: column;
   }
-
   #title-header {
     font-size: 32px;
     margin: 0%;
@@ -132,7 +115,6 @@ header {
     letter-spacing: 0.15em;
     color: $secondary
   }
-
   #title-subheader {
     font-size: 32px;
     margin: 0%;
@@ -144,7 +126,6 @@ header {
     padding-left: 0.32em;
     color: $secondary;
   }
-
   #subtitle-header {
     font-size: 24px;
     margin: 0%;
@@ -155,7 +136,6 @@ header {
     letter-spacing: 0.08em;
     color: $secondary;
   }
-
   #subtitle-subheader {
     font-size: 24px;
     margin: 0%;
@@ -167,21 +147,17 @@ header {
     color: $secondary;
   }
 }
-
 .logo {
   width: 80px;
   height: 80px;
   margin-left: 15px;
 }
-
 .title-row {
   width: 100%;
 }
-
 #title-first-line {
   border-bottom: 1px solid $secondary;
 }
-
 .rhombus {
   z-index: -1;
   transform: translateX(-5000%) skew(-0.785398rad);
@@ -195,7 +171,6 @@ header {
   display: inline-flex;
   margin-left: -30px;
 }
-
 .rhombus-back {
   transform: skew(0.785398rad) !important;
   background-color: $primary;
@@ -207,13 +182,11 @@ header {
   left: -25px;
   top: -30px;
 }
-
 header video {
   margin-left: 3.5%;
   width: 86px;
   height: 86px;
 }
-
 div .location-info {
   height: 90px;
   width: 550px;
@@ -223,7 +196,6 @@ div .location-info {
   flex-direction: column;
   color: $text-location;
 }
-
 header video,
 div.location-info {
   animation: 0.5s ease 1 flickerIn;
@@ -231,7 +203,6 @@ div.location-info {
   animation-fill-mode: forwards;
   opacity: 0;
 }
-
 .location-row {
   height: 40px;
   display: flex;
@@ -261,24 +232,20 @@ div.location-info {
   #planet {
     width: 315px;
   }
-
   #year {
     width: 75px;
     border-left: 1px solid $location-separator;
     padding-right: 0px;
     height: 100;
   }
-
   #gate {
     border-left: 1px solid $location-separator;
   }
-
   #ring {
     border-left: 1px solid $highlight-hover;
     padding-right: 0px;
   }
 }
-
 #missions,
 #events,
 #pilots {
@@ -287,26 +254,24 @@ div.location-info {
   animation-fill-mode: forwards;
   opacity: 0;
 }
-
 #events {
   animation-delay: 2.5s;
 }
-
 #pilots {
   animation-delay: 2.8s;
 }
-
 div .content-container {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 135px;
 }
-
 section.section-container {
   display: flex;
   flex-direction: column;
-  margin: 50px;
+  margin: 1vw;
 }
-
 section .section-header {
   background-color: $primary;
   border-color: $primary;
@@ -314,13 +279,11 @@ section .section-header {
   display: inline-flex;
   gap: 15px;
   padding-left: 16px;
-
   img {
     width: 36px;
     height: 36px;
     align-self: center;
   }
-
   h1 {
     font-size: 26px;
     margin: 0%;
@@ -335,11 +298,11 @@ section .section-header {
 
 .section-content-container {
   height: 666px;
+  width: 800px;
   background: $tertiary;
   border: 1px solid $primary;
   margin-top: -1px;
   z-index: 0;
-
   h3 {
     color: $primary;
     font-size: 18px;
@@ -353,15 +316,12 @@ section .section-header {
     text-transform: uppercase;
     letter-spacing: 0.1em;
   }
-
   ::-webkit-scrollbar {
     width: 12px; /* width of the entire scrollbar */
   }
-
   ::-webkit-scrollbar-track {
     background: none; /* color of the tracking area */
   }
-
   ::-webkit-scrollbar-thumb {
     background-color: $primary; /* color of the scroll thumb */
     border-radius: 20px; /* roundness of the scroll thumb */
@@ -369,34 +329,28 @@ section .section-header {
     margin: 3px; /* creates padding around scroll thumb */
   }
 }
-
 .mission-list-container {
   height: 180px;
   overflow-y: scroll;
 }
-
 .clipped-medium-backward {
   clip-path: polygon(0 0, calc(100% - 52px) 0, 100% 100%, 0% 100%);
   -webkit-clip-path: polygon(0 0, calc(100% - 52px) 0, 100% 100%, 0% 100%);
 }
-
 .clipped-medium-backward-pilot {
   width: 452px;
   clip-path: polygon(0 0, 400px 0, 452px 100%, 0% 100%);
   -webkit-clip-path: polygon(0 0, 400px 0, 452px 100%, 0% 100%);
 }
-
 .clipped-medium-backward-bio {
   width: 552px;
   clip-path: polygon(0 0, 500px 0, 552px 100%, 0% 100%);
   -webkit-clip-path: polygon(0 0, 500px 0, 552px 100%, 0% 100%);
 }
-
 .clipped-x-large-forward {
   clip-path: polygon(100% 0, 100% calc(100% - 96px), calc(100% - 96px) 100%, 0 100%, 0 0);
   -webkit-clip-path: polygon(100% 0, 100% calc(100% - 96px), calc(100% - 96px) 100%, 0 100%, 0 0);
 }
-
 .mission {
   cursor: pointer;
   font-size: 16px;
@@ -412,7 +366,6 @@ section .section-header {
   align-items: center;
   transition: background-color 0.2s ease-in-out, padding-left 0.2s ease-in-out;
   border-radius: 3px;
-
   .name {
     flex-grow: 8;
   }
@@ -427,7 +380,6 @@ section .section-header {
     letter-spacing: 3px;
     color: $text-mission-title;
   }
-
   h2 {
     font-size: 18px;
     margin: 0%;
@@ -438,7 +390,6 @@ section .section-header {
     letter-spacing: 0.1em;
     color: $text-mission-status;
   }
-
   .status {
     display: flex;
     align-items: center;
@@ -463,38 +414,30 @@ section .section-header {
       padding-left: 0.5em;
     }
   }
-
   .start {
     background-color: $mission-start;
   }
-
   .partial-success {
     background-color: $mission-partial;
   }
-
   .success {
     background-color: $mission-success;
   }
-
   .failure {
     background-color: $mission-failure;
   }
 }
-
 .mission.active {
   background-color: $highlight-active;
 }
-
 .mission:hover {
   background-color: $highlight-hover !important;
   padding-left: 1em;
 }
-
 .pilot-list-container {
   height: 666px;
   overflow-y: scroll;
 }
-
 #pilots .pilot {
   display: flex;
   flex-direction: row;
@@ -504,14 +447,12 @@ section .section-header {
   border-bottom: none;
   z-index: 1;
   cursor: pointer;
-
   .pilot-loadout {
     width: 250px;
     display: flex;
     flex-direction: column;
     row-gap: 0px;
   }
-
   .mech-loadout {
     width: 245px;
     display: flex;
@@ -519,19 +460,16 @@ section .section-header {
     row-gap: 0px;
     text-align: right;
   }
-
   .pilot-portrait {
     width: 104px;
     height: 136px;
     object-fit: cover;
   }
-
   .mech-portrait {
     width: 120px;
     height: 136px;
     object-fit: cover;
   }
-
   h1 {
     margin: 0px;
     margin-bottom: 0.25em;
@@ -543,7 +481,6 @@ section .section-header {
     letter-spacing: 3px;
     color: $text-pilot-header;
   }
-
   h2 {
     font-size: 18px;
     margin: 0%;
@@ -555,7 +492,6 @@ section .section-header {
     letter-spacing: 0.1em;
     color: $text-pilot-value;
   }
-
   .code {
     font-family: "Inconsolata", monospace;
     font-weight: 400;
@@ -565,11 +501,9 @@ section .section-header {
     flex-grow: 2;
   }
 }
-
 #pilots .pilot:last-child {
   border-bottom: none;
 }
-
 .middle {
   transition: 0.2s ease;
   position: absolute;
@@ -583,32 +517,26 @@ section .section-header {
   margin-top: -153px;
   margin-left: 1em;
   z-index: -1;
-
   .text {
     transform: rotate(90deg);
     -webkit-transform: rotate(90deg);
   }
 }
-
 .pilot-wrapper {
   position: relative;
   border-bottom: 1px solid $primary;
 }
-
 .pilot-wrapper:last-child {
   border-bottom: none;
 }
-
 .pilot-wrapper:hover .middle {
   width: 770px;
 }
-
 .pilot-wrapper:active .middle,
 .pilot-wrapper.active .middle {
   background-color: $highlight-active;
   transition: 0.5s ease;
 }
-
 .o-modal > div:nth-child(2) {
   position: absolute;
   left: 50px;
@@ -616,27 +544,22 @@ section .section-header {
   display: flex;
   gap: 5em;
 }
-
 .pilot-modal {
   ::-webkit-scrollbar {
     width: 12px; /* width of the entire scrollbar */
   }
-
   ::-webkit-scrollbar-track {
     background: none; /* color of the tracking area */
   }
-
   ::-webkit-scrollbar-thumb {
     background-color: $primary; /* color of the scroll thumb */
     border-radius: 20px; /* roundness of the scroll thumb */
     border: 3px solid $secondary;
     margin: 3px; /* creates padding around scroll thumb */
   }
-
   .pilot-header-container {
     display: flex;
   }
-
   div .section-header {
     background-color: $primary;
     border-color: $primary;
@@ -656,7 +579,6 @@ section .section-header {
       color: $secondary;
     }
   }
-
   .rhombus-back {
     transform: skew(0.785398rad) !important;
     background-color: $primary;
@@ -668,35 +590,28 @@ section .section-header {
     left: -25px;
     top: -38px;
   }
-
   div.pilot {
     background-color: $secondary;
     border: 1px solid $primary;
     margin-top: -38px;
-    width: 888px;
-    height: 662px;
-
+    aspect-ratio: 440 / 331;
     div.markdown {
       height: 662px;
     }
   }
 }
-
 .pilot-modal.portrait {
   .pilot {
     width: 600px;
   }
-
   img.portrait {
     width: 600px;
     height: 662px;
     object-fit: cover;
   }
-
   .pilot-header-container {
     display: flex;
   }
-
   div .section-header {
     background-color: $primary;
     border-color: $primary;
@@ -706,7 +621,6 @@ section .section-header {
     padding-left: 16px;
     margin-top: -38px !important;
   }
-
   .rhombus-back {
     transform: skew(0.785398rad) !important;
     background-color: $primary;
@@ -719,7 +633,6 @@ section .section-header {
     top: -38px;
   }
 }
-
 .o-modal__overlay {
   bottom: 0;
   left: 0;
@@ -728,7 +641,6 @@ section .section-header {
   top: 0;
   background-color: rgba(10, 10, 10, 0.7);
 }
-
 footer {
   position: absolute;
   bottom: 0;
@@ -753,15 +665,12 @@ footer {
     flex-grow: 2;
   }
 }
-
 footer:hover {
   opacity: 1;
 }
-
 /*================================================*/
 /*======          Markdown Styling          ======*/
 /*================================================*/
-
 div.markdown {
   padding-left: 1em;
   padding-right: 1em;
@@ -774,11 +683,9 @@ div.markdown {
   height: 350px;
   overflow-y: auto;
   transition: height 0.5s ease-in-out;
-
   p strong {
     color: $primary;
   }
-
   h1 {
     margin: 0px;
     margin-bottom: 0.25em;
@@ -790,7 +697,6 @@ div.markdown {
     letter-spacing: 3px;
     color: $text-markdown-h1;
   }
-
   h2 {
     font-size: 18px;
     margin: 0%;
@@ -802,7 +708,6 @@ div.markdown {
     letter-spacing: 0.1em;
     color: $text-markdown-h2;
   }
-
   ul {
     display: block;
     list-style-type: disc;
@@ -814,7 +719,6 @@ div.markdown {
     margin-bottom: 1em;
     list-style-image: url("../bullet.png");
   }
-
   ol{
     display: block;
     margin-block-start: 0.25em;
@@ -828,11 +732,9 @@ div.markdown {
     }
   }
 }
-
 #missions .markdown {
   height: 350px;
 }
-
 #events .markdown {
   height: 95%;
   padding-top: 1em;
