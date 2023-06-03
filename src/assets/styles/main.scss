@@ -294,16 +294,7 @@ section .section-header {
     letter-spacing: 0.1em;
     color: $secondary;
   }
-  
-@media screen and (max-width: 1000px) {
-  .section-content-container {
-    width: 40%;
-  }
-
-@media screen and (max-width: 620px) {
-  .section-content-container {
-    width: 100%;
-  }
+ 
   
 .section-content-container {
   display: flex;
