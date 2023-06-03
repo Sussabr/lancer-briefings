@@ -295,13 +295,13 @@ section .section-header {
     color: $secondary;
   }
 }
-@media screen {max-width: 1000px} {
+@media screen {max-width: 1000px {
   .section-content-container {
     width: 40%;
   }
 }
 
-@media screen {max-width: 620px} {
+@media screen {max-width: 620px {
   .section-content-container {
     width: 100%;
   }
