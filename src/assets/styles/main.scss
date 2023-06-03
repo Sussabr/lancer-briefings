@@ -297,8 +297,12 @@ section .section-header {
 }
 
 .section-content-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 1vw;
   height: 666px;
-  width: 800px;
+  width: 400px;
   background: $tertiary;
   border: 1px solid $primary;
   margin-top: -1px;
