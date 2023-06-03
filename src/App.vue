@@ -174,7 +174,7 @@ export default {
       client.send();
     }
   }
-</script>
+
 <style lang="scss">
 #app {
   width: 100%;
@@ -182,3 +182,5 @@ export default {
   overflow: hidden;
 }
 </style>
+}
+</script>
