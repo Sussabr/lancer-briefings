@@ -174,6 +174,5 @@ export default {
       client.send();
     }
   }
-</style>
 }
 </script>
