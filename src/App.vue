@@ -183,12 +183,3 @@ export default {
 
 }
 </script>
-
-
-<style lang="scss">
-#app {
-  width: 1902px;
-  height: 910px;
-  overflow: column;
-}
-</style>
