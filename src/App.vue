@@ -180,7 +180,8 @@ export default {
       client.send();
     }
   }
-
+}
+</script>
 
 <style lang="scss">
 #app {
@@ -189,5 +190,3 @@ export default {
   overflow: column;
 }
 </style>
-}
-</script>
