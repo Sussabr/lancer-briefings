@@ -865,7 +865,7 @@ div .content-container {
   flex-wrap: wrap;
   margin: 1vw;
   height: 666px;
-  width: 400px;
+  width: max-content;
   background: $tertiary;
   border: 1px solid $primary;
   margin-top: -1px;
