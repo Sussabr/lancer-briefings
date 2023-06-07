@@ -189,6 +189,6 @@ export default {
 #app {
   width: 1902px;
   height: 910px;
-  overflow: hidden;
+  overflow: column;
 }
 </style>
