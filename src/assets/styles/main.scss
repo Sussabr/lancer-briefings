@@ -846,78 +846,7 @@ div.markdown {
 
 @media screen and (max-width: 600px) { 
 
-div .content-container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%;
-  max-width: 135px;
-  }
-  section.section-container {
-  display: flex;
-  flex-direction: column;
-  margin: 1vw;
-  }
-}
-.section-content-container {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  margin: 1vw;
-  height: 666px;
-  width: max-content;
-  background: $tertiary;
-  border: 1px solid $primary;
-  margin-top: -1px;
-  z-index: 0;
-  h3 {
-    color: $primary;
-    font-size: 18px;
-    padding: 1em;
-    padding-bottom: 0px;
-    margin: 0%;
-    margin-bottom: 0.5em;
-    align-self: center;
-    font-family: "Big Shoulders Display", cursive;
-    font-weight: 800;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-  }
-  .pilot-list-container {
-  height: 666px;
-  overflow-y: scroll;
-}
-#pilots .pilot {
-  display: flex;
-  flex-direction: column;
-  padding: 1em;
-  column-gap: 1em;
-  height: 136px;
-  border-bottom: none;
-  z-index: 1;
-  cursor: pointer;
-  .pilot-loadout {
-    width: 250px;
-    display: flex;
-    flex-direction: column;
-    row-gap: 0px;
-  }
-  .mech-loadout {
-    width: 245px;
-    display: flex;
-    flex-direction: column;
-    row-gap: 0px;
-    text-align: right;
-  }
-  .pilot-portrait {
-    width: 104px;
-    height: 136px;
-    object-fit: cover;
-  }
-  .mech-portrait {
-    width: 120px;
-    height: 136px;
-    object-fit: cover;
+
   }
  }
 }
