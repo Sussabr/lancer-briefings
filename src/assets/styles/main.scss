@@ -228,6 +228,14 @@ div.location-info {
   }
   div {
     padding: 0px 15px;
+    #app {
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
   }
   #planet {
     width: 315px;
