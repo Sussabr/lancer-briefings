@@ -5,8 +5,8 @@ body {
 }
 
 body {
-  background-color: #31102F;
-  background: radial-gradient(ellipse at center, #31102f 0%, #280b29 100%);
+  background-color: #FFFFFF;
+  background: radial-gradient(ellipse at center, #FFFFFF 0%, #D0D0D0 100%);
 }
 
 #stars {
