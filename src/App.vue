@@ -185,7 +185,7 @@ export default {
 }
 
 @media (max-width: 767px) 
-#app{
+#app {
  width: 390px;
   height: 860px;
   overflow: column;
