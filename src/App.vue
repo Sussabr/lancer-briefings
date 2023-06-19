@@ -176,3 +176,17 @@ export default {
   }
 }
 </script>
+
+<style lang="scss">
+#app {
+  width: 1902px;
+  height: 910px;
+  overflow: column;
+}
+
+@media (max-width: 767px) #app{
+ width: 390px;
+  height: 860px;
+  overflow: column;
+}
+</style>
