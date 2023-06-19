@@ -190,4 +190,5 @@ export default {
   height: 860px;
   overflow: column;
 }
+}
 </style>
