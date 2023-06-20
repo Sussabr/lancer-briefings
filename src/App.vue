@@ -210,6 +210,7 @@ export default {
 .container {
   display: flex;
    flex-wrap: wrap;
+   flex-basis: 50%;
   justify-content: center;
 }
 
