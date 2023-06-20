@@ -199,6 +199,10 @@ export default {
    width: 100vw; /* Use viewport width */
   height: 100vh; /* Use viewport height */
   overflow: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
  }
   .header {
   position: fixed;
@@ -234,7 +238,8 @@ export default {
   overflow-x: auto;
   }
 .content-container {
-  max-width: 100%;
+  display: flex;
+  flex-direction: column;
   padding: 20px;
   box-sizing: border-box;
   margin: 0 auto;
@@ -252,7 +257,11 @@ export default {
     height: auto;
     margin-bottom: 20px;
   }
-
+.section {
+  flex: 1 1 100%;
+  box-sizing: border-box;
+  padding: 20px;
+}
   .section-header {
     text-align: center;
     margin-bottom: 10px;
