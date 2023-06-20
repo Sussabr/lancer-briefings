@@ -920,9 +920,11 @@ div.markdown {
   margin-right: auto; /* Center the container horizontally */
 }
   section.section-container {
-  flex: 1;
+  flex: 1 1 100%;
   display: flex;
   flex-direction: column;
-  margin: 0;
+  margin: 10px;
+  max-width: 100%;
+  box-sizing: border-box;
 }
 }
