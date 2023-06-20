@@ -195,9 +195,9 @@ export default {
 
 <style lang="scss">
 #app {
-  width: 1902px;
-  height: 910px;
-  overflow: column;
+   width: 100vw; /* Use viewport width */
+  height: 100vh; /* Use viewport height */
+  overflow: auto;
  }
 .container {
   display: flex;
