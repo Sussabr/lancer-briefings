@@ -914,7 +914,9 @@ div.markdown {
   margin: 0 auto; 
   }
   .section-container {
-  max-width: 90%; /* Adjust the percentage value as needed */
-  margin: 0 auto; /* Center the container horizontally */
+   max-width: 100%;
+  width: auto;
+  margin-left: auto; /* Adjust the margin values as needed */
+  margin-right: auto; /* Center the container horizontally */
 }
 }
