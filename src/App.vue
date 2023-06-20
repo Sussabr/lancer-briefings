@@ -23,7 +23,18 @@
       </v-row>
     </div>
     <svg style="visibility: hidden; position: relative;" width="0" height="0" xmlns="http://www.w3.org/2000/svg" version="1.1">
-      <!-- SVG content -->
+    <defs>
+      <filter id="round">
+        <feGaussianBlur in="SourceGraphic" stdDeviation="5" result="blur" />
+        <feColorMatrix
+          in="blur"
+          mode="matrix"
+          values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -5"
+          result="goo"
+        />
+        <feComposite in="SourceGraphic" in2="goo" operator="atop" />
+      </filter>
+    </defs>
     </svg>
     <audio autoplay>
       <source src="/startup.ogg" type="audio/ogg" />
