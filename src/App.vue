@@ -201,11 +201,12 @@ export default {
  }
 .container {
   display: flex;
-  flex-direction: column;
+   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .section {
-  width: 100%;
+  flex: 1 1 100%;
   box-sizing: border-box;
   padding: 20px;
 }
@@ -251,11 +252,22 @@ export default {
 }
   @media (min-width: 768px) {
   .container {
-    flex-direction: row;
+    flex-wrap: nowrap;
   }
 
-  .section {
-    width: 33.33%;
+  .missions {
+    flex-basis: 33.33%;
+    order: 1;
+  }
+
+  .events {
+    flex-basis: 33.33%;
+    order: 2;
+  }
+
+  .pilots {
+    flex-basis: 33.33%;
+    order: 3;
   }
 }
 </style>
