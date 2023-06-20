@@ -199,4 +199,43 @@ export default {
   height: 910px;
   overflow: column;
 }
+  @media (max-width: 767px) {
+  /* Styles for mobile devices */
+
+  #app {
+    padding: 10px;
+  }
+
+  #missions,
+  #events,
+  #pilots {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .section-header {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .section-header img {
+    max-width: 50px;
+    margin-right: 10px;
+  }
+
+  .section-content-container {
+    padding: 10px;
+  }
+
+  .pilot-list-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .markdown {
+    /* Styles for Markdown content */
+  }
+}
 </style>
