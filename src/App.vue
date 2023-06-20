@@ -225,27 +225,29 @@ export default {
   @media (max-width: 767px) {
   /* Styles for mobile devices */
 
-  #app {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-   min-height: 100vh;
-   position: relative;
-  height: 100vh;
-  overflow-x: auto;
+ #app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    position: relative;
+    height: 100vh;
+    overflow-x: auto;
   }
-.content-container {
-  padding: 20px;
-  box-sizing: border-box;
-  margin: 0 auto;
-  display: flex;
-  max-width: 1000px; /* Set a maximum width for the content container */
-  width: 100%; /* Set the initial width to 100% */
-  padding: 20px;
-  box-sizing: border-box;
-  flex-direction: column;
-  flex: 1 1 auto;
+
+  .content-container {
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    display: flex;
+    max-width: 1000px; /* Set a maximum width for the content container */
+    width: 100%; /* Set the initial width to 100% */
+    padding: 20px;
+    box-sizing: border-box;
+    flex-direction: column;
+    flex: 1 1 auto;
   }
+
   #missions,
   #events,
   #pilots {
@@ -253,11 +255,13 @@ export default {
     height: auto;
     margin-bottom: 20px;
   }
-.section {
-  flex: 1 1 100%;
-  box-sizing: border-box;
-  padding: 20px;
-}
+
+  .section {
+    flex: 1 1 100%;
+    box-sizing: border-box;
+    padding: 20px;
+  }
+
   .section-header {
     text-align: center;
     margin-bottom: 10px;
@@ -267,11 +271,13 @@ export default {
     max-width: 50px;
     margin-right: 10px;
   }
-.section-container {
-  width: 100%; /* Set the width to 100% */
-  max-width: 100%; /* Set a maximum width of 100% */
-  box-sizing: border-box;
+
+  .section-container {
+    width: 100%; /* Set the width to 100% */
+    max-width: 100%; /* Set a maximum width of 100% */
+    box-sizing: border-box;
   }
+
   .section-content-container {
     padding: 10px;
   }
@@ -281,44 +287,23 @@ export default {
     flex-wrap: wrap;
     justify-content: center;
   }
-  
+
   .markdown {
     /* Styles for Markdown content */
   }
-   .missions {
-    flex-basis: 33.33%;
-    order: 1;
-  }
-
-  .events {
-    flex-basis: 33.33%;
-    order: 2;
-  }
-
-  .pilots {
-    flex-basis: 33.33%;
-    order: 3;
-  }
-}
-  @media (min-width: 768px) {
-  .container {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
-  }
 
   .missions {
-    flex-basis: 33.33%;
+    flex-basis: 100%;
     order: 1;
   }
 
   .events {
-    flex-basis: 33.33%;
+    flex-basis: 100%;
     order: 2;
   }
 
   .pilots {
-    flex-basis: 33.33%;
+    flex-basis: 100%;
     order: 3;
   }
 }
