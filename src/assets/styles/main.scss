@@ -844,5 +844,67 @@ div.markdown {
 /*======          Mobile Support            ======*/
 /*================================================*/
 
-@media screen and (max-width: 600px) { 
+@media screen and (max-width: 767px) { 
+  .title {
+  transform: translateX(-100%);
+  animation: 1s ease-out 1 slideInFromLeft;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+  background-color: $primary;
+  border-color: $primary;
+  width: 700px;
+  height: 100%;
+  display: inline-flex;
+  align-items: center;
+  column-gap: 1em;
+  .title-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #title-header {
+    font-size: 3vw;
+    margin: 0%;
+    align-self: center;
+    font-family: "Big Shoulders Display", cursive;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: $secondary
+  }
+
+  #title-subheader {
+    font-size: 4vw;
+    margin: 0%;
+    align-self: center;
+    font-family: "Big Shoulders Display", cursive;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    padding-left: 0.32em;
+    color: $secondary;
+  }
+
+  #subtitle-header {
+    font-size: 3vw;
+    margin: 0%;
+    align-self: center;
+    font-family: "Big Shoulders Display", cursive;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: $secondary;
+  }
+
+  #subtitle-subheader {
+    font-size: 24px;
+    margin: 0%;
+    align-self: center;
+    font-family: "Titillium Web", cursive;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    color: $secondary;
+  }
+}
 }
