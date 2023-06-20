@@ -287,6 +287,20 @@ export default {
   .markdown {
     /* Styles for Markdown content */
   }
+   .missions {
+    flex-basis: 33.33%;
+    order: 1;
+  }
+
+  .events {
+    flex-basis: 33.33%;
+    order: 2;
+  }
+
+  .pilots {
+    flex-basis: 33.33%;
+    order: 3;
+  }
 }
   @media (min-width: 768px) {
   .container {
