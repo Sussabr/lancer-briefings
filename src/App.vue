@@ -69,10 +69,8 @@
     <source src="/public/startup.ogg" type="audio/ogg" />
   </audio>
   <Footer/>
-</template>
-
-@media (max-width: 767px) { 
-<template>
+  @media (max-width: 767px) {
+  
   <Header :header="this.header" />
   <v-container>
     <div class="content-container">
@@ -149,9 +147,9 @@
     </audio>
   </v-container>
   <Footer />
-</template>
   }
-}
+</template>
+
 
 <script>
 import Header from './components/layout/Header.vue';
