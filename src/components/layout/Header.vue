@@ -5,7 +5,7 @@
   overflow: auto;
 }
 
-.header {
+.clipped-x-large-forward {
   position: fixed;
   top: 0;
   left: 0;
