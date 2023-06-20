@@ -230,7 +230,7 @@ export default {
    min-height: 100vh;
    position: relative;
   height: 100vh;
-  overflow-x: hidden;
+  overflow-x: auto;
   }
 .content-container {
   max-width: 100%;
