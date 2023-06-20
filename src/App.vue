@@ -201,7 +201,6 @@ export default {
   overflow: auto;
   display: flex;
   flex-direction: column;
-  align-items: center;
   padding: 10px;
  }
   .header {
