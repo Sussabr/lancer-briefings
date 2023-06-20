@@ -201,7 +201,6 @@ export default {
   overflow: auto;
   display: flex;
   flex-direction: column;
-  padding: 10px;
  }
   .header {
   position: fixed;
@@ -227,7 +226,7 @@ export default {
   /* Styles for mobile devices */
 
   #app {
-    padding: 10px;
+  padding-left: 20px
   display: flex;
   flex-direction: column;
   align-items: center;
