@@ -26,6 +26,7 @@
   left: 0;
   width: 100%;
   height: 9%;
+  align-items: flex-start;
   }
   .location-info {
   position: fixed;
