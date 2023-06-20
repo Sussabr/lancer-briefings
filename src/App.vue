@@ -4,57 +4,57 @@
     <v-container>
       <div class="content-container">
         <v-row>
-          <v-col cols="12">
+          <v-col>
             <section class="section-container" id="missions" :style="missionSectionStyle">
-                          <div class="section-header clipped-medium-backward">
-        <img src="/icons/mission-icon.svg" />
-        <h1>Missões</h1>
-      </div>
-      <div class="section-content-container">
-        <h3>Objetivo Atual</h3>
-        <Markdown :source="current_md" class="markdown" />
-        <h3>Lista de Missões</h3>
-        <div class="mission-list-container">
-          <Mission
-            v-for="item in this.missions"
-            :key="item.slug"
-            :mission="item"
-            :selected="this.mission_slug"
-            @click="selectMission(item)"
-          />
-        </div>
-      </div>
+              <div class="section-header clipped-medium-backward">
+                <img src="/icons/mission-icon.svg" />
+                <h1>Missões</h1>
+              </div>
+              <div class="section-content-container">
+                <h3>Objetivo Atual</h3>
+                <Markdown :source="current_md" class="markdown" />
+                <h3>Lista de Missões</h3>
+                <div class="mission-list-container">
+                  <Mission
+                    v-for="item in this.missions"
+                    :key="item.slug"
+                    :mission="item"
+                    :selected="this.mission_slug"
+                    @click="selectMission(item)"
+                  />
+                </div>
+              </div>
             </section>
           </v-col>
         </v-row>
         <v-row>
-          <v-col cols="12">
+          <v-col>
             <section class="section-container" id="events" :style="eventsSectionStyle">
               <div class="section-header clipped-medium-backward">
-        <img src="/icons/events-icon.svg" />
-        <h1>Eventos da missão</h1>
-      </div>
-      <div class="section-content-container">
-        <Markdown :source="events" class="markdown" />
-      </div>
+                <img src="/icons/events-icon.svg" />
+                <h1>Eventos da missão</h1>
+              </div>
+              <div class="section-content-container">
+                <Markdown :source="events" class="markdown" />
+              </div>
             </section>
           </v-col>
         </v-row>
         <v-row>
-          <v-col cols="12">
+          <v-col>
             <section class="section-container" id="pilots" :style="pilotsSectionStyle">
-                           <div style="height:52px; overflow:hidden;">
-        <div class="section-header clipped-medium-backward-pilot">
-          <img src="/icons/pilot-icon.svg" />
-          <h1>Pilotos</h1>
-        </div>
-        <div class="rhombus-back">&nbsp;</div>
-      </div>
-      <div class="section-content-container">
-        <div class="pilot-list-container">
-          <Pilot v-for="item in this.pilots" :key="item.slug" :pilot="item" />
-        </div>
-      </div>
+              <div style="height:52px; overflow:hidden;">
+                <div class="section-header clipped-medium-backward-pilot">
+                  <img src="/icons/pilot-icon.svg" />
+                  <h1>Pilotos</h1>
+                </div>
+                <div class="rhombus-back">&nbsp;</div>
+              </div>
+              <div class="section-content-container">
+                <div class="pilot-list-container">
+                  <Pilot v-for="item in this.pilots" :key="item.slug" :pilot="item" />
+                </div>
+              </div>
             </section>
           </v-col>
         </v-row>
@@ -63,13 +63,13 @@
         <defs>
           <filter id="round">
             <feGaussianBlur in="SourceGraphic" stdDeviation="5" result="blur" />
-        <feColorMatrix
-          in="blur"
-          mode="matrix"
-          values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -5"
-          result="goo"
-        />
-        <feComposite in="SourceGraphic" in2="goo" operator="atop" />
+            <feColorMatrix
+              in="blur"
+              mode="matrix"
+              values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -5"
+              result="goo"
+            />
+            <feComposite in="SourceGraphic" in2="goo" operator="atop" />
           </filter>
         </defs>
       </svg>
