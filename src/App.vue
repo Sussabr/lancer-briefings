@@ -3,8 +3,6 @@
     <Header :header="header" />
     <v-container>
       <div class="content-container">
-        <v-row>
-          <v-col :class="{'col-mobile': !$vuetify.breakpoint.mdAndUp}">
             <section class="section-container" id="missions" :style="missionSectionStyle">
               <div class="section-header clipped-medium-backward">
                 <img src="/icons/mission-icon.svg" />
@@ -25,10 +23,7 @@
                 </div>
               </div>
             </section>
-          </v-col>
-        </v-row>
-        <v-row>
-          <v-col :class="{'col-mobile': !$vuetify.breakpoint.mdAndUp}">
+     
             <section class="section-container" id="events" :style="eventsSectionStyle">
               <div class="section-header clipped-medium-backward">
                 <img src="/icons/events-icon.svg" />
@@ -38,10 +33,7 @@
                 <Markdown :source="events" class="markdown" />
               </div>
             </section>
-          </v-col>
-        </v-row>
-        <v-row>
-          <v-col :class="{'col-mobile': !$vuetify.breakpoint.mdAndUp}">
+         
             <section class="section-container" id="pilots" :style="pilotsSectionStyle">
               <div style="height:52px; overflow:hidden;">
                 <div class="section-header clipped-medium-backward-pilot">
@@ -56,8 +48,6 @@
                 </div>
               </div>
             </section>
-          </v-col>
-        </v-row>
       </div>
       <svg style="visibility: hidden; position: relative;" width="0" height="0" xmlns="http://www.w3.org/2000/svg" version="1.1">
         <defs>
@@ -77,7 +67,7 @@
         <source src="/startup.ogg" type="audio/ogg" />
       </audio>
     </v-container>
-    <Footer />
+    <Footer/>
   </div>
 </template>
 
@@ -276,10 +266,12 @@ export default {
     margin-right: 10px;
   }
 
-  .section-container {
-    width: 100%; /* Set the width to 100% */
-    max-width: 100%; /* Set a maximum width of 100% */
-    box-sizing: border-box;
+ .section-container {
+    width: 100%;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 
   .section-content-container {
