@@ -198,7 +198,18 @@ export default {
   width: 1902px;
   height: 910px;
   overflow: column;
+ }
+.container {
+  display: flex;
+  flex-direction: column;
 }
+
+.section {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
   @media (max-width: 767px) {
   /* Styles for mobile devices */
 
@@ -236,6 +247,15 @@ export default {
   
   .markdown {
     /* Styles for Markdown content */
+  }
+}
+  @media (min-width: 768px) {
+  .container {
+    flex-direction: row;
+  }
+
+  .section {
+    width: 33.33%;
   }
 }
 </style>
