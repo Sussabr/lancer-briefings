@@ -224,6 +224,9 @@ export default {
 
   #app {
     padding: 10px;
+   position: relative;
+  height: 100vh;
+  overflow: auto;
   }
 
   #missions,
