@@ -238,7 +238,7 @@ export default {
   box-sizing: border-box;
   margin: 0 auto;
   display: flex;
-   flex: 1; /* Allow the content container to grow and fill the available space */
+  flex: 1; /* Allow the content container to grow and fill the available space */
   max-width: 1000px; /* Set a maximum width for the content container */
   width: 100%; /* Set the initial width to 100% */
   padding: 20px;
@@ -262,7 +262,11 @@ export default {
     max-width: 50px;
     margin-right: 10px;
   }
-
+.section-container {
+  width: 100%; /* Set the width to 100% */
+  max-width: 100%; /* Set a maximum width of 100% */
+  box-sizing: border-box;
+  }
   .section-content-container {
     padding: 10px;
   }
