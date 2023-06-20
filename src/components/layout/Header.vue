@@ -11,6 +11,20 @@
   left: 0;
   width: 100%;
 }
+.title clipped-x-large-forward {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 9%;
+  }
+  .rhombus {
+  position: fixed;
+  top: 80px; /* Adjust the top position as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 998; /* Adjust the z-index value as needed */
+  }
 </style>
 <template>
   <header class="clipped-x-large-forward">
