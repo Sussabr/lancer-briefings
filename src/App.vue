@@ -150,7 +150,7 @@
   </v-container>
   <Footer />
 </template>
-}
+  }
 }
 
 <script>
