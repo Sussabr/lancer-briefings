@@ -10,7 +10,6 @@
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 999; /* Adjust the z-index value as needed */
 }
 </style>
 <template>
