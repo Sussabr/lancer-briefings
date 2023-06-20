@@ -21,7 +21,7 @@
   height: 9%;
   }
   .title {
-  position: fixed;
+  position: relative;
   top: 0;
   left: 0;
   width: 100%;
