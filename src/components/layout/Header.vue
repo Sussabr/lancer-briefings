@@ -1,4 +1,5 @@
 <style lang="scss">
+  @media (max-width: 767px) {
 #app {
   position: relative;
   height: 100vh;
@@ -25,6 +26,7 @@
   left: 50%;
   transform: translateX(-50%);
   z-index: 998; /* Adjust the z-index value as needed */
+  }
   }
 </style>
 <template>
