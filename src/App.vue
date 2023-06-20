@@ -71,7 +71,7 @@
   <Footer/>
   
   @media (max-width: 767px) {
-  
+  #app{
   <Header :header="this.header" />
   <v-container>
     <div class="content-container">
@@ -149,6 +149,7 @@
   </v-container>
   <Footer />
   }
+}
 </template>
 
 
