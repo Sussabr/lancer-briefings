@@ -224,6 +224,9 @@ export default {
 
   #app {
     padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
    position: relative;
   height: 100vh;
   overflow-x: hidden;
