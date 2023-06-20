@@ -226,7 +226,6 @@ export default {
   /* Styles for mobile devices */
 
   #app {
-  padding-left: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -236,8 +235,6 @@ export default {
   overflow-x: auto;
   }
 .content-container {
-  display: flex;
-  flex-direction: column;
   padding: 20px;
   box-sizing: border-box;
   margin: 0 auto;
@@ -247,6 +244,7 @@ export default {
   padding: 20px;
   box-sizing: border-box;
   flex-direction: column;
+  flex: 1 1 auto;
   }
   #missions,
   #events,
