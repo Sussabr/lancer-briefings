@@ -20,6 +20,13 @@
   width: 100%;
   height: 9%;
   }
+  .title {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 9%;
+  }
   .location-info {
   position: fixed;
   top: 80px; /* Adjust the top position as needed */
