@@ -69,7 +69,7 @@
     <source src="/public/startup.ogg" type="audio/ogg" />
   </audio>
   <Footer/>
-  
+  <style lang="scss">
   @media (max-width: 767px) {
   #app{
   <Header :header="this.header" />
