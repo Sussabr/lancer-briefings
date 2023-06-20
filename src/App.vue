@@ -227,6 +227,7 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
+   min-height: 100vh;
    position: relative;
   height: 100vh;
   overflow-x: hidden;
@@ -237,6 +238,11 @@ export default {
   box-sizing: border-box;
   margin: 0 auto;
   display: flex;
+   flex: 1; /* Allow the content container to grow and fill the available space */
+  max-width: 1000px; /* Set a maximum width for the content container */
+  width: 100%; /* Set the initial width to 100% */
+  padding: 20px;
+  box-sizing: border-box;
   flex-direction: column;
   }
   #missions,
