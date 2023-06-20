@@ -226,13 +226,15 @@ export default {
     padding: 10px;
    position: relative;
   height: 100vh;
-  overflow: auto;
+  overflow-x: hidden;
   }
 .content-container {
   max-width: 100%;
   padding: 20px;
   box-sizing: border-box;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
   }
   #missions,
   #events,
