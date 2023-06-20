@@ -1,8 +1,11 @@
 <template>
   <Header :header="this.header" />
-  <div class="content-container">
-    <section class="section-container" id="missions" style="width:435px; height:714px;">
-      <div class="section-header clipped-medium-backward">
+  <v-container>
+    <div class="content-container">
+      <v-row>
+        <v-col cols="12" md="6">
+          <section class="section-container" id="missions" style="width:435px; height:714px;">
+            <div class="section-header clipped-medium-backward">
         <img src="/icons/mission-icon.svg" />
         <h1>Missões</h1>
       </div>
@@ -20,18 +23,24 @@
           />
         </div>
       </div>
-    </section>
-    <section class="section-container" id="events" style="width:435px; height:714px;">
-      <div class="section-header clipped-medium-backward">
+          </section>
+        </v-col>
+        <v-col cols="12" md="6">
+          <section class="section-container" id="events" style="width:435px; height:714px;">
+             <div class="section-header clipped-medium-backward">
         <img src="/icons/events-icon.svg" />
         <h1>Eventos da missão</h1>
       </div>
       <div class="section-content-container">
         <Markdown :source="events" class="markdown" />
       </div>
-    </section>
-    <section class="section-container" id="pilots" style="width:894px; height:714px;">
-      <div style="height:52px; overflow:hidden;">
+          </section>
+        </v-col>
+      </v-row>
+      <v-row>
+        <v-col cols="12">
+          <section class="section-container" id="pilots" style="width:894px; height:714px ">
+             <div style="height:52px; overflow:hidden;">
         <div class="section-header clipped-medium-backward-pilot">
           <img src="/icons/pilot-icon.svg" />
           <h1>Pilotos</h1>
@@ -43,15 +52,11 @@
           <Pilot v-for="item in this.pilots" :key="item.slug" :pilot="item" />
         </div>
       </div>
-    </section>
-  </div>
-  <svg
-    style="visibility: hidden; position: absolute;"
-    width="0"
-    height="0"
-    xmlns="http://www.w3.org/2000/svg"
-    version="1.1"
-  >
+          </section>
+        </v-col>
+      </v-row>
+    </div>
+    <svg style="visibility: hidden; position: relative;" width="0" height="0" xmlns="http://www.w3.org/2000/svg" version="1.1">
     <defs>
       <filter id="round">
         <feGaussianBlur in="SourceGraphic" stdDeviation="5" result="blur" />
@@ -64,11 +69,12 @@
         <feComposite in="SourceGraphic" in2="goo" operator="atop" />
       </filter>
     </defs>
-  </svg>
-  <audio autoplay>
-    <source src="/public/startup.ogg" type="audio/ogg" />
-  </audio>
-  <Footer/>
+    </svg>
+    <audio autoplay>
+      <source src="/startup.ogg" type="audio/ogg" />
+    </audio>
+  </v-container>
+  <Footer />
 </template>
 
 <script>
