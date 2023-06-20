@@ -298,9 +298,7 @@ div.location-info {
 
 div .content-container {
   display: flex;
-  flex-direction: column;
-  max-width: 80%;
-  margin: 0 auto; 
+  flex-direction: row;
 }
 
 section.section-container {
@@ -909,4 +907,10 @@ div.markdown {
     color: $secondary;
   }
 }
+  div .content-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 80%;
+  margin: 0 auto; 
+  }
 }
