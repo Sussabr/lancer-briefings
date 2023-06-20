@@ -4,7 +4,7 @@
     <v-container>
       <div class="content-container">
         <v-row>
-          <v-col :cols="$vuetify.breakpoint.mdAndUp ? 12 : 6">
+          <v-col :class="{'col-mobile': !$vuetify.breakpoint.mdAndUp}">
             <section class="section-container" id="missions" :style="missionSectionStyle">
               <div class="section-header clipped-medium-backward">
                 <img src="/icons/mission-icon.svg" />
@@ -28,7 +28,7 @@
           </v-col>
         </v-row>
         <v-row>
-          <v-col :cols="$vuetify.breakpoint.mdAndUp ? 12 : 6">
+          <v-col :class="{'col-mobile': !$vuetify.breakpoint.mdAndUp}">
             <section class="section-container" id="events" :style="eventsSectionStyle">
               <div class="section-header clipped-medium-backward">
                 <img src="/icons/events-icon.svg" />
@@ -41,7 +41,7 @@
           </v-col>
         </v-row>
         <v-row>
-          <v-col :cols="$vuetify.breakpoint.mdAndUp ? 12 : 6">
+          <v-col :class="{'col-mobile': !$vuetify.breakpoint.mdAndUp}">
             <section class="section-container" id="pilots" :style="pilotsSectionStyle">
               <div style="height:52px; overflow:hidden;">
                 <div class="section-header clipped-medium-backward-pilot">
@@ -220,6 +220,10 @@ export default {
   flex: 1 1 100%;
   box-sizing: border-box;
   padding: 20px;
+}
+
+  .col-mobile {
+  width: 100%;
 }
 
   @media (max-width: 767px) {
