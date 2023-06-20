@@ -292,7 +292,9 @@ export default {
 }
   @media (min-width: 768px) {
   .container {
+    display: flex;
     flex-wrap: nowrap;
+    justify-content: center;
   }
 
   .missions {
