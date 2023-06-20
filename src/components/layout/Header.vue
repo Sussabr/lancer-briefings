@@ -10,6 +10,7 @@
   top: 0;
   left: 0;
   width: 100%;
+  height: 9%;
 }
 .title clipped-x-large-forward {
   position: fixed;
@@ -18,7 +19,7 @@
   width: 100%;
   height: 9%;
   }
-  .rhombus {
+  .location-info {
   position: fixed;
   top: 80px; /* Adjust the top position as needed */
   left: 50%;
