@@ -298,7 +298,9 @@ div.location-info {
 
 div .content-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  max-width: 80%;
+  margin: 0 auto; 
 }
 
 section.section-container {
