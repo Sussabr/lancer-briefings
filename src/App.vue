@@ -195,10 +195,18 @@ export default {
 
 <style lang="scss">
 #app {
+  position: relative;
    width: 100vw; /* Use viewport width */
   height: 100vh; /* Use viewport height */
   overflow: auto;
  }
+  .header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999; /* Adjust the z-index value as needed */
+}
 .container {
   display: flex;
    flex-wrap: wrap;
