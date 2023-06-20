@@ -228,7 +228,12 @@ export default {
   height: 100vh;
   overflow: auto;
   }
-
+.content-container {
+  max-width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  }
   #missions,
   #events,
   #pilots {
