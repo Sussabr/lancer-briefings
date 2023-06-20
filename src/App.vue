@@ -226,7 +226,7 @@ export default {
   /* Styles for mobile devices */
 
   #app {
-  padding-left: 20px
+  padding-left: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
