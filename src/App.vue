@@ -5,19 +5,53 @@
       <v-row>
         <v-col cols="12" md="6">
           <section class="section-container" id="missions" style="width:435px; height:714px;">
-            <!-- Missions section content -->
+            <div class="section-header clipped-medium-backward">
+        <img src="/icons/mission-icon.svg" />
+        <h1>Missões</h1>
+      </div>
+      <div class="section-content-container">
+        <h3>Objetivo Atual</h3>
+        <Markdown :source="current_md" class="markdown" />
+        <h3>Lista de Missões</h3>
+        <div class="mission-list-container">
+          <Mission
+            v-for="item in this.missions"
+            :key="item.slug"
+            :mission="item"
+            :selected="this.mission_slug"
+            @click="selectMission(item)"
+          />
+        </div>
+      </div>
           </section>
         </v-col>
         <v-col cols="12" md="6">
           <section class="section-container" id="events" style="width:435px; height:714px;">
-            <!-- Events section content -->
+             <div class="section-header clipped-medium-backward">
+        <img src="/icons/events-icon.svg" />
+        <h1>Eventos da missão</h1>
+      </div>
+      <div class="section-content-container">
+        <Markdown :source="events" class="markdown" />
+      </div>
           </section>
         </v-col>
       </v-row>
       <v-row>
         <v-col cols="12">
           <section class="section-container" id="pilots" style="padding:0; margin: 50px; box-sizing: border-box;">
-            <!-- Pilots section content -->
+             <div style="height:52px; overflow:hidden;">
+        <div class="section-header clipped-medium-backward-pilot">
+          <img src="/icons/pilot-icon.svg" />
+          <h1>Pilotos</h1>
+        </div>
+        <div class="rhombus-back">&nbsp;</div>
+      </div>
+      <div class="section-content-container">
+        <div class="pilot-list-container">
+          <Pilot v-for="item in this.pilots" :key="item.slug" :pilot="item" />
+        </div>
+      </div>
           </section>
         </v-col>
       </v-row>
