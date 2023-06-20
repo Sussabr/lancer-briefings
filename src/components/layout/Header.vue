@@ -1,3 +1,18 @@
+<style lang="scss">
+#app {
+  position: relative;
+  height: 100vh;
+  overflow: auto;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999; /* Adjust the z-index value as needed */
+}
+</style>
 <template>
   <header class="clipped-x-large-forward">
     <div class="title clipped-x-large-forward">
@@ -60,6 +75,3 @@ export default {
   }
 }
 </script>
-
-<style lang="scss" scoped>
-</style>
