@@ -966,4 +966,29 @@ div.markdown {
     top: 0;
     z-index: 99999;
   }
+  .o-modal > div:nth-child(2) {
+  position: absolute;
+  left: 5px;
+  top: 138px;
+  display: flex;
+  flex-direction: column;
+    width: 97vw;
+    height:82vh;
+  gap: 5em;
+  z-index: 999999;
 }
+  div.pilot {
+    background-color: $secondary;
+    border: 1px solid $primary;
+    margin-top: -38px;
+}
+  .pilot-modal.portrait {
+  .pilot {
+    width: 600px;
+  }
+
+  img.portrait {
+    width: 400px;
+    height: 488px;
+    object-fit: cover;
+  }
