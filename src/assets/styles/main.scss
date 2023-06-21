@@ -923,7 +923,8 @@ div.markdown {
   flex: 1 1 100%;
   display: flex;
   flex-direction: column;
-  margin: 10px;
+  flex-basis: calc(50% - 25px);
+  margin: 0;
   max-width: 100%;
   box-sizing: border-box;
 }
@@ -934,6 +935,10 @@ div.markdown {
   margin-left: auto; /* Adjust the margin values as needed */
   margin-right: auto;
 }
+  #pilots {
+  width: 100%;
+  margin-top: 50px;
+  }
    .section-header {
     height: 52px;
     display: flex;
