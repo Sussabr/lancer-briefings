@@ -68,8 +68,8 @@ export default {
 	}
 }
 </script>
-
   }
+</style>	
 <template>
   <div class="pilot-wrapper" @click="pilotModal">
     <div class="pilot">
