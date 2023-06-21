@@ -933,4 +933,15 @@ div.markdown {
   margin-left: auto; /* Adjust the margin values as needed */
   margin-right: auto;
 }
+   .section-header {
+    height: 52px;
+    display: flex;
+    align-items: center;
+    padding-left: 16px;
+    margin-top: -38px !important;
+  }
+  
+  .section-header h1 {
+    font-size: 26px;
+  }
 }
