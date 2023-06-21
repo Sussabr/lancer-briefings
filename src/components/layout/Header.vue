@@ -4,6 +4,7 @@
   position: relative;
   height: 100vh;
   overflow: auto;
+  z-index: 9999;
 }
 
 .clipped-x-large-forward {
@@ -12,6 +13,7 @@
   left: 0;
   width: 100%;
   height: 9%;
+  z-index: 9999;
 }
 .title clipped-x-large-forward {
   position: fixed;
@@ -19,6 +21,7 @@
   left: 0;
   width: 100%;
   height: 9%;
+  z-index: 9999;
   }
   .title {
   position: relative;
@@ -27,13 +30,14 @@
   width: 100%;
   height: 9%;
   align-items: flex-start;
+  z-index: 9999;
   }
   .location-info {
   position: fixed;
   top: 80px; /* Adjust the top position as needed */
   left: 50%;
   transform: translateX(-50%);
-  z-index: 998; /* Adjust the z-index value as needed */
+  z-index: 99999; /* Adjust the z-index value as needed */
   }
   }
 </style>
