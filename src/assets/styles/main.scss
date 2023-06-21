@@ -958,7 +958,8 @@ div.markdown {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: scroll;
     position: fixed;
     bottom: 0;
     left: 0;
