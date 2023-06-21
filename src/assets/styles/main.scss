@@ -673,8 +673,6 @@ section .section-header {
     background-color: $secondary;
     border: 1px solid $primary;
     margin-top: -38px;
-    width: 888px;
-    height: 662px;
 
     div.markdown {
       height: 662px;
@@ -985,7 +983,7 @@ div.markdown {
 }
   .pilot-modal.portrait {
   .pilot {
-    width: 600px;
+    width: 401px;
   }
 
   img.portrait {
@@ -994,4 +992,13 @@ div.markdown {
     object-fit: cover;
   }
   }
+  .o-modal__overlay {
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  background-color: rgba(10, 10, 10, 0.7);
+  z-index: 999999;
+}
 }
