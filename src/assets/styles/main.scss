@@ -953,4 +953,17 @@ div.markdown {
   .section-header h1 {
     font-size: 26px;
   }
+  .o-modal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 99999;
+  }
 }
