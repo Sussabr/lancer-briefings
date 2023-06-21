@@ -324,8 +324,8 @@ export default {
 }
 
 .pilot-modal.portrait .pilot {
-  max-width: 80vw;
-  max-height: 80vh;
+  max-width: 40vw;
+  max-height: 20vh;
 }
   .portrait {
   max-width: 100%;
