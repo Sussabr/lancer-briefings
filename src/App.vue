@@ -327,4 +327,5 @@ export default {
   max-width: 80vw;
   max-height: 80vh;
 }
+  }
 </style>
