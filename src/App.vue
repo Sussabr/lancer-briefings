@@ -95,7 +95,12 @@ export default {
       "missions": [
         {
   "slug": "001",
-          "name": "TBA",
+          "name": "Bug Hunt",
+          "status": "start"
+        }, 
+        {
+        "slug": "002",
+          "name": "Vigilant Gaze",
           "status": "start"
         }, 
       ],
