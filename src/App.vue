@@ -327,5 +327,9 @@ export default {
   max-width: 80vw;
   max-height: 80vh;
 }
+  .portrait {
+  max-width: 100%;
+  max-height: 100%;
+  }
   }
 </style>
