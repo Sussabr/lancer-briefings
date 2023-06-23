@@ -1061,8 +1061,23 @@ div.markdown {
     width: 300px;
   }
   .pilot-list-container {
-  height: 666px;
+  height: 78vh;
+    width: 80vw;
   overflow-y: scroll;
   overflow-x: hidden;
+      ::-webkit-scrollbar {
+    width: 12px; /* width of the entire scrollbar */
+  }
+
+  ::-webkit-scrollbar-track {
+    background: none; /* color of the tracking area */
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #991e2a00; /* color of the scroll thumb */
+    border-radius: 20px; /* roundness of the scroll thumb */
+    border: 3px solid #991e2a00;
+    margin: 3px; /* creates padding around scroll thumb */
+  }
 }
 }
