@@ -1030,7 +1030,7 @@ div.markdown {
 }
 
 #pilots .pilot .mech-loadout {
-    width: 12px;
+    width: 1px;
     display: flex;
     flex-direction: column;
     row-gap: 0px;
@@ -1053,6 +1053,7 @@ div.markdown {
     position: relative;
     height: 26vh;
     padding: 33px;
+    width: 110vw;
     top: -33px; 
     overflow-y: clip;
     border-bottom: 1px solid #991e2a
