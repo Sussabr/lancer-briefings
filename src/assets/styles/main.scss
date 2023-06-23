@@ -861,7 +861,11 @@ div.markdown {
     display: flex;
     flex-direction: column;
   }
-
+.logo {
+    width: 13vw;
+    height: 6vh;
+    margin-left: 15px;
+}
   #title-header {
     font-size: 3vw;
     margin: 0%;
