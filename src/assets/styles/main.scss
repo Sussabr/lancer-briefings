@@ -1049,6 +1049,11 @@ div.markdown {
     height: 136px;
     object-fit: cover;
   }
+  .pilot-wrapper {
+    position: relative;
+    height: 29vh;
+    border-bottom: 1px solid #991e2a
+  }
   .pilot-wrapper:hover .middle {
     width: 300px;
   }
