@@ -1051,7 +1051,10 @@ div.markdown {
   }
   .pilot-wrapper {
     position: relative;
-    height: 29vh;
+    height: 21vh;
+    padding: 33px;
+    top: -33px; 
+    overflow-y: clip;
     border-bottom: 1px solid #991e2a
   }
   .pilot-wrapper:hover .middle {
