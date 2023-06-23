@@ -1002,4 +1002,46 @@ div.markdown {
   background-color: rgba(10, 10, 10, 0.7);
   z-index: 999999;
 }
+  #pilots .pilot {
+    display: flex;
+    flex-direction: row;
+    padding: 3em;
+    column-gap: 0em;
+    height: 17px;
+    width: 290px;
+    border-bottom: none;
+    z-index: 1;
+    cursor: pointer;
+    left: 10px;
+}
+
+#pilots .pilot .pilot-loadout {
+    width: 96px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 3px;
+    padding-left: 11px;
+    top: 10px;
+}
+
+#pilots .pilot .mech-loadout {
+    width: 12px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0px;
+    padding-top: 141px;
+    text-align: left;
+}
+
+#pilots .pilot .pilot-portrait {
+    width: 101px;
+    height: 136px;
+    object-fit: cover
+}
+
+#pilots .pilot .mech-portrait {
+    width: 120px;
+    height: 136px;
+    object-fit: cover
+  }
 }
