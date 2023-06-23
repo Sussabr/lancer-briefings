@@ -239,7 +239,7 @@ export default {
     min-height: 100vh;
     position: relative;
     height: 100vh;
-    overflow-x: auto;
+    overflow-x: hidden;
   }
 
   .content-container {
