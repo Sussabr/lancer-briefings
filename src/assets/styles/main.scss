@@ -1008,11 +1008,12 @@ div.markdown {
     padding: 3em;
     column-gap: 0em;
     height: 17px;
-    width: 290px;
+    width: 84vw;
     border-bottom: none;
     z-index: 1;
     cursor: pointer;
     left: 10px;
+    background-color: $tertiary;
 }
 
 #pilots .pilot .pilot-loadout {
@@ -1036,15 +1037,19 @@ div.markdown {
 #pilots .pilot .pilot-portrait {
     width: 101px;
     height: 136px;
-    object-fit: cover
+    object-fit: cover;
 }
 
 #pilots .pilot .mech-portrait {
     width: 120px;
     height: 136px;
-    object-fit: cover
+    object-fit: cover;
   }
   .pilot-wrapper:hover .middle {
-    width: 300px
+    width: 300px;
   }
+  .pilot-list-container {
+  height: 666px;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
