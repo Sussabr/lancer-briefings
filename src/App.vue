@@ -249,7 +249,7 @@ export default {
     display: flex;
     max-width: 1000px; /* Set a maximum width for the content container */
     width: 100%; /* Set the initial width to 100% */
-    padding: 20px;
+    padding: 3em;
     box-sizing: border-box;
     flex-direction: column;
     flex: 1 1 auto;
