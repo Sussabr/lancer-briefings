@@ -233,7 +233,7 @@ header video,
 }
 
 .location-row {
-  height: 40px;
+  height: 37px;
   display: flex;
   h4 {
     margin: 0px;
@@ -879,6 +879,7 @@ div.markdown {
     .location-row {
   height: 33px;
   display: flex;
+  width: 400px;
   h4 {
     margin: 0px;
     line-height: 0.5em;
