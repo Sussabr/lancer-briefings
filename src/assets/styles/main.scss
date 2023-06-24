@@ -218,7 +218,7 @@ header video {
   height: 90px;
   width: 550px;
   padding: 0px;
-  margin-left: 20px;
+  margin-left: 26px;
   display: flex;
   flex-direction: column;
   color: $text-location;
@@ -238,7 +238,7 @@ header video,
   width: 399px;
   h4 {
     margin: 0px;
-    line-height: 1.5em;
+    line-height: 0.5em;
     font-family: "Raleway", sans-serif;
     font-size: 10px;
     font-weight: 800;
@@ -247,7 +247,7 @@ header video,
     color: $text-location;
   }
   .subtitle {
-    font-size: 18px;
+    font-size: 16px;
     margin: 0%;
     align-self: center;
     font-family: "Big Shoulders Display", cursive;
