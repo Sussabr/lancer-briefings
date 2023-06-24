@@ -44,7 +44,7 @@
   .location-info {
   position: fixed;
   top: 56px; /* Adjust the top position as needed */
-  left: 50%;
+  left: 62%;
   transform: translateX(-50%);
   z-index: 99999; /* Adjust the z-index value as needed */
   }
