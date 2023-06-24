@@ -857,7 +857,6 @@ div.markdown {
   display: flex;
   flex-direction: row;
   column-gap: 1em;
-  }
   .title-container {
     display: flex;
     flex-direction: column;
@@ -885,7 +884,6 @@ div.markdown {
     flex-direction: column;
     z-index: 9999;
 }
-  }
     .clipped-x-large-forward {
     clip-path: polygon(100% 0,100% calc(100% - 96px),calc(100% - 96px) 100%,0 100%,0 0);
     -webkit-clip-path: polygon(100% 0,99% calc(100% - 96px),calc(101% - 91px) 100%,0 100%,0 0);
@@ -939,6 +937,7 @@ div.markdown {
     letter-spacing: 0.02em;
     color: $secondary;
   }
+}
   div .content-container {
   display: flex;
   flex-direction: column;
