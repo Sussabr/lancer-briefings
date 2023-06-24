@@ -1011,17 +1011,49 @@ div.markdown {
     background-color: $secondary;
     border: 1px solid $primary;
     margin-top: -38px;
+    width: 97vw;
+}
+  .pilot-modal div .section-header h1 {
+    font-size: 23px;
+    margin: 0%;
+    align-self: center;
+    font-family: "Big Shoulders Display",cursive;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    color: #e1e1e1;
 }
   .pilot-modal.portrait {
   .pilot {
-    width: 401px;
+    width: 366px;
+    margin-bottom: 45px; 
+    margin-left: 7px;
   }
-
+.clipped-medium-backward-bio {
+    width: 536px;
+    clip-path: polygon(0 0,500px 0,552px 100%,0% 100%);
+    -webkit-clip-path: polygon(0 0,288px 0,335px 100%,0% 100%);
+}
   img.portrait {
-    width: 400px;
-    height: 488px;
-    object-fit: cover;
+    width: 366px;
+    height: 457px;
+    object-fit: fill;
   }
+    .pilot-modal.portrait div .section-header {
+    background-color: #991e2a;
+    border-color: #991e2a;
+    height: 52px;
+    display: inline-flex;
+    gap: 15px;
+    padding-left: 16px;
+    margin-top: -38px!important;
+    width: 82vw;
+}
+    .clipped-medium-backward-pilot {
+    width: 452px;
+    clip-path: polygon(0 0,400px 0,452px 100%,0% 100%);
+    -webkit-clip-path: polygon(0 0,265px 0,311px 100%,0% 100%);
+}
   }
   .o-modal__overlay {
   bottom: 0;
@@ -1099,4 +1131,5 @@ div.markdown {
     border: 3px solid #991e2a00;
     margin: 3px
 }
+  
 }
