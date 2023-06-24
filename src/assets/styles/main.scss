@@ -388,9 +388,9 @@ section .section-header {
 }
 
 .clipped-medium-backward-bio {
-  width: 552px;
-  clip-path: polygon(0 0, 500px 0, 552px 100%, 0% 100%);
-  -webkit-clip-path: polygon(0 0, 500px 0, 552px 100%, 0% 100%);
+    width: 536px;
+    clip-path: polygon(0 0,500px 0,552px 100%,0% 100%);
+    -webkit-clip-path: polygon(0 0,288px 0,335px 100%,0% 100%);
 }
 
 .clipped-x-large-forward {
