@@ -219,6 +219,7 @@ header video {
   width: 550px;
   padding: 0px;
   margin-left: 26px;
+  margin-top: 5px;
   display: flex;
   flex-direction: column;
   color: $text-location;
@@ -873,6 +874,7 @@ div.markdown {
   width: 550px;
   padding: 0px;
   margin-left: 20px;
+  margin-top: 0px;
   display: flex;
   flex-direction: column;
   color: $text-location;
