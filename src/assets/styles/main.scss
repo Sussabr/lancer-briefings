@@ -1029,6 +1029,15 @@ div.markdown {
     margin-bottom: 45px; 
     margin-left: 7px;
   }
+    .pilot-modal div .section-header {
+    background-color: #991e2a;
+    border-color: #991e2a;
+    height: 52px;
+    display: inline-flex;
+    gap: 15px;
+    padding-left: 16px;
+    margin-top: -38px!important;
+}
 .clipped-medium-backward-bio {
     width: 536px;
     clip-path: polygon(0 0,500px 0,552px 100%,0% 100%);
