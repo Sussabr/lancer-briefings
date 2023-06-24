@@ -12,7 +12,7 @@
   top: 0;
   left: 0;
   width: 120%;
-  height: 9%;
+  height: 14%;
    display: flex;
   flex-direction: column; 
   z-index: 9999;
