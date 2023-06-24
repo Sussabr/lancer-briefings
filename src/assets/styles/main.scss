@@ -867,6 +867,29 @@ div.markdown {
     height: 6vh;
     margin-left: 15px;
 }
+    .location-info {
+  height: 90px;
+  width: 550px;
+  padding: 10px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  color: $text-location;
+}
+    .location-row {
+  height: 33px;
+  display: flex;
+  h4 {
+    margin: 0px;
+    line-height: 1.5em;
+    font-family: "Raleway", sans-serif;
+    font-size: 10px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: $text-location;
+  }
+    }
   #title-header {
     font-size: 3vw;
     margin: 0%;
