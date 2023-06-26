@@ -20,8 +20,8 @@ This is the life of a boy named Johnny Test
 ---
 ## RELOGIOS
 
-***Relógio 1*** 
+***Relógio 1***<br>
 ![image](clocks/04/4clock_3.png)
 
-***Relógio 2***
+***Relógio 2***<br>
 ![image](/clocks/10/10clock_7.png)
