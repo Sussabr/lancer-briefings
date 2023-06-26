@@ -218,7 +218,7 @@ header video {
   height: 90px;
   width: 550px;
   padding: 0px;
-  margin-left: 26px;
+  margin-left: 29px;
   margin-top: 5px;
   display: flex;
   flex-direction: column;
@@ -241,14 +241,14 @@ header video,
     margin: 0px;
     line-height: 0.5em;
     font-family: "Raleway", sans-serif;
-    font-size: 10px;
+    font-size: .5em;
     font-weight: 800;
     text-transform: uppercase;
     letter-spacing: 3px;
     color: $text-location;
   }
   .subtitle {
-    font-size: 16px;
+    font-size: .9em;
     margin: 0%;
     align-self: center;
     font-family: "Big Shoulders Display", cursive;
@@ -854,7 +854,7 @@ div.markdown {
   animation-fill-mode: forwards;
   background-color: $primary;
   border-color: $primary;
-  width: 460px;
+  width: 110vw;
   height: 100%;
   margin-left: -40px;
   display: inline-flex;
