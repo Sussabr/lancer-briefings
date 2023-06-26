@@ -854,9 +854,9 @@ div.markdown {
   animation-fill-mode: forwards;
   background-color: $primary;
   border-color: $primary;
-  width: 110vw;
+  width: 100%;
   height: 100%;
-  margin-left: -40px;
+  margin-left: 0px;
   display: inline-flex;
   align-items: center;
   column-gap: 1em;
