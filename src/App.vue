@@ -296,7 +296,12 @@ export default {
     flex-wrap: wrap;
     justify-content: center;
   }
-
+.section-container {
+  #pilots {
+    height: 34px;
+    overflow: hidden;
+  }
+}
   .markdown {
     /* Styles for Markdown content */
   }
