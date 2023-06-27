@@ -1040,10 +1040,15 @@ div.markdown {
     padding-left: 16px;
     margin-top: -38px!important;
 }
+    .clipped-medium-backward-pilot {
+  width: 452px;
+  clip-path: polygon(0 0, 400px 0, 452px 100%, 0% 100%);
+  -webkit-clip-path: polygon(0 0, 400px 0, 452px 100%, 0% 100%);
+}
 .clipped-medium-backward-bio {
-    width: 536px;
+    width: 226px;
     clip-path: polygon(0 0,500px 0,552px 100%,0% 100%);
-    -webkit-clip-path: polygon(0 0,288px 0,335px 100%,0% 100%);
+    -webkit-clip-path: polygon(0 0,169px 0,217px 100%,0% 100%);
 }
   img.portrait {
     width: 366px;
