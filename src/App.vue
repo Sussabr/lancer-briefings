@@ -293,8 +293,8 @@ export default {
   }
 .section-container {
   #pilots {
-    height: 92px;
-    margin-bottom: -60px;
+    height: 34px;
+    overflow: hidden;
   }
 }
   .markdown {
