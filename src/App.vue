@@ -134,7 +134,7 @@ export default {
         "headerTitle": "DEPARTAMENTO NAVAL DA UNIÃO",
         "headerSubtitle": " ",
         "subheaderTitle": "Time de resposta imediata",
-        "subheaderSubtitle": "Delta-Echo-Echo-Zeta",
+        "subheaderSubtitle": "Trio Elétrico",
       },
       "options":{
         "eventsMarkdownPerMission": true
