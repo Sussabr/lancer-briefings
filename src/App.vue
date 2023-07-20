@@ -109,11 +109,11 @@ export default {
           "mech": "Allos"
         },
           {
-         "callsign": "Ordis",
-          "alias": "Ordan Karris",
+         "callsign": "Ruivo",
+          "alias": "Gideon Ruffus",
           "code": "91320fec-2acd-4062-bb34-c8e11f6eb851//NDL-C-EARNEST-HUB",
-          "corpro": "SSC",
-          "frame": "Atlas",
+          "corpro": "GMS",
+          "frame": "Everest",
           "mech": "Umbra"
         },
           {
