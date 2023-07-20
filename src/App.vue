@@ -111,10 +111,10 @@ export default {
           {
          "callsign": "Ruivo",
           "alias": "Gideon Ruffus",
-          "code": "91320fec-2acd-4062-bb34-c8e11f6eb851//NDL-C-EARNEST-HUB",
+          "code": "Ruffus.Gideon:2522d064-7d0b-4136-9335-a9d0a159f673//NDL-C-LAMBDA-CRYSTAL",
           "corpro": "GMS",
-          "frame": "Everest",
-          "mech": "Umbra"
+          "frame": "Sagarmatha",
+          "mech": "Zounkla"
         },
           {
          "callsign": "Teste",
