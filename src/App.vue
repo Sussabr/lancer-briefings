@@ -111,7 +111,7 @@ export default {
           {
          "callsign": "Ruivo",
           "alias": "Gideon Ruffus",
-          "code": "Ruffus.Gideon:2522d064-7d0b-4136-9335-a9d0a159f673//NDL-C-LAMBDA-CRYSTAL",
+          "code": "2522d064-7d0b-4136-9335-a9d0a159f673//NDL-C-LAMBDA-CRYSTAL",
           "corpro": "GMS",
           "frame": "Sagarmatha",
           "mech": "Zounkla"
