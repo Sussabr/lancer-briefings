@@ -4,4 +4,4 @@ Depois de um ataque à um cargo que estava protegendo,Gideon Ruffus ilhado numa 
 
 ---
 ## Arte do Mecha 
-![image](/mechs/Umbra-modal.png)
+![image](/mechs/Zounkla.png)
