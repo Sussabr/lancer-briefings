@@ -2,4 +2,4 @@
 ---
 ## Arte do Mecha
 
-![image](/mechs/Morrigan.png)
+![image](/mechs/Morrigan-Modal.png)
