@@ -117,12 +117,12 @@ export default {
           "mech": "Zounkla"
         },
           {
-         "callsign": "Teste",
-          "alias": "Johnny Test",
+         "callsign": "Banshee",
+          "alias": "Ciara Ernalini",
           "code": "91320fec-2acd-4062-bb34-c8e11f6eb851//NDL-C-EARNEST-HUB",
-          "corpro": "SSC",
-          "frame": "Atlas",
-          "mech": "BicamChassisArcher"
+          "corpro": "GMS",
+          "frame": "Chomolungma",
+          "mech": "Morrigan"
         },
       ],
       "header": {
