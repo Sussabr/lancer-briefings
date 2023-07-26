@@ -101,7 +101,7 @@ export default {
       ],
       "pilots": [
         {
-         "callsign": "Titano",
+         "callsign": "Lucatã",
           "alias": "Zahid Raja",
           "code": "ede41c32-7cf2424f-99d8-d249da109a26//NDL-C-BRASS-WILD",
           "corpro": "GMS",
