@@ -13,4 +13,4 @@ Após o incidente, Ciara começou sua carreira de espionagem corporativa, antes 
 
 ***Sonar de Escaneamento profundo***
 
-*Um escaneador capaz de detectar os túneis de Hercynia por uma duzia e milhas*
+*Um escaneador capaz de detectar os túneis de Hercynia por uma duzia de milhas*
