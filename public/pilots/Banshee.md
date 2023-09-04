@@ -12,3 +12,5 @@ Após o incidente, Ciara começou sua carreira de espionagem corporativa, antes 
 ## Reservas
 
 ***Sonar de Escaneamento profundo***
+
+*Um escaneador capaz de detectar os túneis de Hercynia por uma duzia e milhas*
