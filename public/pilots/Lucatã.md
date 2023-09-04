@@ -14,3 +14,5 @@ Zahid, argumenta Comandante Dyatlov, representa tanto uma **ameça** quanto uma 
 ## Reservas 
 
 ***ALEXANDER***
+
+*Um robô capaz de traduzir a língua falada pelos invasores que ameaçam EVERGREEN*
