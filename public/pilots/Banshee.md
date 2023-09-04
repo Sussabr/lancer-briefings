@@ -7,3 +7,8 @@ Após o incidente, Ciara começou sua carreira de espionagem corporativa, antes 
 ## Arte do Mecha
 
 ![image](/mechs/Morrigan-Modal(1).png)
+
+---
+## Reservas
+
+Sonar de Escaneamento profundo
