@@ -11,6 +11,13 @@ Pelas suas condições como *[EXPURGADO]*, a pena de seus crimes foram parcialme
 ![image](/mechs/Zounkla.png)
 
 ---
+## Relógios
+
+**- Escavando o passado**
+
+![image](/clocks/06/6clock_1.png)
+
+---
 ## Resevas
 
 **- Bateria de Núcleo**
