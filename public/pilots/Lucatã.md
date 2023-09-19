@@ -9,10 +9,3 @@ Zahid, argumenta Comandante Dyatlov, representa tanto uma **ameça** quanto uma 
 ---
 ## Arte do Mecha
 ![image](/mechs/Allos.png)
-
----
-## Reservas 
-
-***ALEXANDER***
-
-*Um robô capaz de traduzir a língua falada pelos invasores que ameaçam EVERGREEN*
