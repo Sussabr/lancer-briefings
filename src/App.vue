@@ -105,7 +105,7 @@ export default {
         },
        {  
 "slug": "003",
-          "name": "Floodate",
+          "name": "Floodgate",
           "status": "start"
         },
       ],
