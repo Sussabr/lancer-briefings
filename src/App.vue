@@ -101,6 +101,11 @@ export default {
         {  
 "slug": "002",
           "name": "Vigilant Gaze",
+          "status": "partial-success"
+        },
+       {  
+"slug": "003",
+          "name": "Floodate",
           "status": "start"
         },
       ],
