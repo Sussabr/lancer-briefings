@@ -15,7 +15,7 @@ Pelas suas condições como *[EXPURGADO]*, a pena de seus crimes foram parcialme
 
 **- Escavando o passado**
 
-![image](/clocks/06/6clock_1.png)
+![image](/clocks/06/6clock_4.png)
 
 ---
 ## Resevas
