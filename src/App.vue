@@ -124,7 +124,7 @@ export default {
           "code": "2522d064-7d0b-4136-9335-a9d0a159f673//NDL-C-LAMBDA-CRYSTAL",
           "corpro": "IPS-N",
           "frame": "Drake",
-          "mech": "Tokokkino"
+          "mech": "Sidero"
         },
           {
          "callsign": "Banshee",
