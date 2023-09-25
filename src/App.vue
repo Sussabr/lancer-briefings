@@ -114,17 +114,17 @@ export default {
          "callsign": "Lucatã",
           "alias": "Zahid Raja",
           "code": "ede41c32-7cf2424f-99d8-d249da109a26//NDL-C-BRASS-WILD",
-          "corpro": "GMS",
-          "frame": "Everest",
-          "mech": "Allos"
+          "corpro": "SSC",
+          "frame": "Metalmark",
+          "mech": "Raptor"
         },
           {
          "callsign": "Ruivo",
           "alias": "Gideon Ruffus",
           "code": "2522d064-7d0b-4136-9335-a9d0a159f673//NDL-C-LAMBDA-CRYSTAL",
-          "corpro": "GMS",
-          "frame": "Sagarmatha",
-          "mech": "Zounkla"
+          "corpro": "IPS-N",
+          "frame": "Drake",
+          "mech": "το κόκκινο"
         },
           {
          "callsign": "Banshee",
