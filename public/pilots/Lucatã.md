@@ -8,4 +8,4 @@ Zahid, argumenta Comandante Dyatlov, representa tanto uma **ameça** quanto uma 
 
 ---
 ## Arte do Mecha
-![image](/mechs/Allos.png)
+![image](/mechs/Raptor.png)
