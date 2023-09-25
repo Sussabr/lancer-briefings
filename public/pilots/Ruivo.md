@@ -8,7 +8,7 @@ Pelas suas condições como *[EXPURGADO]*, a pena de seus crimes foram parcialme
 
 ---
 ## Arte do Mecha 
-![image](/mechs/Tokokkino.png)
+![image](/mechs/Sidero.png)
 
 ---
 ## Relógios
