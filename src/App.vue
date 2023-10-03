@@ -329,6 +329,6 @@ export default {
     height: 86px;
     overflow-y: hidden;
   margin-bottom: -61px;
-  
+  }
   }
 </style>
