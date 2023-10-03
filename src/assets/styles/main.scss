@@ -1048,6 +1048,11 @@ div.markdown {
   clip-path: polygon(0 0, 400px 0, 452px 100%, 0% 100%);
   -webkit-clip-path: polygon(0 0, 400px 0, 452px 100%, 0% 100%);
 }
+    #pilots .section-header.clipped-medium-backward {
+      height: 87px;
+    overflow-y: hidden;
+      margin-bottom: -59px;
+    }
 .clipped-medium-backward-bio {
     width: 226px;
     clip-path: polygon(0 0,500px 0,552px 100%,0% 100%);
