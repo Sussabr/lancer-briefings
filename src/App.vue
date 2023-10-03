@@ -325,5 +325,10 @@ export default {
     flex-basis: 100%;
     order: 3;
   }
+  #pilots .section-header.clipped-medium-backward {
+    height: 86px;
+    overflow-y: hidden;
+  margin-bottom: -61px;
+  
   }
 </style>
