@@ -1152,6 +1152,11 @@ div.markdown {
   overflow-y: scroll;
   overflow-x: hidden;     
   }
+  #pilots .section-header.clipped-medium-backward {
+     height: 86px;
+    overflow-y: hidden;
+  margin-bottom: -61px;
+  }
   .section-content-container ::-webkit-scrollbar-thumb {
     background-color: #991e2a00;
     border-radius: 20px;
