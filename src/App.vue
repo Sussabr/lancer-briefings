@@ -106,7 +106,7 @@ export default {
        {  
 "slug": "003",
           "name": "Floodgate",
-          "status": "start"
+          "status": "success"
         },
       ],
       "pilots": [
