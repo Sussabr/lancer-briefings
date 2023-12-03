@@ -108,6 +108,16 @@ export default {
           "name": "Floodgate",
           "status": "success"
         },
+          {  
+"slug": "004A",
+          "name": "Last Castle",
+          "status": "start"
+        },
+          {  
+"slug": "004B",
+          "name": "Rallying Cry",
+          "status": "start"
+        },
       ],
       "pilots": [
         {
@@ -131,8 +141,8 @@ export default {
           "alias": "Ciara Ernalini",
           "code": "91320fec-2acd-4062-bb34-c8e11f6eb851//NDL-C-EARNEST-HUB",
           "corpro": "Ḩ̶̡͔̱̱̠͓̜͔̳̭̮̀̏͛́̔̎̍͆̏̂̄̈́͗͘̕͝͠ơ̴̯̗̇̅̓̑̃͊͐͐̑̃͑̅̃̎̍̕r̴͆̇̔̃͊̐̿̒͗͝ṳ̵̮̅̒̓͝s̶̛̻̙̫̈́̅͑̃̋",
-          "frame": "Goblin",
-          "mech": "Dokkaebi"
+          "frame": "Chomolungma",
+          "mech": "Morrigan"
         },
       ],
       "header": {
