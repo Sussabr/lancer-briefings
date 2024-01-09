@@ -10,16 +10,5 @@ Pelas suas condições como *[EXPURGADO]*, a pena de seus crimes foram parcialme
 ## Arte do Mecha 
 ![image](/mechs/Sidero.png)
 
----
-## Relógios
 
-**- Escavando o passado**
 
-![image](/clocks/06/6clock_4.png)
-
----
-## Resevas
-
-**- Bateria de Núcleo**
-
-*Bateria extra que permite um uso extra do CP (perdido até o final da missão)*
