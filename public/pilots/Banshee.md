@@ -12,7 +12,8 @@ Após o incidente, Ciara começou sua carreira de espionagem corporativa trabalh
 ## NHP CO-PILOTO
 
 **OSIRIS-CLASS** 
-*Nyx*
+
+***Nyx***
 
 ![image](/events/Images/Nyx.png)
 
