@@ -116,7 +116,7 @@ export default {
           {  
 "slug": "004B",
           "name": "Rallying Cry",
-          "status": "start"
+          "status": "success"
         },
       ],
       "pilots": [
