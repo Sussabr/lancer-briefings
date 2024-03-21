@@ -5,9 +5,10 @@
 /*-------------------------------------*/
 
 //Primary Colors
-$primary: rgba(64, 64, 64, 1);
+$primary: rgba(153, 30, 42, 1);
 $secondary: rgba(225, 225, 225, 1);
 $tertiary: rgba(255, 255, 255, 0.7);
+$fourth: rgba(64, 64, 64, 1);
 $highlight-hover: rgba(153, 0, 0, 0.3);
 $highlight-active: rgba(0, 0, 0, 0.1);
 
@@ -99,7 +100,7 @@ body {
 header {
   animation: 1s ease-out 1 slideInFromLeft;
   background-color: $tertiary;
-  border-color: $primary;
+  border-color: $fourth;
   height: 96px;
   display: flex;
   align-items: center;
@@ -110,7 +111,7 @@ header {
   animation: 1s ease-out 1 slideInFromLeft;
   animation-delay: 0.5s;
   animation-fill-mode: forwards;
-  background-color: $primary;
+  background-color: $fourth;
   border-color: $primary;
   width: 700px;
   height: 100%;
