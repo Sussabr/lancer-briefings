@@ -40,8 +40,7 @@
                   <img src="/icons/pilot-icon.svg" />
                   <h1>Procurados</h1>
                 </div>
-                <div class="rhombus-back">&nbsp;
-                </div>
+                <div class="rhombus-back">&nbsp;</div>
               </div>
               <div class="section-content-container">
                 <div class="pilot-list-container">
@@ -114,6 +113,7 @@ export default {
           "name": "Last Castle",
           "status": "start"
         },
+        {
 "slug": "004B",
           "name": "Rallying Cry",
           "status": "success"
