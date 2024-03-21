@@ -152,8 +152,8 @@ export default {
         "gate": "Atlas-Quanoukrim",
         "ring": "Atlas",
         "headerTitle": "DEPARTAMENTO NAVAL DA UNIÃO",
-        "headerSubtitle": " ",
-        "subheaderTitle": "Coronel NHP",
+        "headerSubtitle": " NHP ",
+        "subheaderTitle": " Coronel Primário ",
         "subheaderSubtitle": "Beta-1",
       },
       "options":{
