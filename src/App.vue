@@ -140,9 +140,9 @@ export default {
          "callsign": "Banshee",
           "alias": "Ciara Ernalini",
           "code": "91320fec-2acd-4062-bb34-c8e11f6eb851//NDL-C-EARNEST-HUB",
-          "corpro": "Ḩ̶̡͔̱̱̠͓̜͔̳̭̮̀̏͛́̔̎̍͆̏̂̄̈́͗͘̕͝͠ơ̴̯̗̇̅̓̑̃͊͐͐̑̃͑̅̃̎̍̕r̴͆̇̔̃͊̐̿̒͗͝ṳ̵̮̅̒̓͝s̶̛̻̙̫̈́̅͑̃̋",
-          "frame": "Goblin",
-          "mech": "Dokkaebi"
+          "corpro": "GMS",
+          "frame": "Chomolungma",
+          "mech": "Morrigan"
         },
       ],
       "header": {
