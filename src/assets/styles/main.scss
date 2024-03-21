@@ -8,7 +8,6 @@
 $primary: rgba(153, 30, 42, 1);
 $secondary: rgba(255, 255, 255, 1);
 $tertiary: rgba(255, 255, 255, 0.7);
-$fourth: rgba(40, 40, 40, 1);
 $highlight-hover: rgba(153, 0, 0, 0.3);
 $highlight-active: rgba(0, 0, 0, 0.1);
 
@@ -100,7 +99,7 @@ body {
 header {
   animation: 1s ease-out 1 slideInFromLeft;
   background-color: $tertiary;
-  border-color: $fourth;
+  border-color: $primary;
   height: 96px;
   display: flex;
   align-items: center;
@@ -111,7 +110,7 @@ header {
   animation: 1s ease-out 1 slideInFromLeft;
   animation-delay: 0.5s;
   animation-fill-mode: forwards;
-  background-color: $fourth;
+  background-color: $primary;
   border-color: $primary;
   width: 700px;
   height: 100%;
@@ -855,8 +854,8 @@ div.markdown {
   animation: 1s ease-out 1 slideInFromLeft;
   animation-delay: 0.5s;
   animation-fill-mode: forwards;
-  background-color: $fourth;
-  border-color: $fourth;
+  background-color: $primary;
+  border-color: $primary;
   width: 100%;
   height: 100%;
   margin-left: 0px;
