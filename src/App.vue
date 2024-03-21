@@ -153,7 +153,7 @@ export default {
         "ring": "Atlas",
         "headerTitle": "DEPARTAMENTO NAVAL DA UNIÃO",
         "headerSubtitle": " ",
-        "subheaderTitle": "NHP Coronel Primário ",
+        "subheaderTitle": "NHP General Primário ",
         "subheaderSubtitle": "Beta-1",
       },
       "options":{
