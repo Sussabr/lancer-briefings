@@ -6,12 +6,12 @@
             <section class="section-container" id="missions" :style="missionSectionStyle">
               <div class="section-header clipped-medium-backward">
                 <img src="/icons/mission-icon.svg" />
-                <h1>Missões</h1>
+                <h1>Crimes</h1>
               </div>
               <div class="section-content-container">
                 <h3>Objetivo Atual</h3>
                 <Markdown :source="current_md" class="markdown" />
-                <h3>Lista de Missões</h3>
+                <h3>Lista de Crimes</h3>
                 <div class="mission-list-container">
                   <Mission
                     v-for="item in this.missions"
@@ -27,7 +27,7 @@
             <section class="section-container" id="events" :style="eventsSectionStyle">
               <div class="section-header clipped-medium-backward">
                 <img src="/icons/events-icon.svg" />
-                <h1>Eventos da missão</h1>
+                <h1>Detalhe dos crimes</h1>
               </div>
               <div class="section-content-container">
                 <Markdown :source="events" class="markdown" />
@@ -38,7 +38,7 @@
               <div style="height:52px; overflow:hidden;">
                 <div class="section-header clipped-medium-backward-pilot">
                   <img src="/icons/pilot-icon.svg" />
-                  <h1>Pilotos</h1>
+                  <h1>Procurados</h1>
                 </div>
                 <div class="rhombus-back">&nbsp;</div>
               </div>
@@ -95,27 +95,22 @@ export default {
       "missions": [
         {
   "slug": "001",
-          "name": "Bug Hunt",
+          "name": "First Contact",
           "status": "success"
         },
         {  
 "slug": "002",
-          "name": "Vigilant Gaze",
+          "name": "Insubordination",
           "status": "partial-success"
         },
        {  
 "slug": "003",
-          "name": "Floodgate",
+          "name": "Treason",
           "status": "success"
         },
-          {  
-"slug": "004A",
-          "name": "Last Castle",
-          "status": "start"
-        },
-          {  
-"slug": "004B",
-          "name": "Rallying Cry",
+      {  
+"slug": "004",
+          "name": "Sedition",
           "status": "success"
         },
       ],
@@ -140,7 +135,7 @@ export default {
          "callsign": "Banshee",
           "alias": "Ciara Ernalini",
           "code": "91320fec-2acd-4062-bb34-c8e11f6eb851//NDL-C-EARNEST-HUB",
-          "corpro": "Ḩ̶̡͔̱̱̠͓̜͔̳̭̮̀̏͛́̔̎̍͆̏̂̄̈́͗͘̕͝͠ơ̴̯̗̇̅̓̑̃͊͐͐̑̃͑̅̃̎̍̕r̴͆̇̔̃͊̐̿̒͗͝ṳ̵̮̅̒̓͝s̶̛̻̙̫̈́̅͑̃̋",
+          "corpro": "GMS",
           "frame": "Chomolungma",
           "mech": "Morrigan"
         },
@@ -153,8 +148,8 @@ export default {
         "ring": "Atlas",
         "headerTitle": "DEPARTAMENTO NAVAL DA UNIÃO",
         "headerSubtitle": " ",
-        "subheaderTitle": "Time de resposta imediata",
-        "subheaderSubtitle": "Trio Elétrico",
+        "subheaderTitle": "NHP General Primário ",
+        "subheaderSubtitle": "Beta-1",
       },
       "options":{
         "eventsMarkdownPerMission": true
@@ -334,11 +329,6 @@ export default {
   .pilots {
     flex-basis: 100%;
     order: 3;
-  }
-  #pilots .section-header.clipped-medium-backward {
-    height: 86px;
-    overflow-y: hidden;
-  margin-bottom: -61px;
   }
   }
 </style>
