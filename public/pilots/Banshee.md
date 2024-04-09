@@ -3,6 +3,12 @@ Uma genial desenvolvedora de softwares, **Ciara Ernaline Johnson** desenvolveu c
 
 Após o incidente, Ciara começou sua carreira de espionagem corporativa trabalhando para o **Departamento Economico da União** , antes de se alistar ao **Departamento Naval da União** para uma missão de resposta imediata.
 
+## BURDENS 
+
+**SEM PERNAS**
+
+![image](/clocks/04/4clock_0.png)
+
 ---
 ## Arte do Mecha
 
@@ -18,10 +24,3 @@ Após o incidente, Ciara começou sua carreira de espionagem corporativa trabalh
 ![image](/events/Images/Nyx.png)
 
 
----
-
-## Reservas
-
-***Sonar de Escaneamento profundo***
-
-*Um escaneador capaz de detectar os túneis de Hercynia por uma duzia de milhas*
