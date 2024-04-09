@@ -7,5 +7,18 @@ Zahid fora detido e mantido em carcere, Eventualmente suas habilidades de combat
 Zahid, argumenta Comandante Dyatlov, representa tanto uma **ameça** quanto uma **poderosa ferramenta**, suas capacidades são fora da curva, porém elas podem representar uma grande força para o bem se orientadas para o **caminho certo**.
 
 ---
+
+## BURDENS
+
+**SANGUE NAS MÃOS**
+
+![image](/clocks/10/10clock_0.png)
+
+**SEM MÃO**
+
+![image](/clocks/02/2clock_0.png)
+
+---
+
 ## Arte do Mecha
 ![image](/mechs/Raptor.png)
