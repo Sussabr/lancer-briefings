@@ -3,6 +3,8 @@ Uma genial desenvolvedora de softwares, **Ciara Ernaline Johnson** desenvolveu c
 
 Após o incidente, Ciara começou sua carreira de espionagem corporativa trabalhando para o **Departamento Economico da União** , antes de se alistar ao **Departamento Naval da União** para uma missão de resposta imediata.
 
+---
+
 ## BURDENS 
 
 **SEM PERNAS**
