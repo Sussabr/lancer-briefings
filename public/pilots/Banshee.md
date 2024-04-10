@@ -7,7 +7,7 @@ Após o incidente, Ciara começou sua carreira de espionagem corporativa trabalh
 
 ## BURDENS 
 
-**SEM PERNAS**
+**MY LEEGS**
 
 ![image](/clocks/04/4clock_0.png)
 
@@ -17,7 +17,7 @@ Após o incidente, Ciara começou sua carreira de espionagem corporativa trabalh
 ![image](/mechs/Morrigan-Modal(1).png)
 
 ---
-## NHP CO-PILOTO
+## NHP CO-PILOT
 
 **OSIRIS-CLASS** 
 
@@ -25,4 +25,4 @@ Após o incidente, Ciara começou sua carreira de espionagem corporativa trabalh
 
 ![image](/events/Images/Nyx.png)
 
-
+---
