@@ -21,4 +21,4 @@ Zahid, argumenta Comandante Dyatlov, representa tanto uma **ameça** quanto uma 
 ---
 
 ## Arte do Mecha
-![image](/mechs/Raptor.png)
+![image](/mechs/Extinção.png)
