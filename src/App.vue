@@ -119,9 +119,9 @@ export default {
          "callsign": "Lucatã",
           "alias": "Zahid Raja",
           "code": "ede41c32-7cf2424f-99d8-d249da109a26//NDL-C-BRASS-WILD",
-          "corpro": "SSC",
-          "frame": "Metalmark",
-          "mech": "Raptor"
+          "corpro": "HA",
+          "frame": "Enkidu",
+          "mech": "Extinção"
         },
           {
          "callsign": "Ruivo",
@@ -135,9 +135,9 @@ export default {
          "callsign": "Banshee",
           "alias": "Ciara Ernalini",
           "code": "91320fec-2acd-4062-bb34-c8e11f6eb851//NDL-C-EARNEST-HUB",
-          "corpro": "GMS",
-          "frame": "Chomolungma",
-          "mech": "Morrigan"
+          "corpro": "HUC",
+          "frame": "Proto-Swallowtail",
+          "mech": "Gyuuki"
         },
       ],
       "header": {
