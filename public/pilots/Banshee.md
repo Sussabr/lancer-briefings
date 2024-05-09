@@ -14,7 +14,7 @@ Após o incidente, Ciara começou sua carreira de espionagem corporativa trabalh
 ---
 ## Arte do Mecha
 
-![image](/mechs/Morrigan-Modal(1).png)
+![image](/mechs/Gyuuki.png)
 
 ---
 ## NHP CO-PILOT
