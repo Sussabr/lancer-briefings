@@ -12,11 +12,7 @@ Zahid, argumenta Comandante Dyatlov, representa tanto uma **ameça** quanto uma 
 
 **SANGUE NAS MÃOS**
 
-![image](/clocks/10/10clock_0.png)
-
-**SEM MÃO**
-
-![image](/clocks/02/2clock_0.png)
+![image](/clocks/10/10clock_1.png)
 
 ---
 
