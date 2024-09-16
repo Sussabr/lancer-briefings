@@ -118,6 +118,7 @@ export default {
           "name": "Rallying Cry",
           "status": "success"
         },
+        {
 "slug": "005",
           "name": "Counter-Punch",
           "status": "success"
