@@ -159,7 +159,7 @@ export default {
         "headerTitle": "DEPARTAMENTO NAVAL DA UNIÃO",
         "headerSubtitle": " ",
         "subheaderTitle": "Time de resposta imediata",
-        "subheaderSubtitle": "Trio Elétrico",
+        "subheaderSubtitle": "Demônios de Solo Terra",
       },
       "options":{
         "eventsMarkdownPerMission": true
