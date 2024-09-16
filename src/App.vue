@@ -111,11 +111,15 @@ export default {
           {  
 "slug": "004A",
           "name": "Last Castle",
-          "status": "start"
+          "status": "success"
         },
           {  
 "slug": "004B",
           "name": "Rallying Cry",
+          "status": "success"
+        },
+"slug": "005",
+          "name": "Counter-Punch",
           "status": "success"
         },
       ],
