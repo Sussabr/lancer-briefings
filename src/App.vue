@@ -159,7 +159,7 @@ export default {
         "headerTitle": "DEPARTAMENTO NAVAL DA UNIÃO",
         "headerSubtitle": " ",
         "subheaderTitle": "Time de resposta imediata",
-        "subheaderSubtitle": "Demônios de Solo Terra",
+        "subheaderSubtitle": "Demônios do Oeste",
       },
       "options":{
         "eventsMarkdownPerMission": true
