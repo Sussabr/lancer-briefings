@@ -6,9 +6,8 @@
 
 //Primary Colors
 $primary: rgba(153, 30, 42, 1);
-$secondary: rgba(225, 225, 225, 1);
+$secondary: rgba(255, 255, 255, 1);
 $tertiary: rgba(255, 255, 255, 0.7);
-$fourth: rgba(64, 64, 64, 1);
 $highlight-hover: rgba(153, 0, 0, 0.3);
 $highlight-active: rgba(0, 0, 0, 0.1);
 
@@ -100,7 +99,7 @@ body {
 header {
   animation: 1s ease-out 1 slideInFromLeft;
   background-color: $tertiary;
-  border-color: $fourth;
+  border-color: $primary;
   height: 96px;
   display: flex;
   align-items: center;
@@ -111,7 +110,7 @@ header {
   animation: 1s ease-out 1 slideInFromLeft;
   animation-delay: 0.5s;
   animation-fill-mode: forwards;
-  background-color: $fourth;
+  background-color: $primary;
   border-color: $primary;
   width: 700px;
   height: 100%;
@@ -218,8 +217,9 @@ header video {
 .location-info {
   height: 90px;
   width: 550px;
-  padding: 10px;
-  margin-left: 20px;
+  padding: 0px;
+  margin-left: 29px;
+  margin-top: 5px;
   display: flex;
   flex-direction: column;
   color: $text-location;
@@ -234,20 +234,21 @@ header video,
 }
 
 .location-row {
-  height: 40px;
+  height: 37px;
   display: flex;
+  width: 399px;
   h4 {
     margin: 0px;
-    line-height: 1.5em;
+    line-height: 0.5em;
     font-family: "Raleway", sans-serif;
-    font-size: 10px;
+    font-size: .5em;
     font-weight: 800;
     text-transform: uppercase;
     letter-spacing: 3px;
     color: $text-location;
   }
   .subtitle {
-    font-size: 18px;
+    font-size: .9em;
     margin: 0%;
     align-self: center;
     font-family: "Big Shoulders Display", cursive;
@@ -388,9 +389,9 @@ section .section-header {
 }
 
 .clipped-medium-backward-bio {
-  width: 552px;
-  clip-path: polygon(0 0, 500px 0, 552px 100%, 0% 100%);
-  -webkit-clip-path: polygon(0 0, 500px 0, 552px 100%, 0% 100%);
+    width: 334px;
+    clip-path: polygon(0 0,500px 0,552px 100%,0% 100%);
+    -webkit-clip-path: polygon(0 0,300px 0,350px 100%,0% 100%);
 }
 
 .clipped-x-large-forward {
@@ -685,6 +686,7 @@ section .section-header {
 .pilot-modal.portrait {
   .pilot {
     width: 600px;
+    height: 661px;
   }
 
   img.portrait {
@@ -774,6 +776,7 @@ div.markdown {
   border-bottom: 1px solid $primary;
   height: 350px;
   overflow-y: auto;
+  overflow-x: hidden;
   transition: height 0.5s ease-in-out;
 
   p strong {
@@ -853,8 +856,9 @@ div.markdown {
   animation-fill-mode: forwards;
   background-color: $primary;
   border-color: $primary;
-  width: 700px;
+  width: 100%;
   height: 100%;
+  margin-left: 0px;
   display: inline-flex;
   align-items: center;
   column-gap: 1em;
@@ -867,8 +871,33 @@ div.markdown {
     height: 6vh;
     margin-left: 15px;
 }
+   .location-info {
+  height: 90px;
+  width: 550px;
+  padding: 0px;
+  margin-left: 20px;
+  margin-top: 0px;
+  display: flex;
+  flex-direction: column;
+  color: $text-location;
+}
+    .location-row {
+  height: 33px;
+  display: flex;
+  width: 400px;
+  h4 {
+    margin: 0px;
+    line-height: 0.5em;
+    font-family: "Raleway", sans-serif;
+    font-size: 10px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: $text-location;
+  }
+    }
   #title-header {
-    font-size: 3vw;
+    font-size: 4vw;
     margin: 0%;
     align-self: center;
     font-family: "Big Shoulders Display", cursive;
@@ -891,7 +920,7 @@ div.markdown {
   }
 
   #subtitle-header {
-    font-size: 3vw;
+    font-size: 4vw;
     margin: 0%;
     align-self: center;
     font-family: "Big Shoulders Display", cursive;
@@ -916,7 +945,7 @@ div.markdown {
   display: flex;
   flex-direction: column;
   max-width: 80%;
-  margin: 74px auto; 
+  margin: 100px auto; 
   }
   .section-container {
    max-width: 100%;
@@ -986,17 +1015,72 @@ div.markdown {
     background-color: $secondary;
     border: 1px solid $primary;
     margin-top: -38px;
+    width: 97vw;
+}
+  .pilot-modal div .section-header h1 {
+    font-size: 23px;
+    margin: 0%;
+    align-self: center;
+    font-family: "Big Shoulders Display",cursive;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    color: #e1e1e1;
 }
   .pilot-modal.portrait {
   .pilot {
-    width: 401px;
+    width: 366px;
+    margin-bottom: 45px; 
+    margin-left: 7px;
+    height: 457px;
   }
-
+    .pilot-modal div .section-header {
+    background-color: #991e2a;
+    border-color: #991e2a;
+    height: 52px;
+    display: inline-flex;
+    gap: 15px;
+    padding-left: 16px;
+    margin-top: -38px!important;
+}
+    .clipped-medium-backward-pilot {
+  width: 452px;
+  clip-path: polygon(0 0, 400px 0, 452px 100%, 0% 100%);
+  -webkit-clip-path: polygon(0 0, 400px 0, 452px 100%, 0% 100%);
+}
+    #pilots .section-header {
+      height: 87px;
+    overflow-y: hidden;
+      margin-bottom: -59px;
+    }
+.clipped-medium-backward-bio {
+    width: 226px;
+    clip-path: polygon(0 0,500px 0,552px 100%,0% 100%);
+    -webkit-clip-path: polygon(0 0,169px 0,217px 100%,0% 100%);
+}
   img.portrait {
-    width: 400px;
-    height: 488px;
+    width: 366px;
+    height: 457px;
     object-fit: cover;
   }
+     .pilot-modal .pilot-header-container {
+    display: flex;
+  }
+    .pilot-modal.portrait div .section-header {
+    background-color: #991e2a;
+    border-color: #991e2a;
+    height: 52px;
+    display: inline-flex;
+    gap: 15px;
+    padding-left: 16px;
+    margin-top: -38px!important;
+    width: 82vw;
+}
+    .clipped-medium-backward-pilot {
+    width: 452px;
+    clip-path: polygon(0 0,400px 0,452px 100%,0% 100%);
+    -webkit-clip-path: polygon(0 0,265px 0,311px 100%,0% 100%);
+}
   }
   .o-modal__overlay {
   bottom: 0;
@@ -1068,10 +1152,16 @@ div.markdown {
   overflow-y: scroll;
   overflow-x: hidden;     
   }
+  #pilots .section-header.clipped-medium-backward {
+     height: 86px;
+    overflow-y: hidden;
+  margin-bottom: -61px;
+  }
   .section-content-container ::-webkit-scrollbar-thumb {
     background-color: #991e2a00;
     border-radius: 20px;
     border: 3px solid #991e2a00;
     margin: 3px
 }
+  
 }
