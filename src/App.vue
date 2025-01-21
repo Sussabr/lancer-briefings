@@ -95,71 +95,46 @@ export default {
       "missions": [
         {
   "slug": "001",
-          "name": "Bug Hunt",
-          "status": "success"
-        },
-        {  
-"slug": "002",
-          "name": "Vigilant Gaze",
-          "status": "partial-success"
-        },
-       {  
-"slug": "003",
-          "name": "Floodgate",
-          "status": "success"
-        },
-          {  
-"slug": "004A",
-          "name": "Last Castle",
-          "status": "success"
-        },
-          {  
-"slug": "004B",
-          "name": "Rallying Cry",
-          "status": "success"
-        },
-        {
-"slug": "005",
-          "name": "Counter-Punch",
-          "status": "success"
+          "name": "The Drop",
+          "status": "start"
         },
       ],
       "pilots": [
         {
-         "callsign": "Lucatã",
-          "alias": "Zahid Raja",
-          "code": "ede41c32-7cf2424f-99d8-d249da109a26//NDL-C-BRASS-WILD",
-          "corpro": "N/A",
-          "frame": "None",
-          "mech": "N/A"
+         "callsign": "TBD",
+          "alias": "TBD",
+          "code": "TBD",
+          "corpro": "TBD",
+          "frame": "TBD",
+          "mech": "TBD"
         },
           {
-         "callsign": "Ruivo",
-          "alias": "Gideon Ruffus",
-          "code": "2522d064-7d0b-4136-9335-a9d0a159f673//NDL-C-LAMBDA-CRYSTAL",
-          "corpro": "IPS-N",
-          "frame": "Drake",
-          "mech": "Sidero"
+         "callsign": "TBD",
+          "alias": "TBD",
+          "code": "TBD",
+          "corpro": "TBD",
+          "frame": "TBD",
+          "mech": "TBD"
         },
           {
-         "callsign": "Banshee",
-          "alias": "Ciara Ernalini",
-          "code": "91320fec-2acd-4062-bb34-c8e11f6eb851//NDL-C-EARNEST-HUB",
-          "corpro": "HUC",
-          "frame": "proto-Swalowtail",
-          "mech": "Gyuuki"
+         "callsign": "TBD",
+          "alias": "TBD",
+          "code": "TBD",
+          "corpro": "TBD",
+          "frame": "TBD",
+          "mech": "TBD"
         },
       ],
       "header": {
-        "planet": "Hercynia",
-        "year": "5014u",
-        "system": "Ardennes-3",
-        "gate": "Atlas-Quanoukrim",
-        "ring": "Atlas",
+        "planet": "Cressidium",
+        "year": "5016u",
+        "system": "Zaurak",
+        "gate": "Himalaya-Annapurna",
+        "ring": "Himalaya",
         "headerTitle": "DEPARTAMENTO NAVAL DA UNIÃO",
         "headerSubtitle": " ",
-        "subheaderTitle": "Time de resposta imediata",
-        "subheaderSubtitle": "Demônios do Oeste",
+        "subheaderTitle": "Missão Diplomática",
+        "subheaderSubtitle": "Esquadrão Indigo",
       },
       "options":{
         "eventsMarkdownPerMission": true
