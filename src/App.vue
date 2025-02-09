@@ -109,12 +109,12 @@ export default {
           "mech": "TBD"
         },
           {
-         "callsign": "VH",
-          "alias": "TBD",
+         "callsign": "Onani",
+          "alias": "Kaito Keitaro",
           "code": "TBD",
-          "corpro": "TBD",
-          "frame": "TBD",
-          "mech": "TBD"
+          "corpro": "GMS",
+          "frame": "Everest",
+          "mech": "Ite_Hayai"
         },
           {
          "callsign": "VIVIT",
