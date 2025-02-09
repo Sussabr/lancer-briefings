@@ -109,7 +109,7 @@ export default {
           "mech": "TBD"
         },
           {
-         "callsign": "TBD",
+         "callsign": "VH",
           "alias": "TBD",
           "code": "TBD",
           "corpro": "TBD",
@@ -117,7 +117,23 @@ export default {
           "mech": "TBD"
         },
           {
-         "callsign": "TBD",
+         "callsign": "VIVIT",
+          "alias": "TBD",
+          "code": "TBD",
+          "corpro": "TBD",
+          "frame": "TBD",
+          "mech": "TBD"
+        },
+          {
+         "callsign": "ANA",
+          "alias": "TBD",
+          "code": "TBD",
+          "corpro": "TBD",
+          "frame": "TBD",
+          "mech": "TBD"
+        },
+          {
+         "callsign": "VINI",
           "alias": "TBD",
           "code": "TBD",
           "corpro": "TBD",
