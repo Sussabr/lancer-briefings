@@ -111,7 +111,7 @@ export default {
           {
          "callsign": "Onani",
           "alias": "Kaito Keitaro",
-          "code": "TBD",
+          "code": "08a048d3-7715-4bdb-94cd-7b69def395aa//NDL-C-LUNAR-SWORD",
           "corpro": "GMS",
           "frame": "Everest",
           "mech": "Ite_Hayai"
