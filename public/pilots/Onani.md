@@ -1,4 +1,4 @@
-***RUFFUS.Gideon 2522d064-7d0b-4136-9335-a9d0a159f673//NDL-C-LAMBDA-CRYSTAL***
+***Keitaro.Kaito:08a048d3-7715-4bdb-94cd-7b69def395aa//NDL-C-LUNAR-SWORD***
 
 **Gideon Ruffus** é um **Mercenário** que trabalhava em uma companhia ilegalmente envolvida com **Clonagem** e contrabando de recursos relacionados. 
 
@@ -8,7 +8,7 @@ Pelas suas condições como **Clone Flash** em situação de *Force Majeure* (co
 
 ---
 ## Arte do Mecha 
-![image](/mechs/Sidero.png)
+![image](/mechs/Hayai%20Ite.png)
 
 
 
