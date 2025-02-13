@@ -117,11 +117,11 @@ export default {
           "mech": "Hayai Ite"
         },
           {
-         "callsign": "VIVIT",
-          "alias": "TBD",
+         "callsign": "Willow",
+          "alias": "Verona Rezende",
           "code": "TBD",
-          "corpro": "TBD",
-          "frame": "TBD",
+          "corpro": "GMS",
+          "frame": "Chomolungma",
           "mech": "TBD"
         },
           {
