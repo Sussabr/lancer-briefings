@@ -101,10 +101,10 @@ export default {
       ],
       "pilots": [
         {
-         "callsign": "paula",
-          "alias": "TBD",
+         "callsign": "Ash",
+          "alias": "Ashley Grimm",
           "code": "TBD",
-          "corpro": "TBD",
+          "corpro": "GMS",
           "frame": "TBD",
           "mech": "TBD"
         },
