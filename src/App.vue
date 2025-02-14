@@ -105,8 +105,8 @@ export default {
           "alias": "Ashley Grimm",
           "code": "TBD",
           "corpro": "GMS",
-          "frame": "TBD",
-          "mech": "TBD"
+          "frame": "Sagarmatha",
+          "mech": "Vulcano"
         },
           {
          "callsign": "Onani",
