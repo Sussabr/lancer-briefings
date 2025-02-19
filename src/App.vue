@@ -103,9 +103,9 @@ export default {
         {
          "callsign": "Ash",
           "alias": "Ashley Grimm",
-          "code": "TBD",
+          "code": "b17599e9-60b1-43f8-9306-6b85e22e60ae//NDL-C-SIGMA-CRYSTAL",
           "corpro": "GMS",
-          "frame": "Sagarmatha",
+          "frame": "Everest",
           "mech": "Vulcano"
         },
           {
