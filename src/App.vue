@@ -133,12 +133,12 @@ export default {
           "mech": "TBD"
         },
           {
-         "callsign": "VINI",
-          "alias": "TBD",
-          "code": "TBD",
-          "corpro": "TBD",
-          "frame": "TBD",
-          "mech": "TBD"
+         "callsign": "Melissa",
+          "alias": "Colina Mildred",
+          "code": "fe6077f0-9dc9-482a-95ba-05894372529d//NDL-C-OMEGA-ASH",
+          "corpro": "GMS",
+          "frame": "Chomolungma",
+          "mech": "Troia"
         },
       ],
       "header": {
