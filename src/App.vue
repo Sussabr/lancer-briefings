@@ -129,16 +129,16 @@ export default {
           "alias": "Colina Mildred",
           "code": "fe6077f0-9dc9-482a-95ba-05894372529d//NDL-C-OMEGA-ASH",
           "corpro": "GMS",
-          "frame": "Chomolungma",
+          "frame": "Everest",
           "mech": "Troia"
         },
           {
-         "callsign": "ANA",
-          "alias": "TBD",
-          "code": "TBD",
-          "corpro": "TBD",
-          "frame": "TBD",
-          "mech": "TBD"
+         "callsign": "Maggie",
+          "alias": "Margareth Tatcher",
+          "code": "d2118fba-5989-49b7-abb7-729e9e7a89e9//NDL-C-BRASS-VEIL",
+          "corpro": "GMS",
+          "frame": "Everest",
+          "mech": "Yucatani"
         },    
       ],
       "header": {
