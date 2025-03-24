@@ -5,4 +5,4 @@
 ---
 ## ARTE DO MECHA
 
-![image](/mechs/Phillips.png)
+![image](/mechs/Phillips&Willow.png)
