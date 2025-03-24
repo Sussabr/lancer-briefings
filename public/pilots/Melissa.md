@@ -9,5 +9,5 @@ Colina, inicialmente contra a crença da irmã, permaneceu na colônia por mais 
 ---
 
 ## Arte do Mecha
-![image](/mechs/Troia.png)
+![image](/mechs/Troia&Melissa.png)
 
