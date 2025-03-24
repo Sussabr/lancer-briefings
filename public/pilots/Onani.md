@@ -4,7 +4,7 @@
 
 ---
 ## Arte do Mecha 
-![image](/mechs/Hayai%20Ite.png)
+![image](/mechs/Hayai&Onani.png)
 
 
 
