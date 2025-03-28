@@ -5,4 +5,4 @@
 ---
 
 ## Arte do Mecha
-![image](/mechs/Vulcano.png)
+![image](/mechs/Vulcano&Ash.png)
