@@ -134,7 +134,7 @@ export default {
         },
           {
          "callsign": "Maggie",
-          "alias": "Margareth Tatcher",
+          "alias": "Margareth",
           "code": "d2118fba-5989-49b7-abb7-729e9e7a89e9//NDL-C-BRASS-VEIL",
           "corpro": "GMS",
           "frame": "Everest",
