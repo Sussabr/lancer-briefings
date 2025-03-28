@@ -149,8 +149,8 @@ export default {
         "ring": "Cascata",
         "headerTitle": "DEPARTAMENTO NAVAL DA UNIÃO",
         "headerSubtitle": " ",
-        "subheaderTitle": "Missão Diplomática",
-        "subheaderSubtitle": "Esquadrão Indigo",
+        "subheaderTitle": "Esquadrão de Escolta Divisão 146",
+        "subheaderSubtitle": ""A creche"",
       },
       "options":{
         "eventsMarkdownPerMission": true
