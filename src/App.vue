@@ -150,7 +150,7 @@ export default {
         "headerTitle": "DEPARTAMENTO NAVAL DA UNIÃO",
         "headerSubtitle": " ",
         "subheaderTitle": "Esquadrão de Escolta Divisão 146",
-        "subheaderSubtitle": ""A creche"",
+        "subheaderSubtitle": "A creche",
       },
       "options":{
         "eventsMarkdownPerMission": true
