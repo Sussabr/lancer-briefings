@@ -124,8 +124,6 @@ export default {
           "frame": "Chomolungma",
           "mech": "Phillips"
         },
-          
-        },
           {
          "callsign": "Maggie",
           "alias": "Margareth Moore",
