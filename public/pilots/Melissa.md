@@ -6,6 +6,7 @@ A colônia, **Teseu**, vem de uma cultura autruísta, similar com os Albatross, 
 Sua irmã mais velha, Cintia Mildred, decide se juntar diretamente à causa da união como uma piloto, com a crença de que somente os esforços humanitários não é o suficiente para **construir um futuro melhor**, que a mudança é feita por aqueles que põem a mão no fogo. 
 Colina, inicialmente contra a crença da irmã, permaneceu na colônia por mais 350 anos (objetivo), mas eventualmente sua convicção mudou, e seguindo nos passos da irmã, se alista no **Departamento Naval da União** para lutar com as próprias mãos por um futuro melhor.
 
+## Morta em Combate na Batalha de Nova Elysia
 ---
 
 ## Arte do Mecha
