@@ -128,9 +128,9 @@ export default {
          "callsign": "Melissa",
           "alias": "Colina Mildred",
           "code": "fe6077f0-9dc9-482a-95ba-05894372529d//NDL-C-OMEGA-ASH",
-          "corpro": "GMS",
-          "frame": "Everest",
-          "mech": "Troia"
+          "corpro": "",
+          "frame": "",
+          "mech": "morta em combate"
         },
           {
          "callsign": "Maggie",
