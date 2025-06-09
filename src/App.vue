@@ -142,6 +142,7 @@ export default {
           "frame": "",
           "mech": "morta em combate"
       },
+      }
       ],
       "header": {
         "planet": "Cressidium",
