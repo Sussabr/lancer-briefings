@@ -124,13 +124,7 @@ export default {
           "frame": "Chomolungma",
           "mech": "Phillips"
         },
-          {
-         "callsign": "Melissa",
-          "alias": "Colina Mildred",
-          "code": "fe6077f0-9dc9-482a-95ba-05894372529d//NDL-C-OMEGA-ASH",
-          "corpro": "",
-          "frame": "",
-          "mech": "morta em combate"
+          
         },
           {
          "callsign": "Maggie",
@@ -139,7 +133,15 @@ export default {
           "corpro": "GMS",
           "frame": "Everest",
           "mech": "Yucatani"
-        },    
+        }, 
+      {
+         "callsign": "Melissa",
+          "alias": "Colina Mildred",
+          "code": "fe6077f0-9dc9-482a-95ba-05894372529d//NDL-C-OMEGA-ASH",
+          "corpro": "",
+          "frame": "",
+          "mech": "morta em combate"
+      },
       ],
       "header": {
         "planet": "Cressidium",
