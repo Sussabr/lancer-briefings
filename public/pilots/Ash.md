@@ -9,4 +9,4 @@
 ---
 
 ## Bond
-![image](/pilots/The%20Knave.png =x400)
+<img src="The%20Knave.png" alt="knave" width="200"/>
