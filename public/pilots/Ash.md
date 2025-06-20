@@ -4,5 +4,9 @@
 
 ---
 
-## Arte do Mecha                                                                                                   ## Bond
-![image](/mechs/_Vulcano&Ash.png)                                                                          ![image](/pilots/The%20Knave.png)
+## Arte do Mecha                                                                                                  
+![image](/mechs/_Vulcano&Ash.png)                                                                         
+---
+
+## Bond
+![image](/pilots/The%20Knave.png)
