@@ -9,4 +9,4 @@
 ---
 
 ## Bond
-![Image](/pilots/The%20Knave.png) {:height="50%" width="50%"}
+![Image](/pilots/The%20Knave.png)
