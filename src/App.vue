@@ -99,9 +99,9 @@ export default {
           "status": "success"
         },
           {
-  "slug": "000,5",
-          "name": "Fort Saber",
-          "status": "Downtime"
+  "slug": "002",
+          "name": "Daybreak",
+          "status": "start"
         },
       ],
       "pilots": [
