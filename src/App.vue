@@ -98,11 +98,6 @@ export default {
           "name": "The Drop",
           "status": "success"
         },
-          {
-  "slug": "002",
-          "name": "Daybreak",
-          "status": "start"
-        },
       ],
       "pilots": [
         {
