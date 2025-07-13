@@ -8,4 +8,4 @@ Luna cresceu durante a **era do bloqueio comercial,** passando grandes dificulda
 
 ## Arte do Mecha 
 
-![image](/mechs/bison&luna.png)
+![image](/mechs/bison.png)
