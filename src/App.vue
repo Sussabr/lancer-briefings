@@ -132,6 +132,14 @@ export default {
           "frame": "Everest",
           "mech": "Yucatani"
         }, 
+         {
+         "callsign": "Luna",
+          "alias": "Ruth Annie Rae",
+          "code": "20fa3d99-705d-475b-838a-2ea2ee706ca4//NDL-C-NULL-KINGMAKER",
+          "corpro": "GMS",
+          "frame": "Everest",
+          "mech": "Bison"
+        }, 
       {
          "callsign": "Melissa",
           "alias": "Colina Mildred",
