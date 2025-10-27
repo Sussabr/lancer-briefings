@@ -101,7 +101,7 @@ export default {
         {
   "slug": "002",
           "name": "Daybreak",
-          "status": "start"
+          "status": "partial-success"
         },
       ],
       "pilots": [
