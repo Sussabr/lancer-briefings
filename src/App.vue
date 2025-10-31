@@ -115,6 +115,8 @@ export default {
 		async importPilots(files) {
 			let filePromises = Object.keys(files).map(path => files[path]());
 			let fileContents = await Promise.all(filePromises);
+
+
 			fileContents.forEach(content => {
 				let pilotFromJson = JSON.parse(JSON.stringify(content));
 				// In case the pilot was added from a copy on compcon via sharecode, remove the "reference mark" symbol
@@ -138,6 +140,16 @@ export default {
 					this.clocks = [...this.clocks, clock];
 				});
 
+
+
+
+
+
+
+
+
+
+
 				pilot.reserves.forEach(content => {
 					let reserve = {};
 					reserve["type"] = content.type;
@@ -149,6 +161,12 @@ export default {
 					reserve["callsign"] = pilot.callsign.toUpperCase();
 					this.reserves = [...this.reserves, reserve];
 				});
+
+
+
+
+
+
 			});
 		},
 	},
