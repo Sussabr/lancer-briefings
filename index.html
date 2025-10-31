@@ -10,24 +10,22 @@
 	<body style="margin: 0px">
 		<div id="app"></div>
 		<script type="module" src="/src/main.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
-		<script type="module" src="/src/assets/scripts/vanta.globe.min.js"></script>
-		<script type="module">
-			VANTA.GLOBE({
-				el: "body",
-				mouseControls: false,
-				touchControls: false,
-				gyroControls: false,
-				minHeight: 200.0,
-				minWidth: 200.0,
-				scale: 1.0,
-				scaleMobile: 1.0,
-				color: 0x694f5d,
-				color2: 0x68a691,
-				backgroundColor: 0x0c090d,
-				size: 2.0,
-				sphereRotation: -0.002,
-				meshRotation: 0.004,
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta@0.5.24/dist/vanta.globe.min.js"></script>
+<script>
+VANTA.GLOBE({
+  el: "body",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  scale: 1.00,
+  scaleMobile: 1.00,
+  color: 0xaa0a0a,
+  color2: 0xff0000,
+  size: 1.90,
+  backgroundColor: 0xf2f3f3
 			});
 		</script>
 	</body>
