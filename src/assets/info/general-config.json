@@ -3,17 +3,17 @@
   "planetPath": "/planet.webm",
   "animate": true,
   "defaultTitle": "MSMC |",
-  "icon": "/faction-logos/msmc.svg",
+  "icon": "/faction-logos/gms.svg",
   "header": {
-    "planet": "Heiligtum-6 'Deep Blue'",
-    "year": "5017u",
-    "system": "Heiligtum",
-    "gate": "Rào Cỏ",
-    "ring": "Annamite",
-    "headerTitle": "Mirrorsmoke",
-    "headerSubtitle": "Mercenary Company",
-    "subheaderTitle": "Contract Work",
-    "subheaderSubtitle": "Sierra-Whiskey-Alpha-Golf"
+    "planet": "Cressedium",
+    "year": "5016u",
+    "system": "Zaurak",
+    "gate": "Adams",
+    "ring": "Cascata",
+    "headerTitle": "Marinha",
+    "headerSubtitle": "da União",
+    "subheaderTitle": "Esquadrão de Escolta Divisão 146",
+    "subheaderSubtitle": "A Creche"
   },
   "pilotSpecialInfo": {}
 }
