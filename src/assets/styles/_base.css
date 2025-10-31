@@ -1582,7 +1582,7 @@ div.markdown ol li {
 	border-radius: 5px;
 	border-top-left-radius: 0px;
 	border-top-right-radius: 0px;
-	background-color: rgba(22, 28, 29, 1);
+	background-color: rgba(255, 255, 255, .8);
 	font-family: "Inconsolata", monospace;
 	font-weight: 400;
 	line-height: 1.25em;
