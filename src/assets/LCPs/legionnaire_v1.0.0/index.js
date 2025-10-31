@@ -1,8 +1,16 @@
-export { default as talents } from './talents.json'
-export { default as systems } from './systems.json'
-export { default as pilot_gear } from './pilot_gear.json'
-export { default as weapons } from './weapons.json'
-export { default as backgrounds } from './backgrounds.json'
-export { default as npc_features } from './npc_features.json'
-export { default as npc_templates } from './npc_templates.json'
-export { default as manifest } from './lcp_manifest.json'
+"use strict"
+import f from "./frames.json"
+import p from "./pilot_gear.json"
+import s from "./systems.json"
+import w from "./weapons.json"
+import t from "./talents.json"
+
+const data = {
+  frames: f,
+  pilot_gear: p,
+  systems: s,
+  weapons: w,
+  talents: t,
+}
+
+export default data;
