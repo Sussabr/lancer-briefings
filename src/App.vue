@@ -100,26 +100,12 @@ export default {
 		},
 		async importClocks(files) {
 			let filePromises = Object.keys(files).map(path => files[path]());
-			let fileContents = await Promise.all(filePromises);
-			fileContents.forEach(content => {
-				this.clocks = JSON.parse(JSON.stringify(content)).default;
-			});
-		},
-		async importReserves(files) {
-			let filePromises = Object.keys(files).map(path => files[path]());
-			let fileContents = await Promise.all(filePromises);
-			fileContents.forEach(content => {
-				this.reserves = JSON.parse(JSON.stringify(content)).default;
-			});
-		},
-		async importPilots(files) {
-	let filePromises = Object.keys(files).map(path => files[path]());
 	let fileContents = await Promise.all(filePromises);
 	fileContents.forEach(content => {
 		// unwrap modules that expose JSON as `default`
 		let raw = content && content.default ? content.default : content;
 		// deep clone to avoid mutation
-		let pilotFromJson = JSON.parse(JSON.stringify(raw));
+		let pilotFromJson = JSON.parse(JSON.stringify(raw || {}));
 
 		// guard string ops in case fields are missing
 		if (pilotFromJson.name && typeof pilotFromJson.name === "string") {
@@ -136,7 +122,7 @@ export default {
 		};
 		this.pilots = [...this.pilots, pilot];
 
-		(pilot.clocks || []).forEach(content => {
+		;(pilot.clocks || []).forEach(content => {
 			let clock = {};
 			clock["type"] = `Pilot Project // ${pilot.callsign}`;
 			clock["result"] = "";
@@ -148,7 +134,7 @@ export default {
 			this.clocks = [...this.clocks, clock];
 		});
 
-		(pilot.reserves || []).forEach(content => {
+		;(pilot.reserves || []).forEach(content => {
 			let reserve = {};
 			reserve["type"] = content.type;
 			reserve["name"] = content.name;
@@ -161,7 +147,7 @@ export default {
 		});
 	});
 },
-
+		
 				pilot.reserves.forEach(content => {
 					let reserve = {};
 					reserve["type"] = content.type;
