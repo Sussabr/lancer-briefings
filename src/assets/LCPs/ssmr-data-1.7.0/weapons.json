@@ -1,0 +1,36 @@
+[
+  {
+    "id": "mw_empakaai_alt_blackbeard_integrated",
+    "name": "Colossus Termo-Unguis",
+    "mount": "Superheavy",
+    "type": "Melee",
+    "effect": "The Empakaai’s COLOSSUS TERMO-UNGUIS can be used even while Jammed. <br/> Before rolling, you may force your target and any characters of your choice adjacent to it to make a Hull save or be pulled adjacent and automatically Grappled.",
+    "license_id": "",
+    "damage": [
+      {
+        "type": "Kinetic",
+        "val": "2d6"
+      },
+      {
+        "type": "Heat",
+        "val": 4
+      },
+      {
+        "type": "Burn",
+        "val": 3
+      }
+    ],
+    "range": [
+      {
+        "type": "Threat",
+        "val": 4
+      }
+    ],
+    "tags": [
+      {
+        "id": "tg_heat_self",
+        "val": 2
+      }
+    ]
+  }
+]

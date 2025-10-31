@@ -1,0 +1,91 @@
+[
+  {
+    "id": "ms_exo_kinesthetic_suit_upgrade",
+    "name": "Kinesthetic Suit Upgrade",
+    "type": "System",
+    "sp": 2,
+    "tags": [
+      {
+        "id": "tg_reaction"
+      },
+      {
+        "id": "tg_exotic"
+      }
+    ],
+    "source": "EXOTIC",
+    "effect": "You gain the Spatial Awareness reaction",
+    "description": "<p><em>&ldquo;I chose life.&rdquo;<br>&ldquo;Listen, the fact is that you didn&rsquo;t. How many times must we go through this? Let the record show, the culprit is noncompliant and remorseless. Their actions are in breach of contract; hereby, SSC retains the rights and authority to apply all punitive actions as it sees fit&rdquo;<br>&ldquo;I chose life&rdquo;<br>&ldquo;You did not. That is a fact. Please take this one away. They will face decommissioning in the morning for the crimes of early termination of in-field biological SSC assets. The subject has noted they were compelled by another&rsquo;s intent; record this for later investigation by the incoming extrastellar security assets.&rdquo;<br>&ldquo;I choose life!&rdquo;<br>&ldquo;Yes, and tomorrow chose death.&rdquo;<br> &ndash; an excerpt of the interrogation of the singer </em></p> <p>A cybernetic apparatus anchored via spinal tap, the kinesthetic suit upgrade is a full neurological surrogate. Upon installation the apparatus anchors into the spinal cord, lacing machine and biology and allowing the user to relinquish cognitive allotments, related to the maintenance of biological homeostasis. It acts as a twin temporal processor that grants the user the ability to focus excess cognition on a great range of tasks. In recent years SSC has explored the enhancement of kinesthetic awareness, specifically for spaceborne mech pilots.</p>",
+    "actions": [
+      {
+        "name": "Spatial Awareness",
+        "activation": "Reaction",
+        "frequency": "1/round",
+        "trigger": "A character ends a movement adjacent to you.",
+        "detail": "You may Boost, ignoring reactions and engagement. After doing so, attacks against you receive +1 Difficulty until the end of your next turn."
+      }
+    ],
+    "license_id": ""
+  },
+  {
+    "id": "ms_exo_emi_theater",
+    "name": "Emi Theater",
+    "type": "System",
+    "sp": 3,
+    "tags": [
+      {
+        "id": "tg_limited",
+        "val": 1
+      },
+      {
+        "id": "tg_heat_self",
+        "val": 4
+      },
+      {
+        "id": "tg_exotic"
+      },
+      {
+        "id": "tg_quick_action"
+      }
+    ],
+    "source": "EXOTIC",
+    "effect": "Choose a destroyed mech in line of sight. It is immediately restored as an allied Grunt NPC with 5 Overshield and afterwards takes all Heat as energy damage. The target loses any other templates it had previously but retains all other features, including regaining all destroyed weapons and systems. The target gains its own turn each round starting this round, and can otherwise perform all the actions available to a normal NPC. At the end of the scene, the target is destroyed and becomes a wreck.",
+    "description": "<p><em>&ldquo;An army of the dead. Let H0RUS feed on this, leak the history across the omninet, see what bites &ndash; Oni will no longer selfishly covet their secrets.&rdquo;&nbsp;<br>&ndash; An Arushan Constellar Bureaucrat </em></p> <p>The &ldquo;spirit theater&rdquo;, as it is often referred to, was discovered in [REDACTED], as was the pilot called Oni, who was formerly thought to have vanished on deployment. After recovery, Oni was determined to be functionally defunct and was discarded. It was determined, however, that their mech components shared no identifiable ancestry with known Union technologies. Field tests implied the Emi Theater&rsquo;s purpose was to employ necromantic ambush tactics in mass warfare entanglements; however, discernible records of it&rsquo;s use from Oni&rsquo;s mech were [REDACTED]. First employed in the Asset Rebellion in Kibo&rsquo;s 14th operational chrono-chain, the system has proven most effective when used in sequence with adjunct orbital kinetic-kill bombardments. The system projects a wide area para-resonant subjectivity wave that can reanimate functionally destroyed non-biological masses, enabling them to be used and disposed of one last time. While not widely adopted across the Constellar, the Emi Theater has seen use in the more illicit operations undertaken by SSC&rsquo;s Constellar Midnights.</p>",
+    "license_id": ""
+  },
+  {
+    "id": "ms_exo_upgraded_network_array",
+    "name": "Upgraded Network Array",
+    "type": "System",
+    "sp": 2,
+    "tags": [
+      {
+        "id": "tg_exotic"
+      },
+      {
+        "id": "tg_free_action"
+      }
+    ],
+    "source": "EXOTIC",
+    "effect": "1/scene, choose an allied character. Until the end of your next turn, you may use their Systems in place of your own for the purposes of checks and saves, and make tech actions using their Sensors, drawing line of sight from their position.",
+    "description": "<p><em>&ldquo;This is the place? You sure Pettenouk said it was here?&rdquo;</em></p> <p><em>&ldquo;Yes, I&rsquo;m sure. By the way, switch over to atmospheric level two. As you know, the air here on Kibo is noxious to us. Without proper adjustments, you&rsquo;ll enter a coma in hours... Shou! Dammit, someone get Shou, he&rsquo;s gone and passed out. Pack it up team, we&rsquo;ll start again tomorrow.&rdquo;</em></p> <p><em>&ldquo;Bass Harbor, ma&rsquo;am, I&rsquo;m catching several bodies approaching our position from the foothills to the northeast.&rdquo;</em></p> <p><em>&ldquo;Ah, I&rsquo;m reading it, got you loud and clear. Damn, I love doing these missions for those SSC toads. They always spare no expense and the network arrays are like having God&rsquo;s eyes. Topside Lighthouse, we got company.&rdquo;</em></p>",
+    "license_id": ""
+  },
+  {
+    "id": "ms_exo_mist_feathers",
+    "name": "Mist Feathers",
+    "type": "System",
+    "sp": 2,
+    "tags": [
+      {
+        "id": "tg_quick_action"
+      },
+      {
+        "id": "tg_exotic"
+      }
+    ],
+    "source": "EXOTIC",
+    "effect": "<p>1/scene, when activated, you gain the following effects until the end of your next turn:</p> <ul> <li>Your mech is considered hovering</li> <li>You may Boost as a free action, 1/turn.</li> <li>When Invisible or benefiting from cover at the end of your turn, you may choose to become Hidden without taking an action</li> </ul>",
+    "description": "<p><em>&ldquo;Have you ever wondered how the mist flies? ... Hmm, fine. Well I do, I do every day. I envy it. It bends endlessly with joins of vapor effervescent and naked. I&rsquo;m not dreaming &ndash; stop, don&rsquo;t be like Grandmother &ndash; her hands were always so pressed and firm. You see&ndash; I want to fly &ndash; fly so high that the mist becomes jealous. Think of it, what if I could bring you too? Things would be better for the both of us. Better than tilling these lands day in and out, laughed at by the mist. I promise one day I&rsquo;ll grow mist feathers and be the queen of the Kimawense Range. Are you even paying attention? I said I&rsquo;ll be the Queen!------huh? You know I can hear you walking up behind me, right? Quit fooling around, these hills need tilling. Didn't you hear me!? I know you&rsquo;re there... Give it a rest, it&rsquo;s cree---pe---&rdquo;</em><br><em>&ldquo;</em><em>Scarlet soil, sowed in crimson hues.&rdquo;</em></p> <p>Extensions effervescent and endless. The Mist Feather is a specialty licensed float apparatus specifically designed for thin atmospheres. The flight system &ndash; if you can call it that &ndash; is not simple aeronautic manipulation. Designed by the illustrious artisan Ololade Omatanwa, the Mist Feathers in fact do not fly; instead, they induce forced molecular bonds between trillions upon trillions of atmospheric particulates. This bonding process instead pulls rather than propels the user forward as with each molecular bond the user is tugged a millionth of an inch. When powered by cold-core reactors the Mist Feather&rsquo;s output is exponentially multiplied, enabling mechs to hover indefinitely in non-vacuum environments.</p>",
+    "license_id": ""
+  }
+]

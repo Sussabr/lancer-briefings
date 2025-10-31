@@ -1,0 +1,68 @@
+[
+  {
+    "id": "mf_Empakaai_alt_blackbeard",
+    "source": "IPS-N",
+    "variant": "Blackbeard",
+    "name": "Empakaai",
+    "mechtype": [
+      "Striker"
+    ],
+    "y_pos": 45,
+    "license_level": 2,
+    "description": "<i><p>“I am thinking now!</p><p>To a mountain I climbed, to a pond I ventured;</p><p>I am thinking now!</p><p>My reflection I saw, hideous and jagged;</p><p>I am thinking now!</p><p>To a hell I created, to a man I slain;</p><p>I am thinking now!</p><p>A victory it gave, glorious and valiant</p><p>I am thinking now!</p></i><p>The Empakaai, a machination of the infamous poet and mech artisan Ololade Omatanwa, was found drenched in hell.</p><p>Popular rumor whispers that upon the tallest of mountain and through the reflection of lake Empakaai Ololade saw in his reflection, Kalunga. Hell - fire - dark ash and staring back at him was not his eyes, but the eyes of the damned and desolate clasped in the hand of Iku.</p><p>As the waters danced in rhythm, Ololade remained fixated. His thoughts wondering why Lake Empakaai- a place renowned for its untenable beauty, would show him a tragedy so visceral. In his reflection he saw thousands plummet from the gaps in Iku’s hand- falling to the pit of Klunga where they’d only be welcomed by death and soot. A portrayal in contradiction within the soothing and pristine waters stretching out to the extents of Ololade’s vision. Rumor would tell that, when he did come down from the tallest of mountains he would scream the words “I am thinking now!” - “ A victory it gave, glorious and valiant”.</p><p>Years later, a painting would circulate throughout the local omninet, affectionately titled- The Descent to Klunga, it was a masterpiece and also a foreshadowing of something that should have only existed in the delirious mind of a lonely SSC citizen and renowned virtuoso.</p><p>Sometime later- another rumor would surface, one that whispered SSC braved Kalunga, stole Iku’s Hand and painted it in fire’s colors and ashe’s hues. They sought to give it a body and called to any who would listen, the first to answer their call was IPS-N. They would offer up a frame, the Blackbeard, in effigy to The Descent to Klunga and from that gift a partnership between SSC and IPS-N would birth the Empakaai.</p><p>The Empakaai is primarily distinguished by its cold core reactor powered and oversized independent comp/con controlled sleeve, Iku’s Hand, that features a 50/50 weight distribution with the rest of the frame. The juxtaposition of SSC elegance and IPS-N artistic sterility have led many to deem the frame a hideous sight. Though to Ololade- it is a living reflection of what he saw atop the tallest of mountains and through his reflection in Lake Empakaai.</p>",
+    "mounts": [
+      "Heavy",
+      "Flex"
+    ],
+    "stats": {
+      "size": 1,
+      "stress": 4,
+      "structure": 4,
+      "armor": 2,
+      "hp": 10,
+      "evasion": 7,
+      "edef": 6,
+      "heatcap": 6,
+      "repcap": 4,
+      "sensor_range": 5,
+      "tech_attack": -2,
+      "save": 10,
+      "speed": 4,
+      "sp": 5
+    },
+    "traits": [
+      {
+        "name": "Untenable Power",
+        "description": "1/round. the Empakaai may give a Hull check or save it forced +1 difficulty."
+      },
+      {
+        "name": "Indomitable Force",
+        "description": "The Empakaai gains RESISTANCE to damage and HEAT dealt from characters it is GRAPPLING."
+      }
+    ],
+    "core_system": {
+      "name": "The Descent to Kalunga",
+      "description": "<i><p>Upon Ololade Omotanwa’s sculpted mountain a message is inscribed under the cold-span limiters of Iku’s Hand.</p><p>“I gift to you a mountain.</p><p> Rolling hills, curvilinear egresses, a shattered spine, and a crown glazed in voluminous spires. Let this be a treaty to your foes. Your promise is that their eyes will witness the beauty that is Iku’s hands before they descend to Kalunga. Hell, fire and dark ash, together they will burn cavities in souls.</p><p>I gift you my mountain.”</p></i>",
+      "active_name": "Marrow Anchors",
+      "use": "Mission",
+      "active_effect": "For the rest of the scene, while Grappling you count as 1 Size larger than the combined size of all targets you’re currently Grappling. Additionally, you gain these benefits for the rest of the scene:",
+      "active_actions": [
+        {
+          "name": "Iku’s Hand",
+          "activation": "Free",
+          "detail": " After successfully hitting a character with a melee weapon attack, the Empakaai may Grapple the target as a free action. On a success, the target is pulled adjacent to you and Grappled."
+        },
+        {
+          "name": "Catalytic Infusor",
+          "activation": "Free",
+          "detail": "At the end of the Empakaai's turn, it deals [its current Heat] in energy AP damage to a character of its choice it is Grappled with. It may also instead choose to divide this total amongst any characters it's currently Grappling."
+        }
+      ],
+      "activation": "Protocol",
+      "integrated": [
+        "mw_empakaai_alt_blackbeard_integrated"
+      ]
+    },
+    "image_url": "https://d2c79xe1p61csc.cloudfront.net/frames/empakaai.png"
+  }
+]

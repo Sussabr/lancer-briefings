@@ -1,0 +1,17 @@
+[
+  {
+    "id": "pg_Psionic_Piston",
+    "name": "Psionic Piston",
+    "type": "Gear",
+    "effect": "</i></p><p>1/mission, when you make eye contact with a character in arm’s reach you may telepathically converse and share your consciousness with them in complete clarity, conveying your rational and emotional subjectivity. This device effectively becomes a bridge between minds without the assistance of conventional comms-based neural laces. This effect persists as long as any characters linked remain close to each other.</p><p>When you use this device, roll a d20. If you roll 5 or lower, gain a personality quirk for the remainder of the mission, determined by you and your GM, as memories of the tool’s previous user flood your mind.</p>",
+    "description": "<i><p>“Carry me, please carry me – your soul and mind, oh so delightfully fine. Twice I’ve filled your bowl so we shall dine. Carry me, please carry me – my soul and mind.” [LISTEN]. Walk the path with me and see our footsteps blend. [WALK]. The creases in your grandmother’s hand – so folded and neat, pressed and firm. [CLINCH]. Oh so she plowed those lands, diligent and stern. [SWING]. Woman with graceful purpose, look what we’ve done. [PEER]. Scarlet soil, sowed in crimson hues. [RELEASE].”</p><p>– a song and suggestion from one mind to another</i></p><p>The psionic piston is a vibrant octagonal jewel worn just above the glabella and embedded in the wearer’s frontal lobe. A tool for oversight and understanding created by a consortium of long-buried minds with silent intent. Few pistons exist today. Fewer still continue to bridge minds. Those that do, do so without witness. Instruments with no mother nor father any longer they seek partnership with the willing and ambitious. Do them a favor and carve on yourself a pocket for their presence.</p>",
+    "tags": [
+      {
+        "id": "tg_exotic"
+      },
+      {
+        "id": "tg_gear"
+      }
+    ]
+  }
+]

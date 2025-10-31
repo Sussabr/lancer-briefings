@@ -1,0 +1,97 @@
+[
+  {
+    "id": "reserve_esus_eyes_occular_apparatus",
+    "name": "Esu's Eyes Ocular Apparatus",
+    "type": "Mech",
+    "label": "Resource",
+    "description": "At the start of combat you may choose to activate this gear, allowing you to ignore hostile characters’ Hidden and Invisible statuses for the duration of the combat. Upon use, this piece of gear is destroyed."
+  },
+  {
+    "id": "reserve_compulsory_scope_upgrade",
+    "name": "Compulsory Scope Upgrade",
+    "type": "Mech",
+    "label": "Resource",
+    "description": "At the start of combat you may choose to activate this gear. Any time you miss on a ranged attack, you gain +1 Accuracy on your next ranged attack roll made in the same turn. Upon use, this piece of gear is destroyed.",
+    "synergies": [
+      {
+        "locations": ["weapon"],
+        "weapon_types": ["Rifle", "Cannon", "Launcher", "CQB", "Nexus"],
+        "weapon_sizes": ["any"],
+        "detail": "Any time you miss on a ranged attack, you gain +1 Accuracy on your next ranged attack roll made in the same turn."
+      }
+    ]
+  },
+  {
+    "id": "reserve_aganju_tower",
+    "name": "Aganju Tower",
+    "type": "Mech",
+    "label": "Resource",
+    "description": "After being hit by a ranged or melee attack you may choose to reduce the damage to 0. Upon use, this piece of gear is destroyed."
+  },
+  {
+    "id": "reserve_oba_liquidmetal_cloak",
+    "name": "Oba Liquidmetal Cloak",
+    "type": "Mech",
+    "label": "Resource",
+    "description": "This mech-scale cloak gives your mech +2 Evasion until this gear is destroyed. Upon taking structure damage, this piece of gear is destroyed.",
+    "bonuses": [
+      {
+        "id": "evasion",
+        "val": 2
+      }
+    ]
+  },
+  {
+    "id": "reserve_the_backpack",
+    "name": "The Backpack",
+    "type": "Mech",
+    "label": "Resource",
+    "description": "At the beginning of the combat, you may deploy up to four backpack drones in free spaces adjacent to you.",
+    "deployables": [
+      {
+        "name": "Backpack Drone",
+        "type": "Drone",
+        "size": 0.5,
+        "hp": 1,
+        "edef": 10,
+        "evasion": 10,
+        "detail": "You gain one additional turn that can only be used to operate one of these drones. They can only move up to 5 spaces per turn and, as a full action, can restore half a mech’s HP or clear half of its heat when adjacent. After a backpack drone uses its full action, it is immediately destroyed, and once all backpack drones are destroyed or the mission ends, this piece of gear destroyed.",
+        "actions": [
+          {
+            "name": "Backpack Drone Repair",
+            "activation": "Full",
+            "frequency": "1/round",
+            "detail": "Choose a mech adjacent to the Backpack Drone. Restore half that mech’s HP or clear half of its heat. After a backpack drone uses this full action, it is immediately destroyed."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "reserve_oguns_powerarm",
+    "name": "Ogun’s Powerarm",
+    "type": "Mech",
+    "label": "Resource",
+    "description": "1/round, when you Ram or Grapple, you deal +1d6 kinetic damage on hit and Improvised Attacks deal an additional +1d6 damage. Upon taking structure damage, this piece of gear is destroyed.",
+    "synergies": [
+      {
+        "locations": ["grapple", "ram", "improvised_attack"],
+        "detail": "1/round, when you Ram or Grapple, you deal +1d6 kinetic damage on hit and Improvised Attacks deal an additional +1d6 damage."
+      }
+    ]
+  },
+  {
+    "id": "reserve_souled_out_class_vi_anti_materiel_rifle",
+    "name": "Souled Out Class-VI Anti-Materiel Rifle",
+    "type": "Mech",
+    "label": "Resource",
+    "description": "As a full action before you do anything other than protocols on your turn, you may make a ranged attack with this weapon at a character within line of sight and Range 20. On hit, they take 3d6 kinetic damage. After firing this weapon, roll a d20: on 10 or less, take 1d3 explosive damage as the rifle blows up and is destroyed.",
+    "actions": [
+      {
+        "name": "Souled Out Class-VI Anti-Materiel Rifle",
+        "activation": "Full",
+        "detail": "As a full action before you do anything other than protocols on your turn, you may make a ranged attack with this weapon at a character within line of sight and Range 20. On hit, they take 3d6 kinetic damage. After firing this weapon, roll a d20: on 10 or less, take 1d3 explosive damage as the rifle blows up and is destroyed."
+      }
+    ]
+  }
+]
