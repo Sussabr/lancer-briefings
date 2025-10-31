@@ -1,0 +1,12 @@
+[
+  {
+    "id": "env_improvisedexplosives",
+    "name": "Improvised Explosives",
+    "description": "A number of improvised explosives are marked on the map. Each one is a Size 1/2 object with Evasion 5 and E-Defense 5 that explodes with a Burst 1 area upon taking any damage or heat. All characters within the affected area must succeed on an Agility save or take 2d6 explosive damage. On a success, they take half damage."
+  },
+  {
+    "id": "env_fueltanks",
+    "name": "Fuel Tanks",
+    "description": "A number of fuel tanks are marked on the map. Each one is a Size 1 object with Evasion 5 and E-Defense 5 that explodes with a Burst 1 area upon taking any damage or heat. All characters within the affected area must succeed on an Agility save or take 2d6 explosive damage. On a success, they take half damage. The affected area then becomes a patch of burning fuel that counts as dangerous terrain that inflicts 5 Burn. Objects and terrain within the affected area are completely destroyed."
+  }
+]
