@@ -1,0 +1,58 @@
+[
+  {
+    "id": "pg_backup_subaltern",
+    "name": "Backup Subaltern",
+    "type": "Gear",
+    "description": "Access to multiple subalterns opens up a variety of options for NHP pilots, including the ability to quickly switch attention between two entirely different locations, and having a backup should one get destroyed in combat. NHP pilots may switch from controlling one subaltern to another using a quick action."
+  },
+  {
+    "id": "pg_subaltern_self_destruct",
+    "name": "Subaltern Self-Destruct Charge",
+    "type": "Gear",
+    "description": "This self-destruction system must be integrated into a single subaltern and cannot be removed outside of a Full Repair. While you are controlling the subaltern, you may activate this gear as a full action for the following effect:<ul><li><b>Self-Destruct</b> (Blast 1): The currently controlled subaltern activates a built-in explosive charge. It is completely destroyed and affected characters must succeed on an Agility save or take 3 Explosive.</li></ul>",
+    "actions": [{
+  	"name": "Self-Destruct",
+  	"activation": "Full",
+  	"range": [{
+        "type": "Blast",
+        "val": 1
+      }],
+      "damage": [{
+        "type": "Explosive",
+        "val": 3
+      }],
+  	"detail": "The subaltern is destroyed. Affected characters must succeed on an Agility save or take 3 Explosive damage.",
+  	"pilot": true
+  	}]
+  },
+  {
+    "id": "pg_casket_mobility_suite",
+    "name": "Casket Mobility Suite",
+    "type": "Gear",
+    "description": "Casket mobility suites come in a wide variety of forms, but most consist of integrated hover thrusters, rugged all-terrain wheels, or in some cases hundreds of little legs. A Casket Mobility Suite grants a casket the ability to move at Speed 3."
+  },
+  {
+    "id": "pg_legionspace_bridge",
+    "name": "Legionspace Bridge",
+    "type": "Gear",
+    "description": "This transceiver rig allows its operator to establish a reliable paracausal communications connection via legionspace. While the utility of local legionspace comms is outshone in many ways by the omninet, this medium has certain niche applications: it is typically more secure, harder to trace, able to bypass certain kinds of passive jamming, and suitable for communicating directly with NHPs."
+  },
+  {
+    "id": "pg_otyugh_generator",
+    "name": "OTYUGH Generator",
+    "type": "Gear",
+    "description": "A design originally gifted to Ungrateful cells by an unknown benefactor, the OTYUGH-pattern portable generator takes a wide variety of fuels and converts them as efficiently as possible into energy. These generators are now standard equipment for far-field teams and are frequently found in other situations where a full-scale fusion core would be too bulky or conspicuous. The generator can power subalterns and other equipment for as long as it can be fed some kind of fuel – whether that be energy cells, fossil fuels, or even raw organic matter."
+  },
+  {
+    "id": "pg_omni_spectrum_scanner",
+    "name": "Omnispectrum Scanner",
+    "type": "Gear",
+    "description": "This handheld scanning device allows passive imaging and short-range active scanning at all wavelengths, and includes a comprehensive software suite for interpreting, reconstructing, and displaying data. With countless scientific and medical applications, these scanners are found across Union space."
+  },
+  {
+    "id": "pg_player_two_neural_bypass",
+    "name": "Player_Two Neural Bypass",
+    "type": "Gear",
+    "description": "This neural bypass implant is designed to allow an NHP to take control of and operate a biological pilot’s body as if it were a robotic subaltern. The extensive security and failsafes built into the bypass mean the pilot’s body may only be controlled in this way if they are willing, and they can take back control at any time. Some pilots use this system to get work done while asleep or in VR; others so they can act as a backup host to a friendly NHP in a pinch."
+  }
+]

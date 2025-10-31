@@ -1,0 +1,35 @@
+[
+  {
+    "id": "mw_data_dart",
+    "name": "Data Dart",
+    "mount": "Main",
+    "type": "Launcher",
+    "damage": [
+      {
+        "type": "Kinetic",
+        "val": "1d3"
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 10
+      }
+    ],
+    "tags": [
+      {
+        "id": "tg_unique"
+      }
+    ],
+    "source": "",
+    "license": "GMS",
+    "license_level": 0,
+    "talent_item": true,
+    "talent_id": "t_legionnaire",
+    "talent_rank": 3,
+    "effect": "Attack rolls with this weapon are made using your Tech Attack rather than Grit, and cannot result in critical hits.",
+	"on_hit": "Choose one of your Invasion options and apply it to the target.",
+    "description": "Gained from the \"Legionnaire\" Rank 3 Talent",
+    "license_id": ""
+  }
+]

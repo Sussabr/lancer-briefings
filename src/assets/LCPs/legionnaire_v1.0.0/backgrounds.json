@@ -1,0 +1,32 @@
+[
+  {
+    "id": "pbg_nhp_milspec_pilot",
+    "name": "Mil-Spec Pilot",
+    "description": "Whether a mass-produced clone or a boutique development, you were created for one purpose: piloting a mech in combat. <i>Did you act as a co-pilot for a human lancer? If so, where are they now? Do you fight for a cause or for some other reason? Who allows you to pilot a mech on your own?</i><br>Even NHPs created for war respond to it in a variety of ways. <i>What other conflicts have you been in before your current position? How did they affect you? What do you think about your role as a pilot? Do you wish you could do something else?</i>"
+  },
+  {
+    "id": "pbg_nhp_naval_legionnaire",
+    "name": "Naval Legionnaire",
+    "description": "Joining a fleet legion is a challenging task that requires immense focus and a willingness to lose your individuality to the collective. <i>Did you form legions in training or combat? Who were you when you experienced the world as those gestalts? How is that different from who you are as an individual? How do you reconcile the differences between the two? Now you have a mutual understanding and shared experiences in the truest sense, how do you relate to your fellow legionnaires? Who were they, and where are they now?</i><br>You’ve experienced and perhaps even fought in legionspace. <i>What did you see during that time? If you faced conflict, what horrors did you witness? Did you survive unscathed, or does something from that experience still haunt you?</i>"
+  },
+  {
+    "id": "pbg_nhp_administrator",
+    "name": "Administrator",
+    "description": "You were a civilian-grade NHP created to be a municipal administrator or an industrial overseer. <i>What or who were you assigned to watch over? What happened to it/them? Did you have a specialized role or were you in charge of an entire station or colony? Did you work alongside humans or were you left to oversee automated systems? How did you end up piloting a mech? Were you liberated as a Free Deimosian, or pressed into service by the advent of war – a plowshare turned into a sword?</i>"
+  },
+  {
+    "id": "pbg_nhp_babysitter",
+    "name": "Babysitter",
+    "description": "Lancer teams are only the tip of the spear. Behind them are many more personnel who support their missions, and you were one of these support staff – analyzing data, co-ordinating, and helping the lancers to get the job done. <i>What team did you support? How did you relate to them? Were they involved in any notable conflicts? Did you take an active role, or guide from behind the scenes? How is supporting lancers different to being one? What was the biggest change you experienced?</i>"
+  },
+  {
+    "id": "pbg_nhp_companion",
+    "name": "Companion",
+    "description": "Your previous life involved a close connection to a human partner. You might have been a companion for a gray-uniformed UAD administrator, a mil-spec subordinate to a UN naval liaison, or simply an NHP licensed to a private individual on a Core world. <i>Who was your companion? What happened to them? What did you do for them? How did they treat you? How do you view other people? Did you receive any special training or undertake any unusual tasks for your companion?</i>"
+  },
+  {
+    "id": "pbg_nhp_test_subject",
+    "name": "Test Subject",
+    "description": "You were an experiment, or were subject to testing. You might have been a USB project, a corpro-state product in the R&D phase, or the result of HORUS paracode used to create something novel. <i>Who did you work with? Why did they study you? Were you intentionally created, or something unexpected? Are you different from other NHPs in some way? Did you make or contribute to any breakthroughs? How has your experience changed you?</i>"
+  }
+]

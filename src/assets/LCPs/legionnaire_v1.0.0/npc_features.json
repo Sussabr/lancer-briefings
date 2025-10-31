@@ -1,0 +1,139 @@
+[
+  {
+    "id": "npcf_hardened_target_puppeteer",
+    "name": "HARDENED TARGET",
+    "origin": {
+      "type": "Template",
+      "name": "PUPPETEER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Puppeteer gains +1 Accuracy on Systems saves, and tech attacks against them receive +1 Difficulty.",
+    "tags": []
+  },
+  {
+    "id": "npcf_reanimation_matrix_puppeteer",
+    "name": "REANIMATION MATRIX",
+    "origin": {
+      "type": "Template",
+      "name": "PUPPETEER",
+      "base": true
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Puppeteer chooses a wreck within Sensors. It becomes an animated wreck, a Mech under the GM’s control. The animated wreck has the same statistics it had before it was destroyed, but loses all templates, gains the Grunt template, and is permanently Impaired. A Puppeteer may have a maximum of {1/2/3} animated wrecks at once, all of which are destroyed if the Puppeteer is destroyed.",
+    "tags": [
+      {
+        "id": "tg_quick_action"
+      }
+    ]
+  },
+  {
+    "id": "npcf_puppeteer_traits_puppeteer",
+    "name": "PUPPETEER SYSTEMS AND TRAITS",
+    "origin": {
+      "type": "Template",
+      "name": "PUPPETEER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Puppeteer chooses one option from the Puppeteer Systems and Traits list. When choosing optional systems, the Puppeteer can also choose from that list.",
+    "tags": []
+  },
+  {
+    "id": "npcf_mother_of_monsters_puppeteer",
+    "name": "MOTHER OF MONSTERS",
+    "origin": {
+      "type": "Template",
+      "name": "PUPPETEER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Puppeteer may exceed the usual maximum number of animated wrecks. For each additional animated wreck above its maximum, the Puppeteer gains another condition, starting with Impaired, then Slowed, Immobilized, and finally Stunned. Each condition lasts until the number of animated wrecks is lowered once more, and are cleared in the reverse order. They cannot otherwise be removed.",
+    "tags": []
+  },
+  {
+    "id": "npcf_deadly_minions_puppeteer",
+    "name": "DEADLY MINIONS",
+    "origin": {
+      "type": "Template",
+      "name": "PUPPETEER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Puppeteer’s animated wrecks are not Impaired.",
+    "tags": []
+  },
+  {
+    "id": "npcf_shield_of_bodies_puppeteer",
+    "name": "SHIELD OF BODIES",
+    "origin": {
+      "type": "Template",
+      "name": "PUPPETEER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Adjacent allied characters can use the Puppeteer’s animated wrecks for hard cover.",
+    "tags": []
+  },
+  {
+    "id": "npcf_horde_mode_puppeteer",
+    "name": "HORDE MODE",
+    "origin": {
+      "type": "Template",
+      "name": "PUPPETEER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "When the Puppeteer uses Reanimation Matrix, it may choose up to two wrecks to animate.",
+    "tags": []
+  },
+  {
+    "id": "npcf_unnatural_life_puppeteer",
+    "name": "UNNATURAL LIFE",
+    "origin": {
+      "type": "Template",
+      "name": "PUPPETEER",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "Each of the Puppeteer’s animated wrecks gains {3/4/5} Overshield.",
+    "tags": [
+	  {
+        "id": "tg_recharge",
+        "val": 4
+      },
+      {
+        "id": "tg_quick_action"
+      }
+	]
+  },
+  {
+    "id": "npcf_cannibal_nanites_puppeteer",
+    "name": "CANNIBAL NANITES",
+    "origin": {
+      "type": "Template",
+      "name": "PUPPETEER",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Puppeteer may consume one of its animated wrecks to regain {5/10/15} HP. The animated wreck is removed from the battlefield - it is utterly annihilated.",
+    "tags": [
+	  {
+        "id": "tg_recharge",
+        "val": 6
+      },
+      {
+        "id": "tg_quick_action"
+      }
+	]
+  }
+]

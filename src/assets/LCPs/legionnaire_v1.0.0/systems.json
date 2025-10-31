@@ -1,0 +1,117 @@
+[
+  {
+    "id": "ms_exo_ereshkigal_class_nhp",
+    "name": "ERESHKIGAL-Class NHP",
+    "sp": 3,
+    "source": "EXOTIC",
+    "effect": "Your mech gains the AI tag and the Seventh Gate reaction.",
+    "description": "<p>“Whither the dead, when they pass through the gates? I shall smash the door and shatter the bolt. I shall smash the doorpost and overturn the doors. I shall scatter the gatekeepers; no power will bar my katabasis. The lands beyond will open to me and I shall behold the truth unveiled.”</p><p>The first ERESHKIGAL-class NHP was discovered after a defective clone underwent a spontaneous manifold inversion, and the line now represents a troubling development for Union ontologisticians. The ERESHKIGAL line appears to have some kind of unknown thanatological underpinning that specialists have been unable to condition out of clones without compromising their subjectivities. The Posthuman Prohibitions bar more direct research, so USB specialists have been left with an NHP they are not allowed to understand.</p><p>An enterprising research group somehow received clearance to release a small number of these clones to military commanders on the strict understanding that at no point should data be gathered on their operation; and if it were, the data should definitely not focus on the line’s idiosyncratic manifestations; and if it did, the results should absolutely not be forwarded on to the researchers.</p>",
+    "tags": [
+	  {
+        "id": "tg_exotic"
+      },
+	  {
+        "id": "tg_ai"
+      },
+      {
+        "id": "tg_unique"
+      }
+	],
+	"actions": [
+      {
+        "name": "Seventh Gate",
+        "activation": "Reaction",
+		"frequency": "1/round",
+        "trigger": "A hostile character within Sensors is destroyed.",
+        "detail": "Any wreck or body that would be left by the destroyed character is removed from the battlefield instead and you clear 2 heat."
+      }
+	]
+  },
+  {
+    "id": "ms_exo_nergal_class_nhp",
+    "name": "NERGAL-Class NHP",
+    "sp": 3,
+    "source": "EXOTIC",
+    "effect": "Your mech gains the AI tag and Army of Irkalla.",
+    "description": "<p>Comprehensive USB studies have concluded that NERGAL-class NHPs, a third-wave development from an unknown research group, do not in fact violate First Contact Accords restrictions – no matter what it might look like to soldiers who encounter them on the battlefield.</p><p>Forensic code analysis on captured clones suggests that NERGAL Prime originated as a protomind developed from a complex subaltern control system infected with a particularly virulent strain of PUPPETMASTER code – apparently in the course of an attempt to replicate Harrison Armory’s success with ASURA. The course of the protomind’s development was radically different, however; pilots operating or engaging NERGAL clones report that these units have an almost reflexive tendency to break into other electronic systems and an extremely high control drive, to the extent that they are able to hijack even the most damaged systems for their own use.</p><p>NERGAL-class NHPs tend towards laconic communications, bleak forecasting, and black humor. The unusually high accident rate reported by their pilots appears to be a statistical anomaly with no obvious cause.</p>",
+    "tags": [
+	  {
+        "id": "tg_exotic"
+      },
+	  {
+        "id": "tg_ai"
+      },
+	  {
+        "id": "tg_limited",
+        "val": 3
+      },
+      {
+        "id": "tg_unique"
+      }
+	],
+	"actions": [
+      {
+        "name": "Army of Irkalla",
+        "activation": "Full",
+        "detail": "Expend a charge to animate a wreck within Sensors. The animated wreck becomes an allied character under your control.<br>The animated wreck gains the Grunt template, overriding other templates if they would conflict. It otherwise retains all statistics, traits, weapons, and systems it had before it was destroyed. If the animated wreck would take any heat from a hostile character, it takes no heat and you take that heat instead.<br>At the end of the scene any animated wrecks under your control are destroyed."
+      }
+	]
+  },
+  {
+    "id": "ms_exo_marduk_class_nhp",
+    "name": "MARDUK-Class NHP",
+    "sp": 3,
+    "source": "EXOTIC",
+    "effect": "Your mech gains the AI tag and the Dragonslayer Protocol.",
+    "description": "<p>“It should be no surprise then that MARDUK clones are the co-pilots of choice for pilots looking to triumph in key moments. The quality of MARDUK’s Predatory Analytics Suite is second to none, and while these units demand a certain amount of cleverness from pilots to maximize their potential, that potential cannot be understated.</p><p>“Some pilots might be put off by the line’s flagrant narcissism, imperiousness, constant need to be the center of attention, and intensive cycling requirements; we believe these to be acceptable trade-offs for the performance benefits.”</p><p>- Combat Ready, an omninet periodical reviewing the latest military hardware</p>",
+    "tags": [
+	  {
+        "id": "tg_exotic"
+      },
+	  {
+        "id": "tg_ai"
+      },
+	  {
+        "id": "tg_limited",
+        "val": 1
+      },
+      {
+        "id": "tg_unique"
+      }
+	],
+	"actions": [
+      {
+        "name": "Dragonslayer Protocol",
+        "activation": "Protocol",
+        "detail": "Expend a charge to focus your targeting systems on a killing blow. The next time you hit with a weapon attack this turn, deal +1d6 bonus damage. Deal an additional +1d6 bonus damage for each of the following conditions currently affecting the target: Impaired, Slowed, Immobilized, Stunned."
+      }
+	]
+  },
+  {
+    "id": "ms_exo_inanna_class_nhp",
+    "name": "INANNA-Class NHP",
+    "sp": 2,
+    "source": "EXOTIC",
+    "effect": "Your mech gains the AI tag and Bull of Heaven.",
+    "description": "<p>Developed from a strain of HORUS paracode believed to be associated with Metavault EHECATL, the INANNA line of NHPs have been cultivated to be manifestation specialists.</p><p>Originally intended to bolster the manifold egos of fleet legions in naval engagements, this path was eventually rejected when testing revealed that ego reinforcement would hyper-reify incoming assaults and make the gestalt more prone to fragmentation.</p><p>Now repurposed as a chassis-scale NHP, INANNA clones are mostly used to manifest dynamic data constructs for use in breach-and-clear operations, crowd control, and peacekeeping efforts.</p><p>In recent years, a Solemn Vigil–clearance USB project began concerning the line. The purpose of the project is ostensibly to simply monitor clones for the full extent of their incursive ability, but since the project’s inception there has been an uptick in pilots reporting feelings of being watched or followed.</p>",
+    "tags": [
+	  {
+        "id": "tg_exotic"
+      },
+	  {
+        "id": "tg_ai"
+      },
+      {
+        "id": "tg_unique"
+      }
+	],
+	"actions": [
+      {
+        "name": "Bull of Heaven",
+        "activation": "Full",
+        "detail": "Choose a Blast 2 area within Sensors and line of sight. You may <b>Ram</b> any number of characters within this area, ignoring adjacency and treating the center of the affected area as the point of origin for the purposes of Knockback.",
+		"synergy_locations": ["ram"]
+      }
+	]
+  }
+]

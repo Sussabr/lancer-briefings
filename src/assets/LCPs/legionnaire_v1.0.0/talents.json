@@ -1,0 +1,95 @@
+[
+  {
+    "id": "t_legionnaire",
+    "name": "LEGIONNAIRE",
+    "icon": "",
+    "terse": "Improve your tech attacks and reflect conditions back on attackers",
+    "description": "Sunny “Bedlam” Attwater is a legionnaire, a veteran of the strange digital battleground known as legionspace. The shadow war she fights with code, memetics, and paracausal systems is just as ferocious as any in realspace – and sometimes it is the wounds you can’t see that are the most deadly.",
+    "ranks": [
+      {
+        "name": "APEX OPERATOR",
+        "description": "You have +1 Accuracy to tech attacks against Impaired or Jammed targets.",
+        "synergies": [
+          {
+            "locations": [
+              "tech"
+            ],
+            "detail": "You have +1 Accuracy to tech attacks against Impaired or Jammed targets."
+          }
+        ]
+      },
+      {
+        "name": "MIRRORWARE",
+        "description": "Gain the <b>Reflective Code</b> reaction.",
+		"actions": [
+          {
+            "name": "Reflective Code",
+            "activation": "Reaction",
+            "frequency": "1/round",
+            "trigger": "A hostile character within sensors directly gives you a condition.",
+            "detail": "You may give that character the same condition, with the same duration where applicable."
+          }
+        ]
+      },
+      {
+        "name": "DIRECT ACCESS",
+        "description": "You’ve learned that no amount of security can help when someone has access to the hardware. Gain the Data Dart integrated weapon.",
+        "integrated": [
+          "mw_data_dart"
+        ],
+        "exclusive": false
+      }
+    ]
+  },
+  {
+    "id": "t_shadowcloaked",
+    "name": "SHADOWCLOAKED",
+    "icon": "",
+    "terse": "Improve your survivability by disrupting targeting systems and frightening your enemies",
+    "description": "Nightmares are limited by the imagination of the dreamer. For Lady Kiriona Brightstar, such limits are meaningless. She has seen the memetic horrors beyond the veil, and wraps the dread around herself like armor – secure in her knowledge that no fate could be as terrible as the things she has seen.",
+    "ranks": [
+      {
+        "name": "PENUMBRA",
+        "description": "As a protocol, you may cast a <b>legionspace shadow</b> - an area of interference that disrupts targeting systems. When you are targeted by a ranged attack while casting a legionspace shadow, and that attack has a listed Range, reduce that attack's listed Range by 1d6 to a minimum of 1. If you are outside the new Range, the attack automatically misses. You stop casting a legionspace shadow when you attack or force another character to make a save.",
+		"actions": [
+          {
+            "name": "Cast Legionspace Shadow",
+            "activation": "Protocol",
+            "detail": "When you are targeted by a ranged attack while casting a legionspace shadow, and that attack has a listed Range, reduce that attack's listed Range by 1d6 to a minimum of 1. If you are outside the new Range, the attack automatically misses. You stop casting a legionspace shadow when you attack or force another character to make a save."
+          }
+        ],
+		"synergies": [
+          {
+            "locations": [
+              "active_effects"
+            ],
+            "detail": "When you are targeted by a ranged attack while casting a legionspace shadow, and that attack has a listed Range, reduce that attack's listed Range by 1d6 to a minimum of 1. If you are outside the new Range, the attack automatically misses. You stop casting a legionspace shadow when you attack or force another character to make a save."
+          }
+        ]
+      },
+      {
+        "name": "UMBRA",
+        "description": "While you are casting a <b>legionspace shadow</b>, you have Immunity to Lock On, and tech attacks treat you as Invisible.",
+		"synergies": [
+          {
+            "locations": [
+              "active_effects"
+            ],
+            "detail": "While you are casting a <b>legionspace shadow</b>, you have Immunity to Lock On, and tech attacks treat you as Invisible."
+          }
+        ]
+      },
+      {
+        "name": "THE NIGHTMARE VEIL",
+        "description": "1/scene, as a quick action, you pull back the veil. All hostile characters within Sensors and line of sight must succeed on a Systems save or be unable to voluntarily move towards you until the end of their next turn.",
+        "actions": [
+          {
+            "name": "Pull Back The Veil",
+            "activation": "Quick",
+            "detail": "All hostile characters within Sensors and line of sight must succeed on a Systems save or be unable to voluntarily move towards you until the end of their next turn."
+          }
+        ]
+      }
+    ]
+  }
+]

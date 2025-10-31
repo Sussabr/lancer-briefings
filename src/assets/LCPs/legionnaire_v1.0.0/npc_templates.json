@@ -1,0 +1,21 @@
+[
+  {
+    "id": "npct_puppeteer",
+    "name": "PUPPETEER",
+    "description": "Puppeteers are powerful enemies that must be neutralized before they overwhelm the fight with an army of minions. Consider adding wrecks as terrain if a combat contains a Puppeteer.",
+    "base_features": [
+      "npcf_hardened_target_puppeteer",
+      "npcf_reanimation_matrix_puppeteer",
+      "npcf_puppeteer_traits_puppeteer"
+    ],
+    "optional_features": [
+      "npcf_mother_of_monsters_puppeteer",
+      "npcf_deadly_minions_puppeteer",
+      "npcf_shield_of_bodies_puppeteer",
+      "npcf_horde_mode_puppeteer",
+      "npcf_unnatural_life_puppeteer",
+	  "npcf_cannibal_nanites_puppeteer"
+    ],
+    "power": 50
+  }
+]
