@@ -112,46 +112,55 @@ export default {
 				this.reserves = JSON.parse(JSON.stringify(content)).default;
 			});
 		},
-		async importPilots(files) {
-			let filePromises = Object.keys(files).map(path => files[path]());
-			let fileContents = await Promise.all(filePromises);
-			fileContents.forEach(content => {
-				let pilotFromJson = JSON.parse(JSON.stringify(content));
-				// In case the pilot was added from a copy on compcon via sharecode, remove the "reference mark" symbol
-				pilotFromJson.name = pilotFromJson.name.replace("※", "");
-				pilotFromJson.callsign = pilotFromJson.callsign.replace("※", "");
-				let pilotFromVue = this.pilotSpecialInfo[pilotFromJson.callsign.toUpperCase()];
-				let pilot = {
-					...pilotFromJson,
-					...pilotFromVue,
-				};
-				this.pilots = [...this.pilots, pilot];
-				pilot.clocks.forEach(content => {
-					let clock = {};
-					clock["type"] = `Pilot Project // ${pilot.callsign}`;
-					clock["result"] = "";
-					clock["name"] = content.title;
-					clock["description"] = content.description;
-					clock["value"] = content.progress;
-					clock["max"] = content.segments;
-					clock["color"] = "#3CB043";
-					this.clocks = [...this.clocks, clock];
-				});
+	async importPilots(files) {
+	let filePromises = Object.keys(files).map(path => files[path]());
+	let fileContents = await Promise.all(filePromises);
+	fileContents.forEach(content => {
+		// unwrap modules that expose JSON as `default`
+		let raw = content && content.default ? content.default : content;
+		// deep clone to avoid mutation
+		let pilotFromJson = JSON.parse(JSON.stringify(raw));
 
-				pilot.reserves.forEach(content => {
-					let reserve = {};
-					reserve["type"] = content.type;
-					reserve["name"] = content.name;
-					reserve["description"] = content.description;
-					reserve["label"] = content.label;
-					reserve["cost"] = content.cost;
-					reserve["notes"] = content.notes;
-					reserve["callsign"] = pilot.callsign.toUpperCase();
-					this.reserves = [...this.reserves, reserve];
+		// guard string ops in case fields are missing
+		if (pilotFromJson.name && typeof pilotFromJson.name === "string") {
+			pilotFromJson.name = pilotFromJson.name.replace("※", "");
+		}
+		if (pilotFromJson.callsign && typeof pilotFromJson.callsign === "string") {
+			pilotFromJson.callsign = pilotFromJson.callsign.replace("※", "");
+		}
+
+		let pilotFromVue = this.pilotSpecialInfo[(pilotFromJson.callsign || "").toUpperCase()];
+		let pilot = {
+			...pilotFromJson,
+			...pilotFromVue,
+		};
+		this.pilots = [...this.pilots, pilot];
+
+		(pilot.clocks || []).forEach(content => {
+			let clock = {};
+			clock["type"] = `Pilot Project // ${pilot.callsign}`;
+			clock["result"] = "";
+			clock["name"] = content.title;
+			clock["description"] = content.description;
+			clock["value"] = content.progress;
+			clock["max"] = content.segments;
+			clock["color"] = "#3CB043";
+			this.clocks = [...this.clocks, clock];
+		});
+
+		(pilot.reserves || []).forEach(content => {
+			let reserve = {};
+			reserve["type"] = content.type;
+			reserve["name"] = content.name;
+			reserve["description"] = content.description;
+			reserve["label"] = content.label;
+			reserve["cost"] = content.cost;
+			reserve["notes"] = content.notes;
+			reserve["callsign"] = (pilot.callsign || "").toUpperCase();
+			this.reserves = [...this.reserves, reserve];
 				});
 			});
 		},
-	},
 };
 </script>
 
