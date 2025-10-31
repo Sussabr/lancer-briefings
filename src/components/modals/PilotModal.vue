@@ -15,7 +15,7 @@
 		<div class="pilot-header-container">
 			<div class="section-header clipped-medium-backward-pilot">
 				<img src="/icons/portrait.svg" />
-				<h1>Pilot Artwork</h1>
+				<h1>Imagem do Piloto</h1>
 			</div>
 			<div class="rhombus-back">&nbsp;</div>
 		</div>
