@@ -9,8 +9,8 @@
 /*-------------------------------------*/
 :root {
 	/* Primary Colors */
-	--primary-color: #991e2acc;
-	--secondary-color: #f0f0f0;
+	--primary-color: #991e2a;
+	--secondary-color: #f0f0f0cc;
 	--highlight-hover: rgba(153, 30, 42, 0.3);
 	--highlight-active: rgba(153, 30, 42, 0.1);
 	/* Primary Text */
