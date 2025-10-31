@@ -135,7 +135,7 @@ import longrimData from 'lancer-longrim-data'
 
 import wallflowerData from '@/assets/LCPs/wallflower-data-2.0.5'
 import legionnaireData from '@/assets/LCPs/legionnaire_v1.0.0'
-import osrData from '@/assets/LCPs/osr-data-1.2.0'
+
 /*Append the datasets within computed if your LCP has new items.
 EX:
 pilotGear() {
