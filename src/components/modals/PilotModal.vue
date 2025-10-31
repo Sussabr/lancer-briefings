@@ -65,7 +65,7 @@ export default {
 			}
 
 			if (this.pilot.history !== ""){
-				response += `<h2>HISTORY</h2> ${this.pilot.history} </hr>`;
+				response += `<h2>HISTÓRIA</h2> ${this.pilot.history} </hr>`;
 			}
 
 			response += "</p>"
