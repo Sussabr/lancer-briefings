@@ -8,7 +8,7 @@
       <div class="col"><img src="/faction-logos/msmc.svg"></div>
     </div>
     <div class="body">
-      <div class="add-padding"> Union Administrative RM-4 Pilot Identification Protocol (IDENT) Record
+      <div class="add-padding"> Protocolo de Identificação de Piloto (IDENT) RM-4 da Administração da União 
         {{ pilot.id }} </div>
       <div class="flex-container-rows">
         <div class="row add-padding">
@@ -18,13 +18,12 @@
           <div class="col grow-max flex-container-rows" style="padding-top:5px">
             <div class="row flex-container-cols">
               <div class="col col-primary"><span class="flavor-text"> Callsign: <b class="accent--text">{{
-                capitalize(pilot.callsign) }}</b><br> Name (or legal alias): <b class="accent--text">{{ pilot.name
-                    }}</b><br> Background: <b class="accent--text"> {{ pilot.background }} </b></span></div>
-              <div class="col">CALLSIGN AVAILABLE <br> IDENTITY
-                VERIFIED <br> PH/HR DATA REGISTERED</div>
+                capitalize(pilot.callsign) }}</b><br> Nome (ou pseudônimo legal): <b class="accent--text">{{ pilot.name
+                    }}</b><br> Antecedente: <b class="accent--text"> {{ pilot.background }} </b></span></div>
+              <div class="col">INDICATIVO DISPONÍVEL <br> IDENTIDADE VERIFICADA <br> DF/HR REGISTRADOS</div>
             </div>
-            <div style="padding-top:5px"> FRAME CONFIGURATION OPTIONS <span class="subtle--text">("H.A.S.E"
-                OMNINET VAULT REMIT)</span></div>
+            <div style="padding-top:5px"> OPÇÕES DE CONFIGURAÇÃO <span class="subtle--text">("H.A.S.E"
+                REMESSA DO COFRE OMNINET)</span></div>
             <div class="row" style="padding-top:5px"><span style="font-size: 22px; line-height: 15px;"> [
                 HULL: <span class="stat-text accent--text" style="font-size: 24px;"> {{ pilot.mechSkills[0] }} </span>
                 AGI: <span class="stat-text accent--text" style="font-size: 24px;"> {{ pilot.mechSkills[1] }} </span>
@@ -33,7 +32,7 @@
               </span></div>
             <div class="row flex-container-cols">
               <div class="col col-share">
-                <span>PILOT SKILL TRIGGER AUDIT</span>
+                <span>AUDITORIA DE TRIGGERS</span>
                 <br>
                 <div class="chip-container" v-for="skill in pilot.skills" :key="skill.id">
                   <span class="chip"><i aria-hidden="true" class="notranslate cci cci-skill"></i>{{ getSkill(skill)
@@ -41,7 +40,7 @@
                 </div>
               </div>
               <div class="col col-share">
-                <span>PILOT TALENT AUDIT</span>
+                <span>AUDITORIA DE TALENTOS</span>
                 <br>
                 <div class="chip-container" v-for="talent in pilot.talents" :key="talent.id">
                   <span class="chip"><i aria-hidden="true" class="notranslate cci cci-talent"></i>{{
@@ -51,7 +50,7 @@
             </div>
             <div v-if="pilot.level > 0" class="row flex-container-cols">
               <div class="col" style="padding-top:5px">
-                <span>PROCUREMENT LICENSE AUDIT: LEVEL {{ pilot.level }}</span>
+                <span>AUDITORIA DE LICENÇA: NÍVEL {{ pilot.level }}</span>
                 <br>
                 <div class="chip-container" v-for="license in pilot.licenses" :key="license.id">
                   <span class="chip"><i aria-hidden="true" class="notranslate cci cci-license"></i>{{
@@ -77,7 +76,7 @@
                 style="font-size: 36px; margin-top:36px;"></i>
             </div>
             <div style="width:100%">
-              BIOMETRIC RECORD VALID [[{{ randomNumber(14, 22) }}PB]]<br />
+              REGISTRO BIOMÉTRICO VÁLIDO [[{{ randomNumber(14, 22) }}PB]]<br />
               OHM C//{{ timeStamp(pilot.lastModified) }}
             </div>
           </div>
@@ -85,7 +84,7 @@
         <div class="row biometrics-container">
           <div class="mech-record flex-container-cols" @click="mechModal">
             <div style="width:100%">
-              MECHANICAL BLUEPRINT VALID [[{{ randomNumber(14, 22) }}TB]] <br />
+              DIAGRAMA MECÂNICO VÁLIDO [[{{ randomNumber(14, 22) }}TB]] <br />
               {{ activeMech.manufacturer.toUpperCase() }}-{{ activeMech.frame_name.toUpperCase() }} :: "{{ activeMech.name.toUpperCase() }}"
             </div>
             <div>
@@ -98,17 +97,12 @@
       </div>
       <hr role="separator" aria-orientation="horizontal" class="ma-2 v-divider theme--dark">
       <div class="row row--dense"><span class="overline" style="line-height: 13px !important; opacity: 0.4;">
-          Improper use of this IDENT record and/or its constituent data by the record holder or any other
-          persons is punishable under the DoJ/HR A-645-c. This record is the property of the Union
-          Administrative Office and the information herein must be transmitted on request under
-          NDL-C-DISCORDANT-BREATH encryption protocols. This RM-4 record must be updated every five (5)
-          Cradle
-          Standard Years of objective time to retain GMS licensing rights. Far-field operatives that
-          anticipate deployments lasting longer than five Cradle Standard Years that have not been issued
-          a
-          man-portable Omninet Hook should apply for the RM-11-B IDENT Supplemental (b) Extension. Contact
-          your local Union Adminstrative Officer for any other matters regarding this
-          record.  V-CDL//M-265-114-831 (A) </span></div>
+          O uso indevido deste registro IDENT e/ou de seus dados constituintes pelo titular do registro ou por quaisquer outras pessoas é punível sob o DoJ/HR A-645-c.
+Este registro é propriedade do Escritório Administrativo da União, e as informações aqui contidas devem ser transmitidas sob solicitação, conforme os protocolos de criptografia NDL-C-DISCORDANT-BREATH.
+Este registro RM-4 deve ser atualizado a cada cinco (5) Anos-Padrão de Berço de tempo objetivo para manter os direitos de licença GMS.
+Operativos de campo distante que prevejam missões com duração superior a cinco Anos-Padrão de Berço e que não tenham recebido um Gancho Omninet portátil devem solicitar a Extensão Suplementar (b) de IDENT RM-11-B. 
+Entre em contato com seu Oficial Administrativo da União local para quaisquer outros assuntos relacionados a este registro.
+V-CDL//M-265-114-831(A) </span></div>
     </div>
   </div>
 </template>
