@@ -9,7 +9,7 @@
 /*-------------------------------------*/
 :root {
 	/* Primary Colors */
-	--primary-color: #991e2a;
+	--primary-color: #991e2acc;
 	--secondary-color: #f0f0f0;
 	--highlight-hover: rgba(153, 30, 42, 0.3);
 	--highlight-active: rgba(153, 30, 42, 0.1);
@@ -19,8 +19,8 @@
 	/* Location Information */
 	--location-separator: rgba(0, 0, 0, 0.24);
 	/* Mission Pane */
-	--text-mission-title: rgba(255, 255, 255, 0.67);
-	--text-mission-status: rgba(255, 255, 255, 0.87);
+	--text-mission-title: rgba(0, 0, 0, 0.67);
+	--text-mission-status: rgba(0, 0, 0, 0.87);
 	--mission-start: rgba(109, 109, 109, 1);
 	--mission-partial: rgba(88, 34, 102, 1);
 	--mission-success: #226662;
