@@ -8,7 +8,7 @@
 		<div class="preview">
 			{{ getPreview }}
 		</div>
-		<a @click.prevent="selectEvent">Read More</a>
+		<a @click.prevent="selectEvent">Ler Tudo...</a>
 	</div>
 </template>
 
