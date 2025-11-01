@@ -1,18 +1,27 @@
 [
   {
-    "name": "Positive",
-    "description": "This is a description of a positive clock.",
-    "help": "Having more segments filled in will make things easier for you during later missions.",
-    "color": "#7DBBBB",
+    "name": "Positive Clock",
+    "type": "Positive",
+    "description": "Helps you progress or gain advantages.",
     "value": 2,
-    "max": 6
+    "max": 6,
+    "color": "#7DBBBB"
   },
   {
-    "name": "Negative",
-    "description": "This is a description of a negative clock.",
-    "help": "Having more segments filled in will make things harder for you during later missions.",
-    "color": "#BF7777",
-    "value": 2,
-    "max": 3
+    "name": "Negative Clock",
+    "type": "Negative",
+    "description": "Tracks setbacks or threats.",
+    "value": 1,
+    "max": 3,
+    "color": "#BF7777"
+  },
+  {
+    "name": "Relationship with NPC",
+    "type": "Story",
+    "description": "Represents your bond or influence with a key character.",
+    "value": 4,
+    "max": 8,
+    "color": "#A377BF"
   }
 ]
+
