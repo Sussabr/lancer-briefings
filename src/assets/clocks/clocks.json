@@ -1,2 +1,17 @@
-[{"id":"f10c205d-cc41-4ce3-ac0f-f60986cdc9ab","title":"Teste","description":"um clock de teste para ver se funciona","resolution":"garantir que está funcionando","segments":6,"progress":4}
+[ {
+          "name": "Positive",
+          "description": "This is a description of a positive clock.",
+          "help": "Having more segments filled in will make things easier for you during later missions.",
+          "color": "#7DBBBB",
+          "value": 2,
+          "max": 6,
+        },
+        {
+          "name": "Negative",
+          "description": "This is a description of a negative clock.",
+          "help": "Having more segments filled in will make things harder for you during later missions.",
+          "color": "#FD7777",
+          "value": 2,
+          "max": 3,
+        },
 ]
