@@ -1,7 +1,7 @@
 <template>
   <div class="mission" :class="[{ active: isActive }, mission.status]">
     <div class="name">
-      <h1>Mission // {{ mission.slug }}</h1>
+      <h1>Missão // {{ mission.slug }}</h1>
       <h2>{{ mission.name }}</h2>
     </div>
     <div class="status" :class="mission.status">
