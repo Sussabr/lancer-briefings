@@ -1007,6 +1007,7 @@ section .section-header h1 {
 	font-weight: 800;
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
+	color: var(--tertiary-color);
 }
 .pilot-modal .rhombus-back {
 	transform: skew(0.785398rad) !important;
@@ -1079,6 +1080,7 @@ section .section-header h1 {
 	font-weight: 800;
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
+	color: var(--tertiary-color);
 }
 
 .mech-modal .rhombus-back {
