@@ -16,7 +16,7 @@
 		<div class="rhombus"></div>
 		<div class="planet-location-container">
 			<video autoplay muted loop width="90px" height="90px">
-				<source :src="`${planetPath}`" type="video/webm/gif" />
+				<source :src="`${planetPath}`" type="video/webm" />
 			</video>
 			<div class="location-info">
 				<div id="planet-year" class="location-row">
