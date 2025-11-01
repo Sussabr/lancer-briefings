@@ -19,8 +19,9 @@
 				</div>
 			</div>
 		</div>
+
 		<div
-		  v-if="$props.clock.type != 'Story'"
+		  v-else
 		  :class="$props.clock.type.toLowerCase()">
 			<div class="clock-body">
 				<div class="clock">
@@ -36,14 +37,12 @@
 				<o-icon
 				  pack="mdi"
 				  class="icon transition"
-				  ref="arrow"
 				  icon="chevron-up"
 				  size="large"
-				  v-bind:style="{ transform: `rotate(${$props.deg}deg)` }" />
+				  :style="{ transform: `rotate(${deg}deg)` }" />
 			</div>
-			<div
-			  v-if="isActive"
-			  class="clock-summary">
+
+			<div v-if="isActive" class="clock-summary">
 				{{ clock.description }}
 			</div>
 		</div>
@@ -53,15 +52,9 @@
 <script lang="ts">
 import { Chart, registerables } from "chart.js";
 Chart.register(...registerables);
-
 Chart.defaults.plugins.tooltip.enabled = false;
 Chart.defaults.plugins.legend.display = false;
-Chart.defaults.animation = {
-	delay: 100,
-	duration: 1000,
-	easing: "easeInOutExpo",
-	loop: false,
-};
+Chart.defaults.animation = { delay: 100, duration: 1000, easing: "easeInOutExpo", loop: false };
 Chart.defaults.plugins.filler;
 
 import { computed, defineComponent, ref } from "vue";
@@ -71,31 +64,19 @@ export default defineComponent({
 	name: "Clock",
 	components: { DoughnutChart },
 	props: {
-		clock: {
-			type: Object,
-			required: true,
-		},
-		animate: {
-			type: Boolean,
-			required: true,
-		},
-		animationDelay: {
-			type: String,
-			required: false,
-		},
+		clock: { type: Object, required: true },
+		animate: { type: Boolean, required: true },
+		animationDelay: { type: String, required: false },
 	},
 	setup(props) {
 		const dataArray: number[] = [];
 		const colorArray: string[] = [];
-		for (let index = 0; index < props.clock.max; index++) {
-			dataArray.push(1);
 
-			if (index < props.clock.value) {
-				colorArray.push(props.clock.color);
-			} else {
-				colorArray.push("#AAA");
-			}
+		for (let i = 0; i < props.clock.max; i++) {
+			dataArray.push(1);
+			colorArray.push(i < props.clock.value ? props.clock.color : "#AAA");
 		}
+
 		const data = ref(dataArray);
 		const animation = !props.animate ? null : { delay: parseInt(props.animationDelay) };
 		const options = ref({
@@ -106,32 +87,24 @@ export default defineComponent({
 		});
 
 		const testData = computed(() => ({
-			datasets: [
-				{
-					data: data.value,
-					backgroundColor: colorArray,
-				},
-			],
+			datasets: [{ data: data.value, backgroundColor: colorArray }],
 		}));
+
 		const deg = ref(0);
 		const isActive = ref(false);
 
 		function toggleActive() {
-			if (this.deg > 0) {
-				this.deg = 0;
-			} else {
-				this.deg = 180;
-			}
 			isActive.value = !isActive.value;
+			deg.value = isActive.value ? 180 : 0;
 		}
 
-		return { testData, options, isActive, toggleActive };
+		return { testData, options, isActive, toggleActive, deg };
 	},
 });
 </script>
 
-<style type="scss">
+<style scoped>
 .transition {
-	transition: transform 0.1s ease-in-out;
+	transition: transform 0.2s ease-in-out;
 }
 </style>
