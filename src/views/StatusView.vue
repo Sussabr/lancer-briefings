@@ -26,7 +26,7 @@
 		<section id="reserves" class="section-container" :style="{ 'animation-delay': animationDelay }">
 			<div class="section-header clipped-medium-backward">
 				<img src="/icons/squad.svg" />
-				<h1>Reserves</h1>
+				<h1>Reservas</h1>
 			</div>
 			<div class="section-content-container">
 				<div class="reserves-list-container">
