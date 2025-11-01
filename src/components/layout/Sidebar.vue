@@ -15,11 +15,11 @@
 				</router-link>
 				<router-link class="clipped-bottom-right" to="/pilots">
 					<img src="/icons/pilot.svg" />
-					<span>Pilots</span>
+					<span>Pilotos</span>
 				</router-link>
 				<router-link class="clipped-bottom-right" to="/events">
 					<img src="/icons/events.svg" />
-					<span>Logs</span>
+					<span>Registros</span>
 				</router-link>
 			</o-sidebar>
 		</section>
