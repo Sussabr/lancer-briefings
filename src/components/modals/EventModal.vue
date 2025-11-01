@@ -3,7 +3,7 @@
 		<div class="event-header-container">
 			<div class="section-header clipped-medium-backward-bio">
 				<img src="/icons/events.svg" />
-				<h1>EVENT LOG</h1>
+				<h1>REGISTRO DE EVENTOS</h1>
 			</div>
 			<div class="rhombus-back">&nbsp;</div>
 		</div>
