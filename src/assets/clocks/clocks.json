@@ -4,7 +4,7 @@
           "help": "Having more segments filled in will make things easier for you during later missions.",
           "color": "#7DBBBB",
           "value": 2,
-          "max": 6,
+          "max": 6
         },
         {
           "name": "Negative",
@@ -12,6 +12,6 @@
           "help": "Having more segments filled in will make things harder for you during later missions.",
           "color": "#FD7777",
           "value": 2,
-          "max": 3,
+          "max": 3
         },
 ]
