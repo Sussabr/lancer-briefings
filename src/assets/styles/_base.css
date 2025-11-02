@@ -317,7 +317,7 @@ div.location-info {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	background: #0c0c0fd9;
+	background: ##282828;
 	margin-bottom: 1em;
 	text-decoration: none;
 }
