@@ -81,7 +81,7 @@ export default {
 				this.missions = [...this.missions, mission];
 			});
 			this.missions = this.missions.sort(function (a, b) {
-				return b["slug"] - a["slug"];
+				return a["slug"] - b["slug"];
 			})
 		},
 		async importEvents(files) {
@@ -96,7 +96,7 @@ export default {
 				event["content"] = content.split("\n").splice(4).join("\n");
 				this.events = [...this.events, event];
 			});
-			this.events = this.events.reverse();
+		
 		},
 		async importClocks(files) {
 			let filePromises = Object.keys(files).map(path => files[path]());
