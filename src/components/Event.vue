@@ -6,7 +6,7 @@
 		</div>
 		<img class="thumbnail" :src="event.thumbnail" />
 		
-		<a @click.prevent="selectEvent">Ler Tudo...</a>
+		<a @click.prevent="selectEvent">Ler Registros...</a>
 	</div>
 </template>
 
