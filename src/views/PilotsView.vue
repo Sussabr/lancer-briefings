@@ -1,7 +1,14 @@
 <template>
 	<div class="section-content-container" :class="{ animate: animateView }" :style="{ 'animation-delay': animationDelay }" id="pilots">
 		<div class="pilot-list-container">
-			<Pilot v-for="item in pilots" :key="item.callsign" :pilot="item" :animate="animate" />
+			<Pilot
+  v-for="item in pilots"
+  :key="item.callsign"
+  :pilot="item"
+  :animate="animate"
+  :class="item.callsign.toUpperCase() === 'GEROU' ? 'gerou-header' : ''"
+/>
+
 		</div>
 	</div>
 </template>
@@ -75,5 +82,9 @@ section.section-container#pilots {
 	flex-direction: column;
 	margin: 50px 30px;
 	width: 1755px;
+}
+	.gerou-header .header {
+  background-color: #419098 !important;
+  border-color: #419098 !important;
 }
 </style>
