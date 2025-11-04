@@ -6,7 +6,7 @@
   :key="item.callsign"
   :pilot="item"
   :animate="animate"
-  :class="item.callsign.toUpperCase() === 'GEROU' ? 'gerou-header' : ''"
+  :class="pilotHeaderClass(item.callsign)"
 />
 
 		</div>
@@ -53,6 +53,15 @@ export default {
 				window.sessionStorage.setItem("statusAnimated", true);
 			}
 		}
+		 pilotHeaderClass(callsign) {
+    const headers = {
+      GEROU: 'gerou-header',
+      MELISSA: 'melissa-header',
+      RHEA: 'rhea-header',
+      // adicione mais aqui
+    };
+    return headers[callsign.toUpperCase()] || '';
+  }
 	}
 };
 </script>
