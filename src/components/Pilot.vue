@@ -1,11 +1,11 @@
 <template>
-  <div class="grid-item pilot-identity" style="color:white!important">
+  <div class="grid-item pilot-identity" style="pilotStyle">
     <div class="header">
       <div class="col grow-max">
         <div class="heading h1">{{ pilot.callsign }}</div>
         <div class="heading h2">({{ pilot.name }}) </div>
       </div>
-      <div class="col"><img src="/faction-logos/gms.svg"></div>
+      <div class="col"><img :src="pilotLogo" alt="faction logo"></div>
     </div>
     <div class="body">
       <div class="add-padding"> Protocolo de Identificação de Piloto (IDENT) RM-4 da Administração da União 
@@ -175,6 +175,25 @@ export default {
     }
   },
   computed: {
+	  pilotStyle() {
+  const colors = {
+    "GEROU": "#419098",
+  };
+  const name = this.pilot.callsign.toUpperCase();
+  const bgColor = colors[name] || "#941a1d";
+  return {
+    color: "white",
+    backgroundColor: bgColor,
+  };
+},
+pilotLogo() {
+  const logos = {
+    "GEROU": "/faction-logos/LSA.webp",
+  };
+  const name = this.pilot.callsign.toUpperCase();
+  return logos[name] || "/faction-logos/gms.svg";
+},
+
     pilotPortrait() {
       return `/pilots/${this.pilot.callsign.toUpperCase()}.webp`
     },
