@@ -1,5 +1,11 @@
 <template>
   <div class="grid-item pilot-identity" style="color:white!important">
+	  <div v-if="pilot.status === 'KIA'" class="kia-banner">
+  MORTA EM COMBATE
+</div>
+<div v-else>
+  <!-- todo o conteúdo atual do cartão vai aqui -->
+</div>
     <div class="header">
       <div class="col grow-max">
         <div class="heading h1">{{ pilot.callsign }}</div>
@@ -123,6 +129,13 @@ V-CDL//M-265-114-831(A) </span></div>
 
 .modal-buttons {
   margin-top: 5px;
+}
+	.kia-banner {
+  color: #f44336;
+  font-weight: bold;
+  font-size: 48px;
+  text-align: center;
+  padding: 3em 0;
 }
 </style>
 
