@@ -1,5 +1,5 @@
 <template>
-  <div class="grid-item pilot-identity" :style="pilotStyle">
+  <div class="grid-item pilot-identity" style="color:white!important">
     <div class="header">
       <div class="col grow-max">
         <div class="heading h1">{{ pilot.callsign }}</div>
