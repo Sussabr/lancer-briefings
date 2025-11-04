@@ -52,7 +52,7 @@ export default {
 			if (statusAnimated === null) {
 				window.sessionStorage.setItem("statusAnimated", true);
 			}
-		}
+		},
 		 pilotHeaderClass(callsign) {
     const headers = {
       GEROU: 'gerou-header',
