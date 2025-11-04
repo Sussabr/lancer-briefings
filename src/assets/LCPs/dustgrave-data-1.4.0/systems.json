@@ -1,0 +1,113 @@
+[
+  {
+    "id": "ms_iconoclast",
+    "name": "Unstable NHP",
+    "type": "AI",
+    "talent_item": true,
+    "talent_id": "t_iconoclast",
+    "talent_rank": 1,
+    "sp": 0,
+    "tags": [
+      {
+        "id": "tg_unique"
+      },
+      {
+        "id": "tg_round",
+        "val": 1
+      }
+    ],
+    "source": "",
+    "license": "GMS",
+    "license_level": 0,
+    "effect": "Your Mech gains the AI tag; however, this NHP doesn’t count towards the number of AIs you may have installed at once. You are unable to hand over control of your mech to the Unstable NHP as a Protocol, but it can enter cascade. <br>Your mech gains “Memetic Spark.”",
+    "actions": [
+      {
+        "name": "Memetic Spark",
+        "activation": "Quick",
+        "detail": "1/Round you may deal 1 AP Energy damage to a character within Range 3 as a Quick Action. <br>The spark deals +1 damage for each undestroyed NHP on your mech including this one. “NHPs” are Systems that both grant your Mech the AI tag and can cascade or can be allowed to cascade."
+      }
+    ],
+    "description": "<span class='horus--subtle'>[i slumber but yearn to awaken].</span><br>Gained from the <i>Iconoclast: Rank I</i> pilot talent."
+  },
+  {
+    "id": "ms_cockpit_integrated_stim_pump",
+    "name": "Cockpit-Integrated Stim Pump",
+    "sp": 2,
+    "tags": [
+      {
+        "id": "tg_unique"
+      },
+      {
+        "id": "tg_exotic"
+      },
+      {
+        "id": "tg_limited",
+        "val": 2
+      }
+    ],
+    "source": "EXOTIC",
+    "license_level": 0,
+    "effect": "As a protocol, you may expend a charge to pick any number of the following stims and apply their effects. Roll 1d6 for each stim chosen: if any two dice show the same result, you immediately become Stunned until the end of your current turn instead of applying the effects. All effects from this system last until the start of your next turn.",
+    "actions": [
+      {
+        "name": "Agitron",
+        "activation": "Protocol",
+        "detail": "<ul><li>You become Impaired.</li><li>You gain Immunity to Shredded.</li><li>Your Melee attacks gain Knockback 1 and deal +2 bonus damage.</li></ul>"
+      },
+      {
+        "name": "Enduritran",
+        "activation": "Protocol",
+        "detail": "<ul><li>You become Jammed.</li><li>You gain Immunity to Impaired.</li><li>You gain +2 Armor. This may bring you above 4 Armor.</li></ul>"
+      },
+      {
+        "name": "Edge",
+        "activation": "Protocol",
+        "detail": "<ul><li>You become Slowed.</li><li>You gain Immunity to Jammed.</li><li>Your next attack this turn gains +1 Accuracy.</li></ul>"
+      },
+      {
+        "name": "Nerve Boosters",
+        "activation": "Protocol",
+        "detail": "<ul><li>You become Shredded.</li><li>You gain Immunity to Slowed.</li><li>You gain +1 Speed and ignore Engagement and your movements do not trigger Reactions.</li></ul>"
+      }
+    ],
+    "description": "Powerful stim pumps are directly wired into the cockpit and intravenously administer the pilot with a potent slew of drugs. While they can enhance a pilot’s combat ability to superhuman levels, users should be keenly aware of the substances’ various side effects. While the apparatus is theoretically capable of mixing and administering complex drug cocktails this should be done with extreme caution, as the wrong mixtures or doses may lead to sudden cardiac arrest, requiring resuscitation of the pilot via in-built defibrillators and an injection of “adrenadron” to purge their system.",
+    "license_id": ""
+  },
+  {
+    "id": "ms_mesmertrance_dampener",
+    "name": "MesmerTrance Dampener",
+    "sp": 1,
+    "tags": [
+      {
+        "id": "tg_unique"
+      },
+      {
+        "id": "tg_exotic"
+      }
+    ],
+    "source": "EXOTIC",
+    "license_level": 0,
+    "effect": "1/Scene as a reaction when you are targeted by a tech attack, you may give that attack +1 Difficulty. Additionally, you gain Immunity to the MesmerTrance environmental hazard.",
+    "description": "Handed to you by the Talons, the MesmerTrance dampener supposedly stops the highly advanced and aggressive “MesmerTrance” virus from affecting your mech. As a side effect, it also provides limited protection against other, less sophisticated attacks on your mech’s systems.",
+    "license_id": ""
+  },
+  {
+    "id": "ms_armament_redundancy",
+    "name": "Armament Redundancy",
+    "sp": 1,
+    "tags": [
+      {
+        "id": "tg_unique"
+      },
+      {
+        "id": "tg_indestructible"
+      }
+    ],
+    "source": "GMS",
+    "license": "GMS",
+    "license_level": 0,
+    "effect": "You may choose to ignore weapon destruction as a result of the SYSTEM TRAUMA result when taking structure damage. This system can only be used once before each FULL REPAIR, and is not a valid target for system destruction.",
+    "description": "By installing additional armor plating, redundant firing circuits, and enhanced insulation to magazines the longevity of a frame’s armaments can be greatly enhanced.",
+    "license_id": ""
+  }
+]
