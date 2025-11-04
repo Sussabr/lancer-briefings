@@ -180,7 +180,7 @@ export default {
     "GEROU": "#419098",
   };
   const name = this.pilot.callsign.toUpperCase();
-  const bgColor = colors[name] || "#941a1d";
+  const bgColor = colors[name] || "#ffffff";
   return {
     color: "white",
     backgroundColor: bgColor,
