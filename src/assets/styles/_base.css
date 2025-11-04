@@ -1579,6 +1579,10 @@ div.markdown ol li {
   background-color: #2d6268 !important;
   border-color: #2d6268 !important;
 }
+.melissa-header .header {
+  background-color: #666666 !important;
+  border-color: #666666 !important;
+}
 .pilot-identity .col.grow-max {
 	flex-grow:100;
 }
