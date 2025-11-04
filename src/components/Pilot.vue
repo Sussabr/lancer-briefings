@@ -150,7 +150,7 @@ import wallflowerData from '@/assets/LCPs/wallflower-data-2.0.5'
 import osrData from '@/assets/LCPs/osr-data-1.2.0'
 import legionnaireData from '@/assets/LCPs/legionnaire_v1.0.0'
 import ssmrData from '@/assets/LCPs/ssmr-data-1.7.0'
-import dustgraveData from '@/assets/LCPs/dustgrave-data-1.4.0
+import dustgraveData from '@/assets/LCPs/dustgrave-data-1.4.0'
 		
 /*Append the datasets within computed if your LCP has new items.
 EX:
