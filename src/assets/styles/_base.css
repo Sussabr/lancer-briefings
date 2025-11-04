@@ -1575,6 +1575,10 @@ div.markdown ol li {
 	border-top-right-radius: 5px;
 
 }
+.gerou-header .header {
+  background-color: #419098 !important;
+  border-color: #419098 !important;
+}
 .pilot-identity .col.grow-max {
 	flex-grow:100;
 }
