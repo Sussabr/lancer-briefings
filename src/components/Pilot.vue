@@ -3,9 +3,9 @@
 	  <div v-if="pilot.status === 'KIA'" class="kia-banner">
   MORTA EM COMBATE
 </div>
-<div v-else>
-  <!-- todo o conteúdo atual do cartão vai aqui -->
-</div>
+</template>
+
+ <template v-else>
     <div class="header">
       <div class="col grow-max">
         <div class="heading h1">{{ pilot.callsign }}</div>
@@ -216,7 +216,7 @@ pilotLogo() {
       return `/mechs/${this.pilot.callsign.toUpperCase()}.webp`
     },
     pilotGear() {
-      return [...lancerData.pilot_gear, ...legionnaireData.pilot_gear, ...ssmrData.pilot_gear, ...dustgraveData.pilotGear]
+      return [...lancerData.pilot_gear, ...legionnaireData.pilot_gear, ...ssmrData.pilot_gear, ...dustgraveData.pilot_gear]
     },
     mechWeapons() {
       return [...lancerData.weapons, ...ktbData.weapons, ...nrfawData.weapons, ...longrimData.weapons, ...legionnaireData.weapons, ...osrData.weapons, ...ssmrData.weapons, ...dustgraveData.weapons]
@@ -225,7 +225,7 @@ pilotLogo() {
       return [...lancerData.systems, ...ktbData.systems, ...nrfawData.systems, ...longrimData.systems, ...legionnaireData.systems, ...osrData.systems, ...ssmrData.systems, ...dustgraveData.systems]
     },
     talents() {
-      return [...lancerData.talents, ...ktbData.talents, ...nrfawData.talents, ...longrimData.talents, ...legionnaireData.talents, ...osrData.talents, ...ssmrData.talents, ...dustgraveData.taletns]
+      return [...lancerData.talents, ...ktbData.talents, ...nrfawData.talents, ...longrimData.talents, ...legionnaireData.talents, ...osrData.talents, ...ssmrData.talents, ...dustgraveData.talents]
     },
     skills() {
       return [...lancerData.skills]    
@@ -237,7 +237,7 @@ pilotLogo() {
       return [...dustgraveData.core_bonuses]
     },
     frames() {
-      return [...lancerData.frames, ...ktbData.frames, ...nrfawData.frames, ...longrimData.frames, ...osrData.frames, ...ssmrData.frames, ...dustgraveData.frame]
+      return [...lancerData.frames, ...ktbData.frames, ...nrfawData.frames, ...longrimData.frames, ...osrData.frames, ...ssmrData.frames, ...dustgraveData.frames]
     },
     mechManufacturerIcon() {
       if (this.activeMech.manufacturer)
