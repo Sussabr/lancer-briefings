@@ -142,8 +142,8 @@ V-CDL//M-265-114-831(A) </span></div>
 
 .kia-text {
   font-size: 4rem;
-  font-weight: 700;
-  font-family: "Helvetica Bold";
+  font-weight: bold;
+  font-family: "Helvetica";
   color: #c60000;
   text-align: center;
   text-transform: uppercase;
