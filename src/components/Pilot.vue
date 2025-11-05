@@ -133,7 +133,7 @@ V-CDL//M-265-114-831(A) </span></div>
 .pilot-kia-overlay {
   position: absolute;
   inset: 0;
-  background-color: rgba(255, 255, 255, 0.92);
+  background-color: rgba(255, 255, 255, 0.52);
   z-index: 2;
   display: flex;
   align-items: center;
