@@ -2,7 +2,7 @@
   <div class="grid-item pilot-identity" style="color:white!important">
  <div 
       v-if="pilot.status === 'KIA'" 
-      class="kia-overlay"
+      class="pilot-kia-overlay"
     >
       <div class="kia-text">MORTO(A) EM COMBATE</div>
     </div>
@@ -130,11 +130,11 @@ V-CDL//M-265-114-831(A) </span></div>
 .modal-buttons {
   margin-top: 5px;
 }
-.kia-overlay {
+.pilot-kia-overlay {
   position: absolute;
   inset: 0;
   background-color: rgba(255, 255, 255, 0.92);
-  z-index: 10;
+  z-index: 2;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -143,6 +143,7 @@ V-CDL//M-265-114-831(A) </span></div>
 .kia-text {
   font-size: 4rem;
   font-weight: 700;
+  font-family: "Helvetica Bold"
   color: #c60000;
   text-align: center;
   text-transform: uppercase;
