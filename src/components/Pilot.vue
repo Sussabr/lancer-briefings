@@ -220,9 +220,6 @@ pilotLogo() {
     bonds() {
       return [...ktbData.bonds]
     },
-	 core_bonuses() {
-      return [...dustgraveData.core_bonuses]
-    },
     frames() {
       return [...lancerData.frames, ...ktbData.frames, ...nrfawData.frames, ...longrimData.frames, ...osrData.frames, ...ssmrData.frames, ...dustgraveData.frames]
     },
