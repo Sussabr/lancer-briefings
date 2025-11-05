@@ -63,10 +63,6 @@ export default {
     return headers[callsign.toUpperCase()] || '';
   }
 	},
-	mounted() {
-  this.setAnimate();
-}
-
 };
 </script>
 
