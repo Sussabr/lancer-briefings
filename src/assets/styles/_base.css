@@ -1569,6 +1569,7 @@ div.markdown ol li {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: Helvetica Bold, sans-serif;
   font-size: 3rem;
   font-weight: bold;
   color: red;
