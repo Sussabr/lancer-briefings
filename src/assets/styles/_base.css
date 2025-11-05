@@ -1564,7 +1564,7 @@ div.markdown ol li {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(255,255,255,0.9); /* branco translúcido */
+  background: rgba(255,255,255,0.5); /* branco translúcido */
   z-index: 2; /* abaixo do header */
   display: flex;
   align-items: center;
