@@ -143,7 +143,7 @@ V-CDL//M-265-114-831(A) </span></div>
 .kia-text {
   font-size: 4rem;
   font-weight: bold;
-  font-family: "compcon";
+  font-family: "Arial";
   color: #c60000;
   text-align: center;
   text-transform: uppercase;
