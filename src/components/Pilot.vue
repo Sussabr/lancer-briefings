@@ -1,97 +1,73 @@
 <template>
   <div class="grid-item pilot-identity" style="color:white!important">
-      <div class="header">
-        <div class="col grow-max">
-          <div class="heading h1">{{ pilot.callsign }}</div>
-          <div class="heading h2">({{ pilot.name }}) </div>
-        </div>
-        <div class="col"><img :src="pilotLogo" alt="faction logo"></div>
+    <div class="header">
+      <div class="col grow-max">
+        <div class="heading h1">{{ pilot.callsign }}</div>
+        <div class="heading h2">({{ pilot.name }}) </div>
       </div>
-
-      <div class="body">
-        <div class="add-padding">
-          Protocolo de Identificação de Piloto (IDENT) RM-4 da Administração da União {{ pilot.id }}
+      <div class="col"><img :src="pilotLogo" alt="faction logo"></div>
+    </div>
+    <div class="body">
+      <div class="add-padding"> Protocolo de Identificação de Piloto (IDENT) RM-4 da Administração da União 
+        {{ pilot.id }} </div>
+      <div class="flex-container-rows">
+        <div class="row add-padding">
+          {{ reverse(this.pilot.name) }}:{{ pilot.id }}//NDL-C-BLIND-REACH
         </div>
-
-        <div class="flex-container-rows">
-          <div class="row add-padding">
-            {{ reverse(this.pilot.name) }}:{{ pilot.id }}//NDL-C-BLIND-REACH
-          </div>
-
-          <div class="row flex-container-cols add-padding">
-            <div class="col grow-max flex-container-rows" style="padding-top:5px">
-              <div class="row flex-container-cols">
-                <div class="col col-primary">
-                  <span class="flavor-text">
-                    Callsign: <b class="accent--text">{{ capitalize(pilot.callsign) }}</b><br>
-                    Nome (ou pseudônimo legal): <b class="accent--text">{{ pilot.name }}</b><br>
-                    Antecedente: <b class="accent--text">{{ pilot.background }}</b>
-                  </span>
-                </div>
-                <div class="col">
-                  INDICATIVO DISPONÍVEL<br>
-                  IDENTIDADE VERIFICADA<br>
-                  DF/HR REGISTRADOS
-                </div>
-              </div>
-
-              <div style="padding-top:5px">
-                OPÇÕES DE CONFIGURAÇÃO
-                <span class="subtle--text">("H.A.S.E" REMESSA DO COFRE OMNINET)</span>
-              </div>
-
-              <div class="row" style="padding-top:5px">
-                <span style="font-size: 22px; line-height: 15px;">
-                  [ HULL: <span class="stat-text accent--text" style="font-size: 24px;">{{ pilot.mechSkills[0] }}</span>
-                  AGI: <span class="stat-text accent--text" style="font-size: 24px;">{{ pilot.mechSkills[1] }}</span>
-                  SYS: <span class="stat-text accent--text" style="font-size: 24px;">{{ pilot.mechSkills[2] }}</span>
-                  ENG: <span class="stat-text accent--text" style="font-size: 24px;">{{ pilot.mechSkills[3] }}</span> ]
-                </span>
-              </div>
-
-              <div class="row flex-container-cols">
-                <div class="col col-share">
-                  <span>AUDITORIA DE TRIGGERS</span><br>
-                  <div class="chip-container" v-for="skill in pilot.skills" :key="skill.id">
-                    <span class="chip">
-                      <i aria-hidden="true" class="notranslate cci cci-skill"></i>{{ getSkill(skill) }}
-                    </span>
-                  </div>
-                </div>
-
-                <div class="col col-share">
-                  <span>AUDITORIA DE TALENTOS</span><br>
-                  <div class="chip-container" v-for="talent in pilot.talents" :key="talent.id">
-                    <span class="chip">
-                      <i aria-hidden="true" class="notranslate cci cci-talent"></i>{{ getTalent(talent.id, talent.rank) }}
-                    </span>
-                  </div>
+        <div class="row flex-container-cols add-padding">
+          <div class="col grow-max flex-container-rows" style="padding-top:5px">
+            <div class="row flex-container-cols">
+              <div class="col col-primary"><span class="flavor-text"> Callsign: <b class="accent--text">{{
+                capitalize(pilot.callsign) }}</b><br> Nome (ou pseudônimo legal): <b class="accent--text">{{ pilot.name
+                    }}</b><br> Antecedente: <b class="accent--text"> {{ pilot.background }} </b></span></div>
+              <div class="col">INDICATIVO DISPONÍVEL <br> IDENTIDADE VERIFICADA <br> DF/HR REGISTRADOS</div>
+            </div>
+            <div style="padding-top:5px"> OPÇÕES DE CONFIGURAÇÃO <span class="subtle--text">("H.A.S.E"
+                REMESSA DO COFRE OMNINET)</span></div>
+            <div class="row" style="padding-top:5px"><span style="font-size: 22px; line-height: 15px;"> [
+                HULL: <span class="stat-text accent--text" style="font-size: 24px;"> {{ pilot.mechSkills[0] }} </span>
+                AGI: <span class="stat-text accent--text" style="font-size: 24px;"> {{ pilot.mechSkills[1] }} </span>
+                SYS: <span class="stat-text accent--text" style="font-size: 24px;"> {{ pilot.mechSkills[2] }} </span>
+                ENG: <span class="stat-text accent--text" style="font-size: 24px;"> {{ pilot.mechSkills[3] }} </span> ]
+              </span></div>
+            <div class="row flex-container-cols">
+              <div class="col col-share">
+                <span>AUDITORIA DE TRIGGERS</span>
+                <br>
+                <div class="chip-container" v-for="skill in pilot.skills" :key="skill.id">
+                  <span class="chip"><i aria-hidden="true" class="notranslate cci cci-skill"></i>{{ getSkill(skill)
+                  }}</span>
                 </div>
               </div>
-
-              <div v-if="pilot.level > 0" class="row flex-container-cols">
-                <div class="col" style="padding-top:5px">
-                  <span>AUDITORIA DE LICENÇA: NÍVEL {{ pilot.level }}</span><br>
-                  <div class="chip-container" v-for="license in pilot.licenses" :key="license.id">
-                    <span class="chip">
-                      <i aria-hidden="true" class="notranslate cci cci-license"></i>{{ getLicense(license.id, license.rank) }}
-                    </span>
-                  </div>
+              <div class="col col-share">
+                <span>AUDITORIA DE TALENTOS</span>
+                <br>
+                <div class="chip-container" v-for="talent in pilot.talents" :key="talent.id">
+                  <span class="chip"><i aria-hidden="true" class="notranslate cci cci-talent"></i>{{
+                    getTalent(talent.id, talent.rank) }}</span>
                 </div>
               </div>
             </div>
-
-            <div class="col">
-              <div class="pilot-image-container">
-                <div class="pilot-image-border">
-                  <img :src="pilotPortrait" class="portrait" />
+            <div v-if="pilot.level > 0" class="row flex-container-cols">
+              <div class="col" style="padding-top:5px">
+                <span>AUDITORIA DE LICENÇA: NÍVEL {{ pilot.level }}</span>
+                <br>
+                <div class="chip-container" v-for="license in pilot.licenses" :key="license.id">
+                  <span class="chip"><i aria-hidden="true" class="notranslate cci cci-license"></i>{{
+                    getLicense(license.id, license.rank) }}</span>
                 </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="pilot-image-container">
+              <div class="pilot-image-border">
+                <img :src="pilotPortrait" class="portrait" />
               </div>
             </div>
           </div>
         </div>
       </div>
-
       <div class="flex-container-cols modal-buttons">
         <div class="row biometrics-container">
           <div class="biometrics flex-container-cols" @click="pilotModal">
@@ -105,13 +81,11 @@
             </div>
           </div>
         </div>
-
         <div class="row biometrics-container">
           <div class="mech-record flex-container-cols" @click="mechModal">
             <div style="width:100%">
-              DIAGRAMA MECÂNICO VÁLIDO [[{{ randomNumber(14, 22) }}TB]]<br />
-              {{ activeMech.manufacturer.toUpperCase() }}-{{ activeMech.frame_name.toUpperCase() }} ::
-              "{{ activeMech.name.toUpperCase() }}"
+              DIAGRAMA MECÂNICO VÁLIDO [[{{ randomNumber(14, 22) }}TB]] <br />
+              {{ activeMech.manufacturer.toUpperCase() }}-{{ activeMech.frame_name.toUpperCase() }} :: "{{ activeMech.name.toUpperCase() }}"
             </div>
             <div>
               <i aria-hidden="true"
@@ -121,22 +95,17 @@
           </div>
         </div>
       </div>
-
       <hr role="separator" aria-orientation="horizontal" class="ma-2 v-divider theme--dark">
-
-      <div class="row row--dense">
-        <span class="overline" style="line-height: 13px !important; opacity: 0.4;">
+      <div class="row row--dense"><span class="overline" style="line-height: 13px !important; opacity: 0.4;">
           O uso indevido deste registro IDENT e/ou de seus dados constituintes pelo titular do registro ou por quaisquer outras pessoas é punível sob o DoJ/HR A-645-c.
-          Este registro é propriedade do Escritório Administrativo da União, e as informações aqui contidas devem ser transmitidas sob solicitação, conforme os protocolos de criptografia NDL-C-DISCORDANT-BREATH.
-          Este registro RM-4 deve ser atualizado a cada cinco (5) Anos-Padrão de Berço de tempo objetivo para manter os direitos de licença GMS.
-          Operativos de campo distante que prevejam missões com duração superior a cinco Anos-Padrão de Berço e que não tenham recebido um Gancho Omninet portátil devem solicitar a Extensão Suplementar (b) de IDENT RM-11-B. 
-          Entre em contato com seu Oficial Administrativo da União local para quaisquer outros assuntos relacionados a este registro.
-          V-CDL//M-265-114-831(A)
-        </span>
-      </div>
+Este registro é propriedade do Escritório Administrativo da União, e as informações aqui contidas devem ser transmitidas sob solicitação, conforme os protocolos de criptografia NDL-C-DISCORDANT-BREATH.
+Este registro RM-4 deve ser atualizado a cada cinco (5) Anos-Padrão de Berço de tempo objetivo para manter os direitos de licença GMS.
+Operativos de campo distante que prevejam missões com duração superior a cinco Anos-Padrão de Berço e que não tenham recebido um Gancho Omninet portátil devem solicitar a Extensão Suplementar (b) de IDENT RM-11-B. 
+Entre em contato com seu Oficial Administrativo da União local para quaisquer outros assuntos relacionados a este registro.
+V-CDL//M-265-114-831(A) </span></div>
     </div>
+  </div>
 </template>
-
 
 <style scoped>
 .larger::before {
@@ -154,13 +123,6 @@
 
 .modal-buttons {
   margin-top: 5px;
-}
-	.kia-banner {
-  color: #f44336;
-  font-weight: bold;
-  font-size: 48px;
-  text-align: center;
-  padding: 3em 0;
 }
 </style>
 
