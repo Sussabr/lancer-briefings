@@ -1,12 +1,5 @@
 <template>
   <div class="grid-item pilot-identity" style="color:white!important">
-    <!-- Se o piloto está morto -->
-    <div v-if="pilot.status === 'KIA'" class="kia-banner">
-      MORTO(A) EM COMBATE
-    </div>
-
-    <!-- Caso contrário -->
-    <div v-else>
       <div class="header">
         <div class="col grow-max">
           <div class="heading h1">{{ pilot.callsign }}</div>
@@ -142,7 +135,6 @@
         </span>
       </div>
     </div>
-  </div>
 </template>
 
 
