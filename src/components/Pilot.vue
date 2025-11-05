@@ -1,5 +1,11 @@
 <template>
   <div class="grid-item pilot-identity" style="color:white!important">
+
+
+
+
+
+
     <div class="header">
       <div class="col grow-max">
         <div class="heading h1">{{ pilot.callsign }}</div>
@@ -123,6 +129,13 @@ V-CDL//M-265-114-831(A) </span></div>
 
 .modal-buttons {
   margin-top: 5px;
+
+
+
+
+
+
+
 }
 </style>
 
@@ -137,8 +150,6 @@ import wallflowerData from '@/assets/LCPs/wallflower-data-2.0.5'
 import osrData from '@/assets/LCPs/osr-data-1.2.0'
 import legionnaireData from '@/assets/LCPs/legionnaire_v1.0.0'
 import ssmrData from '@/assets/LCPs/ssmr-data-1.7.0'
-import dustgraveData from '@/assets/LCPs/dustgrave-data-1.4.0'
-		
 /*Append the datasets within computed if your LCP has new items.
 EX:
 pilotGear() {
@@ -203,16 +214,16 @@ pilotLogo() {
       return `/mechs/${this.pilot.callsign.toUpperCase()}.webp`
     },
     pilotGear() {
-      return [...lancerData.pilot_gear, ...legionnaireData.pilot_gear, ...ssmrData.pilot_gear, ...dustgraveData.pilot_gear]
+      return [...lancerData.pilot_gear, ...legionnaireData.pilot_gear, ...ssmrData.pilot_gear]
     },
     mechWeapons() {
-      return [...lancerData.weapons, ...ktbData.weapons, ...nrfawData.weapons, ...longrimData.weapons, ...legionnaireData.weapons, ...osrData.weapons, ...ssmrData.weapons, ...dustgraveData.weapons]
+      return [...lancerData.weapons, ...ktbData.weapons, ...nrfawData.weapons, ...longrimData.weapons, ...legionnaireData.weapons, ...osrData.weapons, ...ssmrData.weapons]
     },
     mechSystems() {
-      return [...lancerData.systems, ...ktbData.systems, ...nrfawData.systems, ...longrimData.systems, ...legionnaireData.systems, ...osrData.systems, ...ssmrData.systems, ...dustgraveData.systems]
+      return [...lancerData.systems, ...ktbData.systems, ...nrfawData.systems, ...longrimData.systems, ...legionnaireData.systems, ...osrData.systems, ...ssmrData.systems]
     },
     talents() {
-      return [...lancerData.talents, ...ktbData.talents, ...nrfawData.talents, ...longrimData.talents, ...legionnaireData.talents, ...osrData.talents, ...ssmrData.talents, ...dustgraveData.talents]
+      return [...lancerData.talents, ...ktbData.talents, ...nrfawData.talents, ...longrimData.talents, ...legionnaireData.talents, ...osrData.talents, ...ssmrData.talents]
     },
     skills() {
       return [...lancerData.skills]    
@@ -221,7 +232,7 @@ pilotLogo() {
       return [...ktbData.bonds]
     },
     frames() {
-      return [...lancerData.frames, ...ktbData.frames, ...nrfawData.frames, ...longrimData.frames, ...osrData.frames, ...ssmrData.frames, ...dustgraveData.frames]
+      return [...lancerData.frames, ...ktbData.frames, ...nrfawData.frames, ...longrimData.frames, ...osrData.frames, ...ssmrData.frames]
     },
     mechManufacturerIcon() {
       if (this.activeMech.manufacturer)
