@@ -11,7 +11,7 @@
     "name": "Fim do Tribunal Judicial",
     "type": "Decrescente",
     "description": "Representação do tempo que falta para a decisão final do juiz.",
-    "value": 4,
+    "value": 3,
     "max": 4,
     "color": "#BF7777"
   }
