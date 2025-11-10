@@ -1,27 +1,19 @@
 [
   {
-    "name": "Positive Clock",
-    "type": "Positive",
-    "description": "Helps you progress or gain advantages.",
-    "value": 2,
+    "name": "Defesa de Willow",
+    "type": "Crescente",
+    "description": "Representação da força por trás da chance de Willow ser liberada com uma punição menos severa.",
+    "value": 0,
     "max": 6,
     "color": "#7DBBBB"
   },
   {
-    "name": "Negative Clock",
-    "type": "Negative",
-    "description": "Tracks setbacks or threats.",
-    "value": 1,
-    "max": 3,
+    "name": "Fim do Tribunal Judicial",
+    "type": "Decrescente",
+    "description": "Representação do tempo que falta para a decisão final do juiz.",
+    "value": 4,
+    "max": 4,
     "color": "#BF7777"
   },
-  {
-    "name": "Relationship with NPC",
-    "type": "Story",
-    "description": "Represents your bond or influence with a key character.",
-    "value": 4,
-    "max": 8,
-    "color": "#A377BF"
-  }
 ]
 
