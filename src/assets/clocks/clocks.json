@@ -8,7 +8,7 @@
     "color": "#7DBBBB"
   },
   {
-    "name": "Tribunal",
+    "name": "Fim do Tribunal",
     "type": "Decrescente",
     "description": "Representação do tempo que falta para a decisão final do juiz.",
     "value": 4,
