@@ -1,5 +1,5 @@
 <template>
-	<div class="reserve">
+	<div v-if="reserve.type !== 'reserve_skill'" class="reserve">
 		<div class="name">
 			<h1>{{ reserve.type }}</h1>
 			<h2>{{ reserve.name }}</h2>
