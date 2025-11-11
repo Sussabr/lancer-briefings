@@ -10,7 +10,7 @@
 		<div v-if="reserve.callsign" class="pilot">
 			<img :src="ownerImage" class="portrait" />
 			<div class="name">
-				<h1>Dono da Reserva</h1>
+				<h1>Reserva de</h1>
 				<h2>{{ reserve.callsign }}</h2>
 			</div>
 		</div>
