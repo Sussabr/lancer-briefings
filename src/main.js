@@ -13,19 +13,21 @@ import "@/assets/styles/_animations.css";
 
 import router from "./router";
 
+// IMPORTANTE: importar a lib
 import MarkdownIt from "markdown-it";
-import VueMarkdownIt from "@f3ve/vue-markdown-it";
 
+// cria instância configurada
 const md = new MarkdownIt({
-  html: true,        /
+  html: true,
   linkify: true,
-  typographer: true,
+  typographer: true
 });
 
-createApp(App)
-  .use(router)
-  .use(Oruga)
- 
-  .use(VueMarkdownIt, { markdownIt: md })
+// app
+const app = createApp(App);
 
-  .mount("#app");
+// injeta globalmente
+app.config.globalProperties.$md = md;
+
+app.use(router).use(Oruga).mount("#app");
+
