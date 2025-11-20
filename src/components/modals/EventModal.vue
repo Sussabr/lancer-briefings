@@ -18,18 +18,20 @@
 </template>
 
 <script>
-import { VueMarkdownIt } from '@f3ve/vue-markdown-it';
+import { md } from "@/markdown.js";
 
 export default {
-	name: "EventModal",
-	components: {
-		VueMarkdownIt,
-	},
-	props: {
-		event: {
-			type: Object,
-			required: true,
-		},
-	},
+  name: "EventModal",
+  props: {
+    event: {
+      type: Object,
+      required: true
+    }
+  },
+  computed: {
+    rendered() {
+      return md.render(this.event.content || "");
+    }
+  }
 };
 </script>
