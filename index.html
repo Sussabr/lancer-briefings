@@ -1,36 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<link rel="icon" href="" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<meta property="og:type" content="website" />
-		<link rel="stylesheet" href="/assets/styles/_reset.css" />
-  <link rel="stylesheet" href="/assets/styles/_base.css" />
-  <link rel="stylesheet" href="/assets/styles/_glyphs.css" />
-  <link rel="stylesheet" href="/assets/styles/_animations.css" />
-	</head>
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" href="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta property="og:type" content="website" />
 
-	<body style="margin: 0px">
-		<div id="app"></div>
-		<script type="module" src="/src/main.js"></script>
+  <!-- CSS GLOBAL (OBRIGATÓRIO) -->
+  <link rel="stylesheet" href="/src/assets/styles/_reset.css">
+  <link rel="stylesheet" href="/src/assets/styles/_base.css">
+  <link rel="stylesheet" href="/src/assets/styles/_glyphs.css">
+  <link rel="stylesheet" href="/src/assets/styles/_animations.css">
+</head>
+
+<body style="margin: 0px">
+  <div id="app"></div>
+
+  <script type="module" src="/src/main.js"></script>
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/vanta@0.5.24/dist/vanta.globe.min.js"></script>
-<script>
-VANTA.GLOBE({
-  el: "body",
-  mouseControls: true,
-  touchControls: true,
-  gyroControls: false,
-  minHeight: 200.00,
-  minWidth: 200.00,
-  scale: 1.00,
-  scaleMobile: 1.00,
-  color: 0xaa0a0a,
-  color2: 0xff0000,
-  size: 1.90,
-  backgroundColor: 0xf2f3f3
-			});
-		</script>
-	</body>
+  <script src="https://cdn.jsdelivr.net/npm/vanta@0.5.24/dist/vanta.globe.min.js"></script>
+  <script>
+    VANTA.GLOBE({
+      el: "body",
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: false,
+      minHeight: 200.00,
+      minWidth: 200.00,
+      scale: 1.00,
+      scaleMobile: 1.00,
+      color: 0xaa0a0a,
+      color2: 0xff0000,
+      size: 1.90,
+      backgroundColor: 0xf2f3f3
+    });
+  </script>
+</body>
 </html>
+
