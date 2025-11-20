@@ -12,7 +12,9 @@
 				<h1>{{ event.location }} // {{ event.time }}</h1>
 				<h2>{{ event.title }}</h2>
 			</div>
-			<vue-markdown-it :source="event.content" class="markdown" :options="{ html: true }" />
+			<div class="markdown" v-html="rendered">
+			</div>
+
 		</div>
 	</div>
 </template>
