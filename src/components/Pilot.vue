@@ -6,6 +6,12 @@
     >
       <div class="kia-text">MORTO(A) EM COMBATE</div>
     </div>
+	   <div 
+      v-if="pilot.status === 'INACTIVE'" 
+      class="pilot-kia-overlay"
+    >
+      <div class="kia-text">SUSPENSO(A)</div>
+    </div>
     <div class="header">
       <div class="col grow-max">
         <div class="heading h1">{{ pilot.callsign }}</div>
