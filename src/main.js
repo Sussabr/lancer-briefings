@@ -13,5 +13,19 @@ import "@/assets/styles/_animations.css";
 
 import router from "./router";
 
-createApp(App).use(router).use(Oruga).mount("#app");
-// TODO: Introduce eslint with vue3 + typescript support
+import MarkdownIt from "markdown-it";
+import VueMarkdownIt from "@f3ve/vue-markdown-it";
+
+const md = new MarkdownIt({
+  html: true,        /
+  linkify: true,
+  typographer: true,
+});
+
+createApp(App)
+  .use(router)
+  .use(Oruga)
+ 
+  .use(VueMarkdownIt, { markdownIt: md })
+
+  .mount("#app");
