@@ -58,6 +58,7 @@ export default {
       GEROU: 'gerou-header',
       MELISSA: 'melissa-header',
       RHEA: 'rhea-header',
+		WILLOW: 'willow-header',
       // adicione mais aqui
     };
     return headers[callsign.toUpperCase()] || '';
