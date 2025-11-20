@@ -1601,6 +1601,10 @@ div.markdown ol li {
   background-color: #282828 !important;
   border-color: #282828 !important;
 }
+.willow-header .header {
+  background-color: #3c3c3c !important;
+  border-color: #3c3c3c !important;
+}
 .pilot-identity .col.grow-max {
 	flex-grow:100;
 }
