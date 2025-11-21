@@ -221,7 +221,7 @@ export default {
 },
 pilotLogo() {
   const logos = {
-    "GEROU": "/faction-logos/LSA.webp",
+    "GEROU": "/faction-logos/Vestan_Resistance.webp",
   };
   const name = this.pilot.callsign.toUpperCase();
   return logos[name] || "/faction-logos/gms.svg";
