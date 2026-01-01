@@ -10,7 +10,7 @@ import "@/assets/styles/_reset.css";
 import "@/assets/styles/_base.css";
 import "@/assets/styles/_glyphs.css";
 import "@/assets/styles/_animations.css";
-import "@/assets/responsive.css";
+import "@/assets/styles/responsive.css";
 import router from "./router";
 
 // IMPORTANTE: importar a lib
