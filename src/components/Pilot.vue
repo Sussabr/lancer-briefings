@@ -155,6 +155,59 @@ V-CDL//M-265-114-831(A) </span></div>
   text-transform: uppercase;
   letter-spacing: 2px;
 }
+	
+@media (max-width: 768px) {
+
+  /* Header stacks */
+  .header {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .header img {
+    max-width: 96px;
+    margin: 0 auto;
+  }
+
+  /* Main identity section stacks */
+  .flex-container-cols {
+    flex-direction: column;
+  }
+
+  /* Text blocks stop squishing */
+  .col {
+    width: 100%;
+  }
+
+  /* Portrait moves below text */
+  .pilot-image-container {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .portrait {
+    max-width: 180px;
+    height: auto;
+  }
+
+  /* Buttons stack vertically */
+  .modal-buttons {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .mech-record {
+    margin-left: 0;
+    text-align: left;
+  }
+
+  /* KIA overlay text scales down */
+  .kia-text {
+    font-size: 2rem;
+    padding: 1rem;
+  }
+}
 
 </style>
 
@@ -403,7 +456,7 @@ pilotLogo() {
           frames: this.frames,
         },
         class: 'custom-modal',
-        width: 1920,
+        width: window.innerWidth < 768 ? '95vw' : 1920,
       })
     },
     mechModal() {
