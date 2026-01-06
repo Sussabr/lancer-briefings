@@ -49,7 +49,11 @@ canvas {
     display: block;
     margin: 0 auto;
   }
-
+ .o-sidebar.is-reduced .o-side__content {
+    width: 64px !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
   /* -------------------------
      Main layout compensation
      ------------------------- */
