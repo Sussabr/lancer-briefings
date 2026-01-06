@@ -76,13 +76,25 @@ export default {
 }
 
 .grid-item {
-	flex: 45%;
+	 flex: 1 1 45%;
 }
-
+@media (max-width: 768px) {
+  .grid-item {
+    flex: 1 1 100%;
+  }
+.pilot-list-container {
+	height: auto;
+	 padding: 0.5em;
+}
+	section.section-container#pilots {
+	display: flex;
+	flex-direction: column;
+	margin: 50px 30px;
+}
+}
 .pilot-list-container {
 	height:calc(100vh - 96px);
 }
-
 .section-content-container {
 	border: 0px solid transparent;
 }
