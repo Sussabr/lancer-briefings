@@ -1,153 +1,44 @@
 /* =========================
-   Responsive Layout Fixes
+   Responsive layout – real fixes
    ========================= */
 
-/* ---- Global safety nets ---- */
+/* Global sanity */
 * {
   box-sizing: border-box;
 }
 
-img,
-video,
-canvas,
-svg {
-  max-width: 100%;
-  height: auto;
-}
-
-/* Prevent horizontal scroll hell */
-body {
-  overflow-x: hidden;
-}
-
-/* ---- Typography scaling ---- */
 html {
   font-size: 16px;
 }
 
+body {
+  overflow-x: hidden;
+}
+
+img,
+svg,
+video,
+canvas {
+  max-width: 100%;
+  height: auto;
+}
+
+/* =========================
+   Mobile (tablets + phones)
+   ========================= */
 @media (max-width: 768px) {
+
+  /* Slightly smaller type */
   html {
     font-size: 15px;
   }
-}
 
-@media (max-width: 480px) {
-  html {
-    font-size: 14px;
-  }
-}
-
-/* ---- Containers ---- */
-.container,
-.page,
-.wrapper {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 1rem;
-}
-
-/* ---- Flex & grid helpers ---- */
-.flex {
-  display: flex;
-  gap: 1rem;
-}
-
-.flex.wrap {
-  flex-wrap: wrap;
-}
-
-/* Stack columns on mobile */
-@media (max-width: 768px) {
-  .flex {
-    flex-direction: column;
-  }
-}
-
-/* ---- Cards / panels ---- */
-.card,
-.panel,
-.box {
-  width: 100%;
-}
-
-/* Two-column → one-column */
-@media (min-width: 769px) {
-  .two-col {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1rem;
-  }
-}
-
-@media (max-width: 768px) {
-  .two-col {
-    display: block;
-  }
-}
-
-/* ---- Tables (mobile-safe) ---- */
-@media (max-width: 768px) {
-  table {
-    display: block;
-    overflow-x: auto;
-    white-space: nowrap;
-  }
-}
-
-/* ---- Buttons & inputs ---- */
-button,
-input,
-select,
-textarea {
-  max-width: 100%;
-}
-
-/* Bigger touch targets */
-@media (max-width: 480px) {
-  button {
-    padding: 0.75rem 1rem;
-  }
-}
-
-/* ---- Navigation ---- */
-.nav,
-.navbar {
-  display: flex;
-  gap: 1rem;
-}
-
-@media (max-width: 768px) {
-  .nav,
-  .navbar {
-    flex-direction: column;
-    align-items: stretch;
-  }
-}
-
-/* ---- Utility visibility ---- */
-.hide-mobile {
-  display: block;
-}
-
-@media (max-width: 768px) {
-  .hide-mobile {
-    display: none !important;
-  }
-}
-
-.show-mobile {
-  display: none;
-}
-
-@media (max-width: 768px) {
-  .show-mobile {
-    display: block;
-  }
-}
-@media (max-width: 768px) {
+  /* -------------------------
+     Sidebar (Oruga)
+     ------------------------- */
   .o-sidebar.is-reduced {
     width: 64px !important;
+    min-width: 64px !important;
   }
 
   .o-sidebar.is-reduced span {
@@ -155,35 +46,77 @@ textarea {
   }
 
   .o-sidebar img {
+    display: block;
     margin: 0 auto;
   }
-}
-@media (max-width: 768px) {
+
+  /* -------------------------
+     Main layout compensation
+     ------------------------- */
   main,
-  .content,
-  .page,
-  .container {
+  .content {
+    margin-left: 64px;
+    max-width: calc(100% - 64px);
     padding: 0.75rem;
-    max-width: 100%;
   }
-}
-@media (max-width: 768px) {
+
+  /* -------------------------
+     Header / banners
+     ------------------------- */
+  header,
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  /* -------------------------
+     Modals (Oruga)
+     ------------------------- */
   .o-modal__content {
     width: 95vw !important;
     max-height: 90vh;
     margin: 0 auto;
+    padding: 1rem;
+  }
+
+  /* -------------------------
+     Tables
+     ------------------------- */
+  table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  /* -------------------------
+     Buttons (touch targets)
+     ------------------------- */
+  button {
+    padding: 0.75rem 1rem;
   }
 }
 
-/* ---- Text overflow protection ---- */
+/* =========================
+   Small phones
+   ========================= */
+@media (max-width: 480px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+/* =========================
+   Code / logs overflow
+   ========================= */
 pre,
 code {
   max-width: 100%;
   overflow-x: auto;
 }
 
-/* ---- Last resort debugging ---- */
-/* Uncomment if something still overflows */
+/* =========================
+   Debug helper (optional)
+   ========================= */
 /*
 * {
   outline: 1px solid red;
