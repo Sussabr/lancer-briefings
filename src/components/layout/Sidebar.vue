@@ -5,10 +5,10 @@
         id="sidebar"
         position="static"
         :animate="animate"
-        mobile="hidden"
-        :open="!isMobile"
+        mobile="reduced"
+        :open="true"
         :expand-on-hover="false"
-        :reduce="false"
+        :reduce="isMobile"
       >
         <router-link class="clipped-bottom-right" to="/status">
           <img src="/icons/orbital.svg" />
