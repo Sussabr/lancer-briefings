@@ -1,4 +1,11 @@
 [
-
+{
+    "name": "Relacionamento com Gerou",
+    "type": "Story",
+    "description": "Representa a proximidade de Vasil Gerou com o esquadrão",
+    "value": 3,
+    "max": 6,
+    "color": "#A377BF"
+  }
 ]
 
