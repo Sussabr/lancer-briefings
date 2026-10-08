@@ -291,10 +291,10 @@ pilotLogo() {
       return [...lancerData.pilot_gear, ...legionnaireData.pilot_gear, ...ssmrData.pilot_gear, ...dustgraveData.pilot_gear]
     },
     mechWeapons() {
-      return [...lancerData.weapons, ...ktbData.weapons, ...nrfawData.weapons, ...longrimData.weapons, ...legionnaireData.weapons, ...osrData.weapons, ...ssmrData.weapons, ...dustgraveData.weapons]
+      return [...lancerData.weapons, ...ktbData.weapons, ...nrfawData.weapons, ...longrimData.weapons, ...legionnaireData.weapons, ...osrData.weapons, ...ssmrData.weapons, ...dustgraveData.weapons, ...owsData.weapons]
     },
     mechSystems() {
-      return [...lancerData.systems, ...ktbData.systems, ...nrfawData.systems, ...longrimData.systems, ...legionnaireData.systems, ...osrData.systems, ...ssmrData.systems, ...dustgraveData.systems]
+      return [...lancerData.systems, ...ktbData.systems, ...nrfawData.systems, ...longrimData.systems, ...legionnaireData.systems, ...osrData.systems, ...ssmrData.systems, ...dustgraveData.systems, ...owsData.systems]
     },
     talents() {
       return [...lancerData.talents, ...ktbData.talents, ...nrfawData.talents, ...longrimData.talents, ...legionnaireData.talents, ...osrData.talents, ...ssmrData.talents, ...dustgraveData.talents]
@@ -306,7 +306,7 @@ pilotLogo() {
       return [...ktbData.bonds]
     },
     frames() {
-      return [...lancerData.frames, ...ktbData.frames, ...nrfawData.frames, ...longrimData.frames, ...osrData.frames, ...ssmrData.frames, ...dustgraveData.frames]
+      return [...lancerData.frames, ...ktbData.frames, ...nrfawData.frames, ...longrimData.frames, ...osrData.frames, ...ssmrData.frames, ...dustgraveData.frames, ...owsData.frames]
     },
     mechManufacturerIcon() {
       if (this.activeMech.manufacturer)
